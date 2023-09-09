@@ -1,18 +1,15 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Kaibo Hu",
+    "label": "Mathematician",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "kaibo.hu@maths.ox.ac.uk",
+    "url": "kaibohu.github.io",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Andrew Wiles Building, Mathematical Institute, University of Oxford, Radcliffe Observatory Quarter, Woodstock Road",
+      "postalCode": "OX2 6GG",
+      "city": "Oxford",
+      "countryCode": "UK",
     },
     "profiles": [
       {

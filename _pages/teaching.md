@@ -1,12 +1,26 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
 nav: true
-nav_order: 5
+nav_order: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+#### University of Oxford
 
-Organize your courses by years, topics, or universities, however you like!
+2023 Trinity Term: 
+<ul>
+         <li>Christ Church - calculus of variations (tutorials + revision)</li>
+
+         <li>Mathematical Institute - MMSC dissertation project</li>
+</ul>
+
+2022 Michaelmas Term - 2023 Hilary Term: BSP project (orthogonal polynomials)
+
+2022 Hilary Term: MMSC Case Studies (Modelling) on Turing mechanism.  <a href='https://kaibohu.github.io/homepage/Turing-pattern.pdf'>notes</a>  <a href='https://kaibohu.github.io/homepage/Turing-slides.pdf'>slides</a>
+
+2021 Michaelmas Term: Finite element exterior calculus, <a href='https://kaibohu.github.io/homepage/feec_slides.pdf'>notes</a>
+
+2021:  MSc in Mathematical Modelling and Scientific Computing (MMSC), dissertation project
+
+ 

@@ -2,96 +2,85 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Kaibo Hu
     - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: 11th May 1989
+ 
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Peking University, China.
+      year: 2017
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Advisor: Jinchao Xu"
+        - "Thesis: Finite element exterior calculus for multiphysics problems"
+
+    - title: Bachelor
+      institution: Nankai University, China.
+      year: 2012
       description:
-        - Description 1.
-        - Description 2.
+        - "Thesis: Implementation of nice Discontinuous Galerkin methods for convection-dominated convection-diffusion equations"
+        
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Royal Society University Research Fellow
+      institution: University of Oxford (Mathematical Institute & Christ Church)
+      year: 2022 - 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "University of Oxford: 2022 - 2023"
+        - "University of Edinburgh: 2023 - "
+
+
+    - title: Hooke Research Fellow
+      institution: University of Oxford (Mathematical Institute & Christ Church)
+      year: 2021 - 2022
+
+    - title: Postdoc
+      institution: University of Minnesota, USA.
+      year: 2018 - 2020
       description:
-        - Description 1.
-        - Description 2.
+        - "with Douglas N. Arnold."
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Researcher
+      institution: University of Oslo
+      year: 2018 - 2019
       description:
+        - "with Ragnar Winther, Snorre H. Christiansen."
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - <a href='https://www.maths.ox.ac.uk/node/61535'>SIAM Computational Science and Engineering Early Career Prize</a>.
+ 
+    - year: 2022
       items: 
-        - Max Planck Medal
+        - Royal Society University Research Fellowship, 2022-2027.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
+    - year: 2021
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Hooke Research Fellowship, Mathematical Institute, University of Oxford, UK.
+        - Invitation to the Conference celebrating Acta Numerica’s 30th birthday, Banach Center, Będlewo, Poland.  
+ 
+    - year: 2020
+      items: 
+        - Marie Skłodowska-Curie Individual Fellowship offer, EU.
+    - year: 2017
+      items: 
+        - New World Mathematics Award, 2017,
+    - year: 2016
+      items: 
+        - Outstanding Youth Paper Prize, Beijing Society of Computational Mathematics
+        - Student Paper Prize of East Asian SIAM
+ 
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+
+ 
+
+ 
