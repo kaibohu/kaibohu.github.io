@@ -9,13 +9,13 @@ nav_order: 4
 Some presentation materials:
 
 - [Structure-preserving discretization and preconditioning for MHD](https://kaibohu.github.io/homepage/2020Princeton.pdf) (Princeton 2020)
-- [Complexes from complexes] (https://kaibohu.github.io/homepage/201909Cambridge.pdf) (Cambridge 2019), and [slides](https://kaibohu.github.io/homepage/2020Zurich.pdf) on the same topic for a broader audience (Zürich 2020)
+- [Complexes from complexes](https://kaibohu.github.io/homepage/201909Cambridge.pdf) (Cambridge 2019), and [slides](https://kaibohu.github.io/homepage/2020Zurich.pdf) on the same topic for a broader audience (Zürich 2020)
 - [Well-conditioned frames for high-order finite elements](https://kaibohu.github.io/homepage/2021Oxford.pdf) (Oxford 2021)
 - [Poincaré (homotopy) operators for elasticity](https://kaibohu.github.io/homepage/2019ICIAM.pdf) (Valencia, ICIAM 2019)
 - [Algebraic construction of finite elements](https://kaibohu.github.io/homepage/2019LSEC.pdf) (Beijing 2019)
 - [Some Hilbert complexes in general relativity](https://kaibohu.github.io/homepage/2020ICERM.pdf) (ICERM, Brown 2020)
 - [Nodal finite element de Rham complexes](https://kaibohu.github.io/homepage/2019Baltimore.pdf) (Baltimore, JMM 2019)
-- [Conformal Korn inequalities in 2D] (https://kaibohu.github.io/homepage/2022OxPDE.pdf) (Oxford, PDE working seminar, 2022)
+- [Conformal Korn inequalities in 2D](https://kaibohu.github.io/homepage/2022OxPDE.pdf) (Oxford, PDE working seminar, 2022)
 - [Discretization of Hilbert complexes](https://kaibohu.github.io/homepage/2022Oberwolfach.pdf) (survey talk) [report](https://arxiv.org/pdf/2208.03420.pdf) (MFO, Oberwolfach, 2022)
 - [Tensor product finite element BGG complexes](https://kaibohu.github.io/homepage/2023Glasgow.pdf) (Glasgow, 2023)
 - [Bounded Poincaré operators for BGG complexes](https://kaibohu.github.io/homepage/2023EPFL.pdf) (EPFL, 2023)
