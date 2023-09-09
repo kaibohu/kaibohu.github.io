@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 
 <strong>The page is still under construction. Please check back later or check [the current website](https://www.maths.ox.ac.uk/people/kaibo.hu).</strong>
 
-I will move to the [University of Edinburgh](https://www.maths.ed.ac.uk) from 1st October, 2023. 
+I will move to the [University of Edinburgh](https://www.maths.ed.ac.uk) from 1 October, 2023. 
 
 
  
