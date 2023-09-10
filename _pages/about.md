@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Royal Society University Research Fellow, <a href='https://www.maths.ox.ac.uk'>Mathematical Institute</a> & <a href='https://chch.ox.ac.uk'>Christ Church</a>, University of Oxford.  
+subtitle: Royal Society University Research Fellow, <a href='https://www.maths.ox.ac.uk'>Mathematical Institute</a> & <a href='https://www.chch.ox.ac.uk'>Christ Church</a>, University of Oxford.  
 
 profile:
   align: right
