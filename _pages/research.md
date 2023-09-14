@@ -7,6 +7,9 @@ nav: true
 nav_order: 2
 ---
 
+<strong>The page is still under construction.</strong>
+
+
 I am a numerical analyst by training. I view numerical analysis as a <b>connection</b> between <b>continuous</b> and <b>discrete</b> (which are always central topics in mathematics), and <b>pure</b> and <b>applied</b>. Therefore I am keen to develop these connections: on the one hand, interactions between numerical analysis and 'pure mathematics' (homological algebra, differential and algebraic geometry etc.) and on the other hand, computational approaches for scientific problems. 
 
 Currently, most of my work is related to <b>finite element exterior calculus (FEEC)</b>. FEEC has its roots in the following contexts:

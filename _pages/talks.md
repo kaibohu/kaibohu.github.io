@@ -25,8 +25,8 @@ Some presentation materials:
 
 1. The 2023 International Workshop on Scientific Computing, Feng Kang Youth Forum on Scientific Computing (FKYF), The Institute of Computational Mathematics and Scientific/Engineering Computing of Chinese Academy of Sciences, Beijing, China. August 2023.  
 1. PKU Mathematics Forum, Peking University, Beijing, China. July 2023. 
-1. SIAM Conference on Computational Science and Engineering (CSE23), Amsterdam, Nether- lands. Feb/26-Mar/03/2023.
-1. The 8th Workshop for Young Researchers in Scientific Computing, Chinese Academy of Sci- ences, China (online). Dec/7-8/2022.
+1. SIAM Conference on Computational Science and Engineering (CSE23), Amsterdam, Netherlands. Feb/26-Mar/03/2023.
+1. The 8th Workshop for Young Researchers in Scientific Computing, Chinese Academy of Sciences, China (online). Dec/7-8/2022.
 1. The Second Conference on Scientific and Engineering Computing for Young Chinese Scientists, on the occasion of Professor Feng Kang’s Centenary, Beijing, China, Aug/17-21/2019. 
 1. Winther workshop in numerical methods, on the occasion of Ragnar Winther’s 70th birthday, Oslo, Norway, Mar/14/2019.
 
@@ -34,7 +34,7 @@ Some presentation materials:
 
 1. Mathematics Seminar at the University of Dundee, UK. Oct/2023 (Upcoming).
 1. Seminar at the Chinese University of Hong Kong (Shenzhen), Sep/2023.  
-1. Seminar at Shanghai JiaoTong University, Shanghai, China, Aug/2023. 
+1. Seminar at Shanghai Jiao Tong University, Shanghai, China, Aug/2023. 
 1. Seminar at University of Science and Technology of China, USTC, Aug/2023.  
 1. Computational Mathematics and Applications Seminar, Mathematical Institute, University of Oxford, UK, Feb/23/2022.
 1. Imperial–UCL Numerics Seminar, London, UK, Feb/22/2022.

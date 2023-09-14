@@ -27,7 +27,6 @@ I obtained my PhD at <a href='https://bicmr.pku.edu.cn'>Peking University</a> in
 
 I will move to the [University of Edinburgh](https://www.maths.ed.ac.uk) from 1 October, 2023. 
 
-<strong>The page is still under construction. Please check back later or check [the current website](https://www.maths.ox.ac.uk/people/kaibo.hu).</strong>
  
  
 
