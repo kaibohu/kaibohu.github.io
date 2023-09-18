@@ -68,7 +68,7 @@ The Whitney forms form a discrete version of de Rham complexes. The algebraic st
 
 The Regge complex generalizes the concept of finite elements by allowing distributions (currents). Its connections to discrete differential geometry are under active development by several groups.   
 
-Another discrete version of the elasticity with a differential geometry and discrete mechanics perspective is the diamond element [5]. Together with Regge calculus/element, this further demonstrates an interaction between <b>discretizations</b> and <b>discrete theories</b>. 
+Another discrete version of elasticity with a differential geometry and discrete mechanics perspective is the diamond element [5]. Together with Regge calculus/element, this further demonstrates an interaction between <b>discretizations</b> and <b>discrete theories</b>. 
 
 <br /><br />
 
@@ -85,12 +85,16 @@ References:
 </details>
 <br /> 
  
-I have been working on the following topics:
+I have been working on the following topics in relevant directions:
 
    
 <details>
   <summary> <b>the Bernstein-Gelfand-Gelfand (BGG) machinery</b></summary><br />
   </details>
+  De Rham complexes encode structures of problems involving scalar- and vector-valued functions (or forms, i.e., skew-symmetric tensors, in higher dimensions). There are important examples from continuum mechanics, geometry and general relativity, where tensors are the main variables. To tackle these problems in a structured way, one needs to discover and preserve differential and algebraic structures there. This turns out to be a nontrivial task.  The Bernstein-Gelfand-Gelfand (BGG) construction provides a tool for this  purpose. 
+    
+ 
+
   <br />
   
 <details>
