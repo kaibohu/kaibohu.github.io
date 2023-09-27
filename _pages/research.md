@@ -114,9 +114,9 @@ The models represented by the twisted complexes can be viewed as the BGG version
    <br /> 
    The elasticity complex (an example of BGG complexes) also bears the name of the <b>Kröner complex</b> in mechanics (and the <b>Calabi complex</b> in differential geometry). Kröner's work essentially modelled <b>continuum incompatibility</b> (<b>defects</b> caused by dislocations and disclinations etc.) with operators in complexes. Therefore, the BGG picture incorporates and generalizes Kröner's idea in several directions. For example, ''incompatibility operators'' in the twisted complex will correspond to defects in Cosserat continua (Timoshenko beam, Reissner-Mindlin pate).
    
- Further echoing the geometric mechanics perspective [], 
+ Further echoing the geometric mechanics perspective [7], we observe that the twisted complex has a close connection to Cartan's torsion and Riemann-Cartan geometry.  
  </li>
-<li> <b>numerics</b>: </li>
+<li> <b>numerics</b>:       </li>
 </ul>
 
   <br /><br /> 
@@ -131,6 +131,7 @@ The models represented by the twisted complexes can be viewed as the BGG version
     <li> Vincent Quenneville-Belair. "A new approach to finite element simulations of general relativity." PhD thesis at University of Minnesota, 2015. </li>
     <li>Douglas N. Arnold, and Kaibo Hu. "Complexes from complexes." Foundations of Computational Mathematics 21.6 (2021): 1739-1774. </li>
   <li>  Andreas Čap, and Kaibo Hu. "BGG sequences with weak regularity and applications." Foundations of Computational Mathematics, 2023.  </li>
+  <li> Arash Yavari and Alain Goriely. "Riemann–Cartan geometry of nonlinear dislocation mechanics." Archive for Rational Mechanics and Analysis 205 (2012): 59-118.</li>
 </ol> 
  
  
