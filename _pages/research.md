@@ -51,7 +51,7 @@ References:
 The de Rham complex is related to PDEs. For example, the Maxwell equation can be formulated using differential forms and de Rham complexes. In finite element exterior calculus, one wants to discretize the de Rham complex, and use the resulting discrete version to compute. Around the 1970s-1980s, Raviart, Thomas, and Nédélec invented several vector-valued finite elements independently. Soon, Bossavit realized that those finite elements have a unified differential form interpretation and correspond to Whitney's definition in his Geometric Integration Theory, referred to as <b>Whitney forms</b>.  
 
 <figure>
-  <img src="../assets/img/deRham-3D.pdf" alt="Whitney forms in 3D" style="width:80%">
+  <img src="../assets/img/deRham-3D.pdf" alt="Whitney forms in 3D" style="width:80%" class="center">
   <figcaption>Fig: Whitney forms in 3D.</figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ The Whitney forms form a discrete version of de Rham complexes. The algebraic st
   
 <b>Discrete differential geometry</b> enters the picture when Christiansen interpreted <b><a href="https://en.wikipedia.org/wiki/Regge_calculus">Regge calculus</a></b> (originally a coordinate-free scheme in quantum and computational relativity) as a finite element [4]. The <b>Regge element</b> fits in a discrete version of the elasticity complex (see BGG machinery below), which is often referred to as the elasticity complex, or <b>Calabi complex</b> in differential geometry:
 <figure>
-  <img src="../assets/img/regge.pdf" alt="Whitney forms in 3D" style="width:80%">
+  <img src="../assets/img/regge.pdf" alt="Whitney forms in 3D" style="width:80%" class="center">
   <figcaption>Fig: Elasticity complex and Regge element.</figcaption>
 </figure>
 
@@ -115,12 +115,22 @@ The models represented by the twisted complexes can be viewed as the BGG version
    The elasticity complex (an example of BGG complexes) also bears the name of the <b>Kröner complex</b> in mechanics (and the <b>Calabi complex</b> in differential geometry). Kröner's work essentially modelled <b>continuum incompatibility</b> (<b>defects</b> caused by dislocations and disclinations etc.) with operators in complexes. Therefore, the BGG picture incorporates and generalizes Kröner's idea in several directions. For example, ''incompatibility operators'' in the twisted complex will correspond to defects in Cosserat continua (Timoshenko beam, Reissner-Mindlin pate).
    
  Further echoing the geometric mechanics perspective [7], we observe that the twisted complex has a close connection to Cartan's torsion and Riemann-Cartan geometry.  
+    <br /> 
+    
+ Kröner [9] already pointed out relationships between generalized continuum theory and <b>general relativity</b> (GR) in an outlook.  This again brings GR into the picture.
+ 
  </li>
-<li> <b>numerics</b>:       </li>
+<li> <b>numerics</b>:  For the purpose of finite element exterior calculus, it is necessary to discretize the BGG complexes (also the twisted complexes, or the entire diagram, for generalized continua). In recent years, there has been significant interest in finite element versions of the BGG complexes.   While it is impossible to keep an up-to-date list for this fast-growing area, some results (up to 2022) can be found in the references in [8]. See <b><a href="https://lyc102.github.io/camtips/">here</a></b> for a series of blogs/notes that Long Chen and Xuehai Huang are writing, reflecting their work on finite element construction. See also  ''finite elements, complexes and splines on triangulation'' below.
+    </li>
 </ul>
 
-  <br /><br /> 
+  <br /> 
 <b>The machinery.  </b>
+BGG is more than complexes. BGG provides explicit connections (cohomology-preserving projections) between de Rham complexes (electromagnetism) and the derived complexes (continuum mechanics, geometry etc.). Therefore, to answer a question from, say, linear elasticity, one may start with the analogous question for de Rham, and then run the machinery to get answers for elasticity. An example of using this machinery can be found in [9,10], where explicit (bounded) Poincaré operators are derived. In a special case, this rather algebraic construction recovers the path integral formulas by Cesàro and Volterra in 1906 and 1907 (sometimes referred to as <b>Cesàro-Volterra</b> path integral). 
+
+  <br /> <br />
+<b>Nonlinear versions.  </b>
+So far all the complexes contain linear operators. This is natural from a differential geometric and algebraic point of view, as cohomology is defined. A lot of practical problems are nonlinear. FEEC still plays an important role in these problems, as once one linearizes the problems (Piccard or Newton iterations), one obtains linear problems. Moreover, the properties of many hyperbolic PDEs rely on the principal part, which is linear. Nevertheless, we want to ask the question of whether delicate and specific nonlinear structures can be incorporated in FEEC to improve and speed up numerical solutions. In some cases, the differential complexes come from the linearization of certain sequences with nonlinear operators. These sequences are still complexes, although cohomology is not defined.  We refer to such sequences as ''<b>nonlinear complexes</b>'' and observe that on the continuous level, the exactness of such complexes corresponds to important mathematical results. For example, for the elasticity complex, the <b>exactness of the nonlinear version</b> at indices 0 and 1 corresponds to the <b>rigidity theorem</b> and a '<b>fundamental theorem of Riemannian geometry</b>' (à la Ciarlet [12]). Further questions remain open, e.g., connections to the computation for nonlinear elasticity and discrete versions. See [13] for details. 
  
  <br /><br />
  References:
@@ -132,6 +142,12 @@ The models represented by the twisted complexes can be viewed as the BGG version
     <li>Douglas N. Arnold, and Kaibo Hu. "Complexes from complexes." Foundations of Computational Mathematics 21.6 (2021): 1739-1774. </li>
   <li>  Andreas Čap, and Kaibo Hu. "BGG sequences with weak regularity and applications." Foundations of Computational Mathematics, 2023.  </li>
   <li> Arash Yavari and Alain Goriely. "Riemann–Cartan geometry of nonlinear dislocation mechanics." Archive for Rational Mechanics and Analysis 205 (2012): 59-118.</li>
+    <li> Kaibo Hu. "Oberwolfach report: Discretization of Hilbert complexes." arXiv preprint arXiv:2208.03420 (2022).</li>
+    <li> Ekkehart Kröner. "General continuum theory of dislocations and proper stresses." Arch. Rat. Mech. Anal 4 (1960): 273-334.</li>
+    <li>Snorre H. Christiansen, Kaibo Hu, and Espen Sande. "Poincaré path integrals for elasticity." Journal de Mathématiques Pures et Appliquées 135 (2020): 83-102. </li>
+        <li>Andreas Čap, and Kaibo Hu. "Bounded Poincaré operators for twisted and BGG complexes."  Journal de Mathématiques Pures et Appliquées (2023). </li>
+        <li>Philippe G. Ciarlet. Linear and nonlinear functional analysis with applications. Vol. 130. Siam, 2013.</li>
+    <li>     Kaibo Hu. "Nonlinear elasticity complex and a finite element diagram chase." arXiv preprint arXiv:2302.02442 (2023).</li>
 </ol> 
  
  
