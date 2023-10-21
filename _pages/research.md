@@ -10,7 +10,7 @@ nav_order: 2
 <strong>The page is still under construction.</strong>
 
 
-I am a numerical analyst by training. I view numerical analysis as a <b>connection</b> between <b>continuous</b> and <b>discrete</b> (which are always central topics in mathematics), and <b>pure</b> and <b>applied</b>. Therefore I am keen to develop these connections: on the one hand, interactions between numerical analysis and 'pure mathematics' (homological algebra, differential and algebraic geometry etc.) and on the other hand, computational approaches for scientific problems. 
+I am a numerical analyst by training. I view numerical analysis as a <b>connection</b> between <b>continuous</b> and <b>discrete</b> (which are always central topics in mathematics), and pure and applied. Therefore I am keen to develop these connections: on the one hand, interactions between numerical analysis and 'pure mathematics' (homological algebra, differential and algebraic geometry etc.) and, on the other hand, computational approaches for scientific problems. 
 
 Currently, most of my work is related to <b>finite element exterior calculus (FEEC)</b>. FEEC has its roots in the following contexts:
 
@@ -120,7 +120,7 @@ The models represented by the twisted complexes can be viewed as the BGG version
  Kröner [9] already pointed out relationships between generalized continuum theory and <b>general relativity</b> (GR) in an outlook.  This again brings GR into the picture.
  
  </li>
-<li> <b>numerics</b>:  For the purpose of finite element exterior calculus, it is necessary to discretize the BGG complexes (also the twisted complexes, or the entire diagram, for generalized continua). In recent years, there has been significant interest in finite element versions of the BGG complexes.   While it is impossible to keep an up-to-date list for this fast-growing area, some results (up to 2022) can be found in the references in [8]. See <b><a href="https://lyc102.github.io/camtips/">here</a></b> for a series of blogs/notes that Long Chen and Xuehai Huang are writing, reflecting their work on finite element construction. See also  ''finite elements, complexes and splines on triangulation'' below.
+<li> <b>numerics</b>:  For the purpose of finite element exterior calculus, it is necessary to discretize the BGG complexes (also the twisted complexes, or the entire diagram, for generalized continua). In recent years, there has been significant interest in finite element versions of the BGG complexes.   While it is impossible to keep an up-to-date list for this fast-growing area, some results (up to 2022) can be found in the references in [8]. See <b><a href="https://lyc102.github.io/camtips/">here</a></b> for a series of blogs/notes that Long Chen and Xuehai Huang are writing, reflecting their work on finite element construction. See also  ''finite elements, splines on triangulation, and complexes'' below.
     </li>
 </ul>
 
@@ -138,7 +138,7 @@ So far all the complexes contain linear operators. This is natural from a differ
 <li>Andreas Čap, Jan Slovák, and Vladimír Souček. "Bernstein-Gelfand-Gelfand sequences." Annals of Mathematics (2001): 97-113.</li>
    <li>Douglas N. Arnold, Richard S. Falk, and Ragnar Winther. "Differential complexes and stability of finite element methods II: The elasticity complex." Compatible spatial discretizations. Springer New York, 2006.</li>
     <li>  Michael Eastwood. "A complex from linear elasticity." Proceedings of the 19th Winter School" Geometry and Physics". Circolo Matematico di Palermo, 2000.</li>
-    <li> Vincent Quenneville-Belair. "A new approach to finite element simulations of general relativity." PhD thesis at University of Minnesota, 2015. </li>
+    <li> Vincent Quenneville-Belair. "A new approach to finite element simulations of general relativity." PhD thesis at the University of Minnesota, 2015. </li>
     <li>Douglas N. Arnold, and Kaibo Hu. "Complexes from complexes." Foundations of Computational Mathematics 21.6 (2021): 1739-1774. </li>
   <li>  Andreas Čap, and Kaibo Hu. "BGG sequences with weak regularity and applications." Foundations of Computational Mathematics, 2023.  </li>
   <li> Arash Yavari and Alain Goriely. "Riemann–Cartan geometry of nonlinear dislocation mechanics." Archive for Rational Mechanics and Analysis 205 (2012): 59-118.</li>
@@ -157,7 +157,27 @@ So far all the complexes contain linear operators. This is natural from a differ
   <br />
   
 <details>
-  <summary> <b>finite elements, complexes and splines on triangulation</b></summary><br />
+  <summary> <b>finite elements, splines on triangulation, and complexes</b></summary><br /> 
+  
+There are motivations for <b> discrete de Rham sequences with higher regularity</b>. For example, for (Navier-)Stokes equations, the inf-sup condition requires that divergence of the velocity space  \(\nabla\cdot V_{h}  \) is ''larger than'' the pressure space \(Q_{h} \), while precise mass conservation requires \(\nabla\cdot V_{h} \subset Q_{h} \). Thus a balance leads to the condition \(\nabla\cdot V_{h}= Q_{h} \). This means that \(V_{h} \) and \(Q_{h} \) should fit in a de Rham complex. However, conforming discretization requires \(V_{h}\subset H^{1} \). Therefore the complex has higher continuity than the H(curl)/H(div) version, and is sometimes referred to as <b> Stokes complexes </b>.
+
+<br />
+
+The first construction of finite element Stokes pairs from this perspective was by Falk and Neilan [1].  There were significant follow-ups, generalizaitons, and variants of this work, including, 3D conforming simplicial finite element Stokes complex   [2] and de Rham complexes with arbitrarily higher regularity [3].
+
+<br />
+
+ 
+
+ 
+ <br /><br />
+ References:
+<ol>
+<li> Richard S. Falk, and Michael Neilan. "Stokes complexes and the construction of stable finite elements with pointwise mass conservation." SIAM Journal on Numerical Analysis 51, no. 2 (2013): 1308-1326.</li>
+<li>Michael Neilan. "Discrete and conforming smooth de Rham complexes in three dimensions." Mathematics of Computation 84, no. 295 (2015): 2059-2081.</li>
+<li>Long Chen, and Xuehai Huang. "Finite element de Rham and Stokes complexes in three dimensions." Mathematics of Computation 93, no. 345 (2024): 55-110.</li>
+</ol> 
+  
   </details>
   <br />
   

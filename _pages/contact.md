@@ -9,18 +9,16 @@ nav_order: 7
 
 #### Address
 
-S2.31, Andrew Wiles Building
+School of Mathematics, the University of Edinburgh
 
- Mathematical Institute, University of Oxford
-
-Radcliffe Observatory Quarter, Woodstock Road
-
-Oxford, OX2 6GG
+ James Clerk Maxwell Building
+ 
+  Peter Guthrie Tait Rd, Edinburgh EH9 3FD, UK
  
 &nbsp;  
 
 #### Email
  
- kaibo.hu [a] maths.ox.ac.uk
+ 
  
  kaibo.hu [a] ed.ac.uk
