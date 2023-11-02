@@ -20,19 +20,16 @@ Some presentation materials:
 - [Tensor product finite element BGG complexes](https://kaibohu.github.io/homepage/2023Glasgow.pdf) (Glasgow, 2023)
 - [Bounded Poincaré operators for BGG complexes](https://kaibohu.github.io/homepage/2023EPFL.pdf) (EPFL, 2023)
 
+ 
 
-### Plenary talks
 
-1. The 2023 International Workshop on Scientific Computing, Feng Kang Youth Forum on Scientific Computing (FKYF), The Institute of Computational Mathematics and Scientific/Engineering Computing of Chinese Academy of Sciences, Beijing, China. August 2023.  
-1. PKU Mathematics Forum, Peking University, Beijing, China. July 2023. 
-1. SIAM Conference on Computational Science and Engineering (CSE23), Amsterdam, Netherlands. Feb/26-Mar/03/2023.
-1. The 8th Workshop for Young Researchers in Scientific Computing, Chinese Academy of Sciences, China (online). Dec/7-8/2022.
-1. The Second Conference on Scientific and Engineering Computing for Young Chinese Scientists, on the occasion of Professor Feng Kang’s Centenary, Beijing, China, Aug/17-21/2019. 
-1. Winther workshop in numerical methods, on the occasion of Ragnar Winther’s 70th birthday, Oslo, Norway, Mar/14/2019.
+
+
 
 ### Colloquium/Seminar talks
 
-1. Mathematics Seminar at the University of Dundee, UK. Oct/2023 (Upcoming).
+1. Seminar at DAMTP, University of Cambridge. Feb/2024 (upcoming).
+1. Mathematics Seminar at the University of Dundee, UK. Oct/2023.
 1. Seminar at the Chinese University of Hong Kong (Shenzhen), Sep/2023.  
 1. Seminar at Shanghai Jiao Tong University, Shanghai, China, Aug/2023. 
 1. Seminar at University of Science and Technology of China, USTC, Aug/2023.  
@@ -64,9 +61,15 @@ Some presentation materials:
 
 ###  Conference/Workshop talks
 
-1.  Banff International Research Station (BIRS) “Homological Perspective on Splines and Finite Elements” workshop, University of British Columbia Okanagan (UBCO), Canada. May 2024 (Upcoming).
-1. ICIAM, Tokyo, Japan. August 2023 (Upcoming).
-1. The 29th Biennial Numerical Analysis Conference, University of Strathclyde, Glasgow, UK. June 2023 (Upcoming).
+1.  Banff International Research Station (BIRS) “Homological Perspective on Splines and Finite Elements” workshop, University of British Columbia Okanagan (UBCO), Canada. May 2024 (upcoming).
+1. Opening Conference of the CNRS Occitan Research Federation in Mathematics (OcciMath), LAMPS (Laboratory of Multidisciplinary Modeling and Simulations), University of Perpignan Via Domitia, France. April 2024 (upcoming).
+1.  Workshop: Theory and Numerics on Some Nonlinear PDEs; University of Oslo / online. October 2023 (upcoming).
+1. ICIAM, Tokyo, Japan. August 2023.
+1. The 2023 International Workshop on Scientific Computing, Feng Kang Youth Forum on Scientific Computing (FKYF), The Institute of Computational Mathematics and Scientific/Engineering Computing of Chinese Academy of Sciences, Beijing, China. August 2023.  
+1. PKU Mathematics Forum, Peking University, Beijing, China. July 2023. 
+1. The 29th Biennial Numerical Analysis Conference, University of Strathclyde, Glasgow, UK. June 2023.
+1. SIAM Conference on Computational Science and Engineering (CSE23), Amsterdam, Netherlands. Feb/26-Mar/03/2023. (plenary talk)
+1. The 8th Workshop for Young Researchers in Scientific Computing, Chinese Academy of Sciences, China (online). Dec/7-8/2022.
 1.  56th Meeting of the Society for Natural Philosophy: Mechanics and Analysis, Pisa, Italy, Sep/21-23/2022.
 1.  INdAM Meeting “Approximation Theory and Numerical Analysis meet Algebra, Geometry, Topology”, Palazzone di Cortona, Italy, Sep/5-9/2022.
 1.  30 years of Acta Numerica conference at the Banach Centre in B ̧edlewo, Poland, Jun/25- Jul/2/2022.
@@ -75,9 +78,11 @@ Some presentation materials:
 1. European Finite Element Fair, Aalto University, Finland, Jun/3-4/2022.
 1. European Finite Element Fair, Inria, Paris, Sep/10-11/2022. (online)
 1.  Mathematical and Computational Approaches for Solving the Source-Free Einstein Field Equa- tions (virtual talk), ICERM, Brown University, USA, Oct/5-9/2020.
+1. The Second Conference on Scientific and Engineering Computing for Young Chinese Scientists, on the occasion of Professor Feng Kang’s Centenary, Beijing, China, Aug/17-21/2019. 
 1. International Multigrid Conference (IMG2019), Kunming, China, Aug/11-16/2019.
 1. International Conference on Scientific Computation and Differential Equations (SciCADE), Innsbruck, Austria, Jul/22-26/2019.
 1. International Congress on Industrial and Applied Mathematics (ICIAM 2019), Valencia, Spain, Jul/15-19/2019.
+1. Winther workshop in numerical methods, on the occasion of Ragnar Winther’s 70th birthday, Oslo, Norway, Mar/14/2019.
 1.  SIAM Minisymposium on Recent Developments in Numerical Methods for Fluids, Joint Math- ematics Meeting of AMS and MAA, Baltimore, USA, Jan/16-19/2019.
 1. EuropeanConferenceonNumericalMathematicsandAdvancedApplications(ENUMATH2017), Voss, Norway, Sep/25-29/2017.
 1. Forum for youth scholars in computational mathematics, Peking University, Beijing, China, Jul/24-28/2017.
