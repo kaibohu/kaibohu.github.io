@@ -21,14 +21,14 @@
       institution: Nankai University, China.
       year: 2012
       description:
-        - "Thesis: Implementation of nice Discontinuous Galerkin methods for convection-dominated convection-diffusion equations"
+        - "Thesis: Implementation of nine Discontinuous Galerkin methods for convection-dominated convection-diffusion equations"
         
 
 - title: Experience
   type: time_table
   contents:
     - title: Royal Society University Research Fellow
-      institution: University of Oxford
+      institution: University of Oxford, UK.
       year: 2022 - 
       description:
         - "University of Oxford: 2022 - 2023"
@@ -36,7 +36,7 @@
 
 
     - title: Hooke Research Fellow
-      institution: University of Oxford
+      institution: University of Oxford, UK.
       year: 2021 - 2022
 
     - title: Postdoc
@@ -46,7 +46,7 @@
         - "mentor: <a href='https://www-users.cse.umn.edu/~arnold/'>Douglas N. Arnold."
 
     - title: Researcher
-      institution: University of Oslo
+      institution: University of Oslo, Norway.
       year: 2018 - 2019
       description:
         - "mentors: <a href='https://www.mn.uio.no/math/english/people/aca/rwinther/index.html'>Ragnar Winther, <a href='https://www.mn.uio.no/math/english/people/aca/snorrec/index.html'>Snorre H. Christiansen."
