@@ -25,4 +25,9 @@ nav_order: 3
 
 2021:  MSc in Mathematical Modelling and Scientific Computing (MMSC), dissertation project
 
- 
+  <p>&nbsp;</p>  <p>&nbsp;</p> 
+  
+  #### University of Edinburgh
+   <p>&nbsp;</p> 
+   
+   2024 Spring: Finite element exterior calculus (advanced course for [MAC-MIGS CDT](https://www.mac-migs.ac.uk/))
