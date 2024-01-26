@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-Seminar talk at Maxwell Institute, Edinburgh.  (upcoming)
+Seminar talk at Maxwell Institute, Edinburgh.   
  
  
