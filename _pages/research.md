@@ -51,7 +51,7 @@ References:
 The de Rham complex is related to PDEs. For example, the Maxwell equation can be formulated using differential forms and de Rham complexes. In finite element exterior calculus, one wants to discretize the de Rham complex, and use the resulting discrete version to compute. Around the 1970s-1980s, Raviart, Thomas, and Nédélec invented several vector-valued finite elements independently. Soon, Bossavit realized that those finite elements have a unified differential form interpretation and correspond to Whitney's definition in his Geometric Integration Theory, referred to as <b>Whitney forms</b>.  
 
 <figure>
-  <img src="../assets/img/deRham-3D.pdf" alt="Whitney forms in 3D" style="width:80%" class="center">
+  <img src="../assets/img/deRham-3D.png" alt="Whitney forms in 3D" style="width:80%" class="center">
   <figcaption>Fig: Whitney forms in 3D.</figcaption>
 </figure>
 
