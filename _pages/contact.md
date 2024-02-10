@@ -25,8 +25,5 @@ School of Mathematics, the University of Edinburgh
  
  &nbsp;  
  
- <p>
-    <img src="./mathmap.jpg" width="220" height="240" />
-</p>
- 
- ![Edinburgh math map](./mathmap.jpg)
+ {% include figure.liquid path="./mathmap.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+
