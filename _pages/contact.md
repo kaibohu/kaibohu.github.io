@@ -25,5 +25,5 @@ School of Mathematics, the University of Edinburgh
  
  &nbsp;  
  
- {% include figure.liquid path="./mathmap.jpg" zoomable=true %}
+{% include figure.liquid path="assets/img/mathmap.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 
