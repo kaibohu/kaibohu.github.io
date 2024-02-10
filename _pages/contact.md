@@ -27,5 +27,5 @@ School of Mathematics, the University of Edinburgh
  
  
 <figure>
-  <img src="../assets/img/mathmap.jpg" alt="Edinburgh math map" style="width:70%" class="center">
+  <img src="../assets/img/mathmap.jpg" alt="Edinburgh math map" style="width:90%" class="center">
 </figure>
