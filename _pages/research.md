@@ -62,7 +62,7 @@ The Whitney forms form a discrete version of de Rham complexes. The algebraic st
   
 <b>Discrete differential geometry</b> enters the picture when Christiansen interpreted <b><a href="https://en.wikipedia.org/wiki/Regge_calculus">Regge calculus</a></b> (originally a coordinate-free scheme in quantum and computational relativity) as a finite element [4]. The <b>Regge element</b> fits in a discrete version of the elasticity complex (see BGG machinery below), which is often referred to as the elasticity complex, or <b>Calabi complex</b> in differential geometry:
 <figure>
-  <img src="../assets/img/regge.pdf" alt="Whitney forms in 3D" style="width:80%" class="center">
+  <img src="../assets/img/regge.png" alt="Regge complex" style="width:80%" class="center">
   <figcaption>Fig: Elasticity complex and Regge element.</figcaption>
 </figure>
 
