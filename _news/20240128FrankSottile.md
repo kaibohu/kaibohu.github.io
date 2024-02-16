@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-I will host [Frank Sottile](https://franksottile.github.io/)'s visit at University of Edinburgh. (upcoming)
+With [Milena Hering](https://www.maths.ed.ac.uk/~mhering/), I hosted [Frank Sottile](https://franksottile.github.io/)'s visit at the University of Edinburgh. 
  
  
