@@ -50,4 +50,6 @@ Another reason for my fondness of the Andrew Wiles Building, in addition to the 
 <figure>
   <img src="../assets/img/stair.png" alt="Stairs at the AWB" style="width:90%" class="center">
 </figure>
+<br /><br />
 
+Reference: [Andrew Wiles Building](https://www.maths.ox.ac.uk/system/files/attachments/OxfordMathematics_ROQ_leaflet.pdf)
