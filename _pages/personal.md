@@ -20,26 +20,26 @@ As a numerical analyst, I feel lucky and passionate to work at this interface of
 <div class="row">
   <div class="column">
   <figure>
-    <img src="exhi1.png" alt="Cascading Principles 1" style="width:100%">
+    <img src="exhi2.png" alt="Cascading Principles 1" style="width:100%">
     </figure>
   </div>
   <div class="column">
-    <img src="exhi2.png" alt="Cascading Principles 2" style="width:100%">
+    <img src="exhi3.png" alt="Cascading Principles 2" style="width:100%">
   </div>
   <div class="column">
-    <img src="exhi3.png" alt="Cascading Principles 3" style="width:100%">
+    <img src="exhi4.png" alt="Cascading Principles 3" style="width:100%">
   </div>
 </div>
 
 <div class="row">
   <div class="column">
-    <img src="exhi4.png" alt="Cascading Principles 4" style="width:100%">
+    <img src="exhi5.png" alt="Cascading Principles 4" style="width:100%">
   </div>
   <div class="column">
-    <img src="exhi5.png" alt="Cascading Principles 5" style="width:100%">
+    <img src="exhi6.png" alt="Cascading Principles 5" style="width:100%">
   </div>
   <div class="column">
-    <img src="exhi6.png" alt="Cascading Principles 6" style="width:100%">
+    <img src="exhi7.png" alt="Cascading Principles 6" style="width:100%">
   </div>
 </div>
 
