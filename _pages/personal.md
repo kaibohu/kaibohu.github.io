@@ -17,7 +17,7 @@ Finite element methods use tetrahedra (and other shapes) to approximate continua
 Continuous and discrete are a central topic of mathematics. Newton and Leibniz invented calculus, which brought in the concepts of infinitesimal and limits (although the rigorous definitions used nowadays came later).  In the era of computers, discrete mathematics and discrete physics draw attention (another motivation is from quantum theories). Discretization becomes a keyword for numerical PDEs: we want to discretize the governing equations of many physical (chemical, biological...) processes and mimic the continuous structures (structure-preservation). In parallel, another tradition aims at establishing discrete models and theories as first principles in the discrete world. The building blocks are tetrahedra. 
 As a numerical analyst, I feel lucky and passionate to work at this interface of continuous and discrete.  To my understanding, it showcases a similar passion from an artist's point of view. 
 <br />
-
+<head>
 <style>
   .row {
     display: flex;
@@ -29,6 +29,7 @@ As a numerical analyst, I feel lucky and passionate to work at this interface of
     padding: 5px; /* Adjusts space between images */
   }
 </style>
+</head>
 <div class="row">
   <div class="column">
   <figure>
