@@ -44,11 +44,11 @@ As a numerical analyst, I feel lucky and passionate to work at this interface of
 Another reason for my fondness for the Andrew Wiles Building, in addition to the Escher-inspired stairs, is the 'crystals', from which one can glimpse the lively teaching and conference area downstairs.  The crystals in the south wing demonstrate a surface plot of the first eigenfunction of the two dimensional Laplacian (probably a finite element solution). I took a picture of these crystals on a quiet night during Covid and often used it to visualize Regge elements (piecewise flat manifolds) in my slides. 
 
 <figure>
-  <img src="../assets/img/andrewwiles.png" alt="south wing crystal" style="width:90%" class="center">
+  <img src="../assets/img/andrewwiles.png" alt="south wing crystal" style="width:80%" class="center">
 </figure>
 
 <figure>
-  <img src="../assets/img/stair.png" alt="Stairs at the AWB" style="width:90%" class="center">
+  <img src="../assets/img/stair.png" alt="Stairs at the AWB" style="width:80%" class="center">
 </figure>
 <br /><br />
 
