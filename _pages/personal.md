@@ -19,7 +19,9 @@ As a numerical analyst, I feel lucky and passionate to work at this interface of
 
 <div class="row">
   <div class="column">
+  <figure>
     <img src="exhi1.png" alt="Cascading Principles 1" style="width:100%">
+    </figure>
   </div>
   <div class="column">
     <img src="exhi2.png" alt="Cascading Principles 2" style="width:100%">
