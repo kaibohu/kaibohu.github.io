@@ -29,32 +29,7 @@ I obtained my PhD at <a href='https://bicmr.pku.edu.cn'>Peking University</a> in
 
  With <a href='http://www.macs.hw.ac.uk/~jb2055/index.htm'>Julian Braun</a> (Heriot-Watt), I am co-organizing the <a href='https://www.maths.ed.ac.uk/school-of-mathematics/events/acm'>Applied and Computational Mathematics (ACM) Seminars</a> joint between UoE and HW at the <a href='https://www.maxwell.ac.uk'>Maxwell Institute</a>. 
 
- <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page Title</title>
-    <style>
-      /* Whatever that is inside this <style> tag is all styling for your markup / content structure.
-      /* The . with the boxed represents that it is a class */
-      .boxed {
-        background: #F2F2F2;
-        color: black;
-        border: 3px solid #535353;
-        margin: 0px auto;
-        width: 756px;
-        padding: 10px;
-        border-radius: 10px;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- This is the markup of your box, in simpler terms the content structure. -->
-    <div class="boxed">
-Funded PhD position(s) will be available at University of Edinburgh, starting in 2024 fall. Please contact if you are interested.
-    </div>
-  </body>
-</html>
+
  
 <style>
   .bottom-three {
