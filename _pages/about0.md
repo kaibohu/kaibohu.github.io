@@ -67,31 +67,6 @@ Funded PhD position(s) will be available at University of Edinburgh, starting in
  
 </p>
  
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page Title</title>
-    <style>
-      /* Whatever that is inside this <style> tag is all styling for your markup / content structure.
-      /* The . with the boxed represents that it is a class */
-      .boxed {
-        background: #F2F2F2;
-        color: black;
-        border: 3px solid #535353;
-        margin: 0px auto;
-        width: 756px;
-        padding: 10px;
-        border-radius: 10px;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- This is the markup of your box, in simpler terms the content structure. -->
-    <div class="boxed">
-      Our paper ''A Family of Finite Element Stokes Complexes in Three Dimensions'' (K.Hu, <a href='https://www.mtu.edu/math/department/faculty-staff/faculty/zhang/'>Q.Zhang</a>, <a href='https://clasprofiles.wayne.edu/profile/ag7761'>Z.Zhang</a>, SINUM 2022) was selected in the first <a href='https://epubs.siam.org/topic/topics/topic-highimpact'>SIAM High Impact Article Collection</a>, among ''most frequently downloaded, and highly cited SIAM journal content''. Free access can be obtained <a href='https://epubs.siam.org/doi/10.1137/20M1358700'>here</a> from SIAM.
-    </div>
-  </body>
-</html>
+ 
 
  
