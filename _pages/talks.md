@@ -19,7 +19,7 @@ Some presentation materials:
 - [Discretization of Hilbert complexes](https://kaibohu.github.io/homepage/2022Oberwolfach.pdf) (survey talk) [report](https://arxiv.org/pdf/2208.03420.pdf) (MFO, Oberwolfach, 2022)
 - [Tensor product finite element BGG complexes](https://kaibohu.github.io/homepage/2023Glasgow.pdf) (Glasgow, 2023)
 - [Bounded Poincaré operators for BGG complexes](https://kaibohu.github.io/homepage/2023EPFL.pdf) (EPFL, 2023)
-- [Towards Finite Element Tensor Calculus]((https://kaibohu.github.io/homepage/2024Zurich.pdf) (Zurich, 2024)
+- [Towards Finite Element Tensor Calculus](https://kaibohu.github.io/homepage/2024Zurich.pdf) (Zurich, 2024)
 
  
 
