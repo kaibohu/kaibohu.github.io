@@ -29,7 +29,8 @@ Some presentation materials:
 
 ### Colloquium/Seminar talks
 
-1. Seminar at DAMTP, University of Cambridge. Feb/2024 (upcoming).
+1. Zurich colloquium in applied and computational mathematics, Apr/2024.
+1. Seminar at DAMTP, University of Cambridge. Feb/2024.
 1. Mathematics Seminar at the University of Dundee, UK. Oct/2023.
 1. Seminar at the Chinese University of Hong Kong (Shenzhen), Sep/2023.  
 1. Seminar at Shanghai Jiao Tong University, Shanghai, China, Aug/2023. 
@@ -63,8 +64,8 @@ Some presentation materials:
 ###  Conference/Workshop talks
 
 1.  Banff International Research Station (BIRS) “Homological Perspective on Splines and Finite Elements” workshop, University of British Columbia Okanagan (UBCO), Canada. May 2024 (upcoming).
-1. Opening Conference of the CNRS Occitan Research Federation in Mathematics (OcciMath), LAMPS (Laboratory of Multidisciplinary Modeling and Simulations), University of Perpignan Via Domitia, France. April 2024 (upcoming).
-1.  Workshop: Theory and Numerics on Some Nonlinear PDEs; University of Oslo / online. October 2023 (upcoming).
+1. Opening Conference of the CNRS Occitan Research Federation in Mathematics (OcciMath), LAMPS (Laboratory of Multidisciplinary Modeling and Simulations), University of Perpignan Via Domitia, France. April 2024.
+1.  Workshop: Theory and Numerics on Some Nonlinear PDEs; University of Oslo / online. October 2023.
 1. ICIAM, Tokyo, Japan. August 2023.
 1. The 2023 International Workshop on Scientific Computing, Feng Kang Youth Forum on Scientific Computing (FKYF), The Institute of Computational Mathematics and Scientific/Engineering Computing of Chinese Academy of Sciences, Beijing, China. August 2023.  
 1. PKU Mathematics Forum, Peking University, Beijing, China. July 2023. 
@@ -75,16 +76,16 @@ Some presentation materials:
 1.  INdAM Meeting “Approximation Theory and Numerical Analysis meet Algebra, Geometry, Topology”, Palazzone di Cortona, Italy, Sep/5-9/2022.
 1.  30 years of Acta Numerica conference at the Banach Centre in B ̧edlewo, Poland, Jun/25- Jul/2/2022.
 1. MFO workshop ”Hilbert Complexes: Analysis, Applications, and Discretizations”, Oberwol- fach, Germany, Jun/19-25/2022.
-1.  CanadianAppliedandIndustrialMathematicsSocietyannualmeeting,UBCOkanaganCanada (online), Jun/13-16/2022.
+1.  Canadian Applied and Industrial Mathematics Society annual meeting, UBC Okanagan Canada (online), Jun/13-16/2022.
 1. European Finite Element Fair, Aalto University, Finland, Jun/3-4/2022.
 1. European Finite Element Fair, Inria, Paris, Sep/10-11/2022. (online)
-1.  Mathematical and Computational Approaches for Solving the Source-Free Einstein Field Equa- tions (virtual talk), ICERM, Brown University, USA, Oct/5-9/2020.
+1.  Mathematical and Computational Approaches for Solving the Source-Free Einstein Field Equations (virtual talk), ICERM, Brown University, USA, Oct/5-9/2020.
 1. The Second Conference on Scientific and Engineering Computing for Young Chinese Scientists, on the occasion of Professor Feng Kang’s Centenary, Beijing, China, Aug/17-21/2019. 
 1. International Multigrid Conference (IMG2019), Kunming, China, Aug/11-16/2019.
 1. International Conference on Scientific Computation and Differential Equations (SciCADE), Innsbruck, Austria, Jul/22-26/2019.
 1. International Congress on Industrial and Applied Mathematics (ICIAM 2019), Valencia, Spain, Jul/15-19/2019.
 1. Winther workshop in numerical methods, on the occasion of Ragnar Winther’s 70th birthday, Oslo, Norway, Mar/14/2019.
-1.  SIAM Minisymposium on Recent Developments in Numerical Methods for Fluids, Joint Math- ematics Meeting of AMS and MAA, Baltimore, USA, Jan/16-19/2019.
+1.  SIAM Minisymposium on Recent Developments in Numerical Methods for Fluids, Joint Mathematics Meeting of AMS and MAA, Baltimore, USA, Jan/16-19/2019.
 1. EuropeanConferenceonNumericalMathematicsandAdvancedApplications(ENUMATH2017), Voss, Norway, Sep/25-29/2017.
 1. Forum for youth scholars in computational mathematics, Peking University, Beijing, China, Jul/24-28/2017.
 1. Workshop on adaptive and multigrid methods for multiphysics problems, Beijing, China, Jun/23/2017.
@@ -95,9 +96,9 @@ Some presentation materials:
 1. 14th Copper Mountain Conference on Iterative Methods, Colorado, USA, Mar/20-25/2016.
 1. The 8th International Congress on Industrial and Applied Mathematics (ICIAM), Beijing, China, Aug/10-14/2015.
 1. Workshop on Geometry and Computation, Kunming, China, Aug/3-6/2015
-1. The 2st Peking University Computational Mathematics Student Forum, Beijing, China, Jul/11- 12/2015
+1. The 2nd Peking University Computational Mathematics Student Forum, Beijing, China, Jul/11- 12/2015
 1. Workshop on Numerical Methods for Elasticity and MHD Problems, Beijing, China, Dec/21/2014.
-1. 11th. World Congress on Computational Mechanics & 5th. European Conference on Compu- tational Mechanics & 6th. European Conference on Computation Fluid Dynamics; Barcelona, Spain, July/25/2014.
+1. 11th. World Congress on Computational Mechanics & 5th. European Conference on Computational Mechanics & 6th. European Conference on Computation Fluid Dynamics; Barcelona, Spain, July 25/2014.
 1. The 2nd Student Forum on Numerical Method of PDEs & the 1st Beijing Computational Mathematical Student Forum, Beijing, China, Jul/13/2014.
 1. The 1st Peking University Computational Mathematics Student Forum, Beijing, China, Nov/16/2013.
 
