@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-Keynote lecture at the [NEMESIS project kick-off workshop](https://erc-nemesis.eu/events/workshop-montpellier/#), Montpellier, France. (upcoming)
+Keynote lecture at the [NEMESIS project kick-off workshop](https://erc-nemesis.eu/events/workshop-montpellier/#), Montpellier, France. 
  
  
