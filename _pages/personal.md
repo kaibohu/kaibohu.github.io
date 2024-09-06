@@ -60,7 +60,7 @@ As a numerical analyst, I feel lucky and passionate to work at this interface of
   </div>
 </div>
 <br />
-Another reason I feel a special fondness for the Andrew Wiles Building, apart from its Escher-inspired staircase, is the presence of the "crystals." From these, one can glimpse the lively teaching and conference areas downstairs. The crystals in the south wing depict a surface plot of the first eigenfunction of the two-dimensional Laplacian (probably a finite element solution). I took a picture of these crystals on a quiet night during the COVID lockdown and often use it to visualize Regge elements (piecewise-flat manifolds) in my presentations.
+Another reason I feel a special fondness for the Andrew Wiles Building, apart from its Escher-inspired staircase, is the presence of the "crystals." From these, one can glimpse the lively teaching and conference areas downstairs. The crystals in the south wing depict a surface plot of the first eigenfunction of the two-dimensional Laplacian (probably a finite element solution). I took a picture of these crystals on a quiet night during the pandemic and often use it to visualize Regge elements (piecewise-flat manifolds) in my presentations.
 <br />
 
 <figure>
