@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 ---
  
 
-I am a <a href='https://en.wikipedia.org/wiki/Royal_Society_University_Research_Fellowship'>Royal Society University Research Fellow</a> based at the [School of Mathematics](https://www.maths.ed.ac.uk), University of Edinburgh, and [Maxwell Institute](https://www.maxwell.ac.uk/).
+I am a Royal Society University Research Fellow based at the [School of Mathematics](https://www.maths.ed.ac.uk), University of Edinburgh, and [Maxwell Institute](https://www.maxwell.ac.uk/).
 
 
 I work on numerical partial differential equations and structure-preserving/compatible discretizations. In particular, most of my current work is on finite element exterior calculus (FEEC). I view numerical analysis as a connection between continuous and discrete. Thus, I am interested in its interactions with neighbouring areas, such as discrete geometry and topology, homological algebra, and geometric mechanics, and applications in scientific problems, such as continuum mechanics, numerical relativity and geometric PDEs.  
