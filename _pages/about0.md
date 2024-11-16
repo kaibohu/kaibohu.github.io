@@ -62,15 +62,20 @@ I obtained my PhD at <a href='https://bicmr.pku.edu.cn'>Peking University</a> in
     <div class="boxed">
 The ERC Starting Project “Geometric Finite Element Methods (GeoFEM)” will fund multiple <b>postdoctoral and PhD positions</b>.  <br />
 
+&nbsp;
 GeoFEM investigates finite element discretisation of geometric objects with applications to numerical relativity and continuum mechanics. The project also develops a finite element perspective for discrete differential geometry and discrete physics on triangulation and graphs. The positions will be available from January 2025. <br /> 
 
+&nbsp;
 Candidates for the postdoc positions are expected to have a background in finite element methods. An in-depth knowledge of structure-preserving/compatible discretization and Finite Element Exterior Calculus will be an advantage. Candidates with backgrounds with one or some of the following topics are also strongly encouraged to apply: graph and network theories, discrete differential geometry, discrete topology, representation theory and Cartan geometry (particularly the Bernstein-Gelfand-Gelfand sequences), numerical relativity, geometric (continuum) mechanics, computer graphics, high-performance computing. <br /> 
 
+&nbsp;
 Candidates for PhD positions are expected to have a strong motivation to investigate one or more of the above areas. <br /> 
 
+&nbsp;
 The positions will be based at the University of Edinburgh. With the Maxwell Institute (joint between the University of Edinburgh and Heriot-Watt University), ICMS, the Higgs Centre for Theoretical Physics, and School of Informatics, Edinburgh provides a thrilling environment for investigating topics at the interface of computational mathematics and sciences.<br /> 
 
-For postdoc positions, apply <a href='https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11638'>here</a>. For PhD positions, apply <a href='https://postgraduate.degrees.ed.ac.uk/?r=site/view&edition=2024&id=511'>here</a>. <br /> 
+&nbsp;
+For postdoc positions, apply <a href='https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11638'>here</a>. For PhD positions, apply <a href='https://postgraduate.degrees.ed.ac.uk/?r=site/view&edition=2024&id=511'>here</a>. <br /> <br />
 
 Contact for expressions of interest:<br />
 Dr. Kaibo Hu (kaibo.hu@ed.ac.uk)
