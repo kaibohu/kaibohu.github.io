@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 ---
  
 
-I am a <a href='https://en.wikipedia.org/wiki/Royal_Society_University_Research_Fellowship'>Royal Society University Research Fellow</a> based at the [School of Mathematics](https://www.maths.ed.ac.uk), University of Edinburgh, and [Maxwell Institute](https://www.maxwell.ac.uk/).
+I am a <a href='https://royalsociety.org/grants/university-research/'>Royal Society University Research Fellow</a> based at the [School of Mathematics](https://www.maths.ed.ac.uk), University of Edinburgh, and [Maxwell Institute](https://www.maxwell.ac.uk/).
 
 
 I work on numerical partial differential equations and structure-preserving/compatible discretizations. In particular, most of my current work is on finite element exterior calculus (FEEC). I view numerical analysis as a connection between continuous and discrete. Thus, I am interested in its interactions with neighbouring areas, such as discrete geometry and topology, homological algebra, and geometric mechanics, and applications in scientific problems, such as continuum mechanics, numerical relativity and geometric PDEs.  
@@ -37,6 +37,46 @@ I obtained my PhD at <a href='https://bicmr.pku.edu.cn'>Peking University</a> in
   }
 </style>
 
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Title</title>
+    <style>
+      /* Whatever that is inside this <style> tag is all styling for your markup / content structure.
+      /* The . with the boxed represents that it is a class */
+      .boxed {
+        background: #F2F2F2;
+        color: black;
+        border: 3px solid #535353;
+        margin: 0px auto;
+        width: 756px;
+        padding: 10px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- This is the markup of your box, in simpler terms the content structure. -->
+    <div class="boxed">
+The ERC Starting Project “Geometric Finite Element Methods (GeoFEM)” will fund multiple postdoctoral and PhD positions. 
+
+GeoFEM investigates finite element discretisation of geometric objects with applications to numerical relativity and continuum mechanics. The project also develops a finite element perspective for discrete differential geometry and discrete physics on triangulation and graphs. The positions will be available from January 2025. 
+
+Candidates for the postdoc positions are expected to have a background in finite element methods. An in-depth knowledge of structure-preserving/compatible discretization and Finite Element Exterior Calculus will be an advantage. Candidates with backgrounds with one or some of the following topics are also strongly encouraged to apply: graph and network theories, discrete differential geometry, discrete topology, representation theory and Cartan geometry (particularly the Bernstein-Gelfand-Gelfand sequences), numerical relativity, geometric (continuum) mechanics, computer graphics, high-performance computing. 
+
+Candidates for PhD positions are expected to have a strong motivation to investigate one or more of the above areas. 
+
+The positions will be based at the University of Edinburgh. With the Maxwell Institute (joint between the University of Edinburgh and Heriot-Watt University), ICMS, the Higgs Centre for Theoretical Physics, and School of Informatics, Edinburgh provides a thrilling environment for investigating topics at the interface of computational mathematics and sciences.
+
+For postdoc positions, apply <a href='https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11638'>here</a>. For PhD positions, apply <a href='https://postgraduate.degrees.ed.ac.uk/?r=site/view&edition=2024&id=511'>here</a>. 
+
+Contact for expressions of interest:
+Dr. Kaibo Hu (kaibo.hu@ed.ac.uk)
+    </div>
+  </body>
+</html>
 
 <p class="bottom-three">
  
