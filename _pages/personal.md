@@ -37,7 +37,7 @@ As a numerical analyst, I feel lucky and passionate to work at this interface of
 <div class="row">
   <div class="column">
   <figure>
-    <img src="../assets/img/exhi2.png" alt="Cascading Principles 1" style="width:100%">
+    <img src="../assets/img/exhi2.png" style="transform: translate(0px, -10px);" alt="Cascading Principles 1" style="width:100%">
     </figure>
   </div>
   <div class="column">
