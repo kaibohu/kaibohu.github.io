@@ -20,6 +20,8 @@ Some presentation materials:
 - [Tensor product finite element BGG complexes](https://kaibohu.github.io/homepage/2023Glasgow.pdf) (Glasgow, 2023)
 - [Bounded Poincaré operators for BGG complexes](https://kaibohu.github.io/homepage/2023EPFL.pdf) (EPFL, 2023)
 - [Towards Finite Element Tensor Calculus](https://kaibohu.github.io/homepage/2024Zurich.pdf) (Zurich, 2024)
+- [Topology-preserving computation for ideal magnetic relaxation](https://kaibohu.github.io/homepage/2024MTU.pdf) (Michigan, 2025)
+
 
  
 
