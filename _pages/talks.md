@@ -33,17 +33,17 @@ Some presentation materials:
 
 ### Colloquium/Seminar talks
 1. MathSci Colloquium at Michigan Technological University, USA, Feb/2025.
-1.  Seminar talk at Zhejiang University, China, Jan/2025.
-1.  Applied Mathematics Seminar, Peking University, China, Dec/2024.
-1.  Applied Geometry, Algebra, and Topology in Edinburgh (AGATE) seminar, Edinburgh, UK, Nov/2024.
+1. Seminar talk at Zhejiang University, China, Jan/2025.
+1. Applied Mathematics Seminar, Peking University, China, Dec/2024.
+1. Applied Geometry, Algebra, and Topology in Edinburgh (AGATE) seminar, Edinburgh, UK, Nov/2024.
 1. Analysis and PDE Seminar, Durham University, UK, Nov/2024.
 1. Seminar at Institut supérieur de l’aéronautique et de l’espace (ISAE-SUPAERO), Toulouse, France, Oct/2024.
-1.  Séminaire ACSIOM, Institut Montpelliérain Alexander Grothendieck, Universit´e de Montpellier, France, Oct/2024.
-1.  Seminar talk at Shanghai University of Finance and Economics, China, Sep/2024.
+1. Séminaire ACSIOM, Institut Montpelliérain Alexander Grothendieck, Universit´e de Montpellier, France, Oct/2024.
+1. Seminar talk at Shanghai University of Finance and Economics, China, Sep/2024.
 1. Seminar talk at Nanjing Normal University, China, Sep/2024.
-1.  Seminar talk at Nankai University, China, Aug/2024.
-1.  Seminar talk at Institute of Computational Mathematics and Scientific/Engineering Computing at Chinese Academy of Sciences, China, Aug/2024.
-1.  Seminar talk at Beijing Institute of Mathematical Sciences and Applications (BIMSA), Beijing,
+1. Seminar talk at Nankai University, China, Aug/2024.
+1. Seminar talk at Institute of Computational Mathematics and Scientific/Engineering Computing at Chinese Academy of Sciences, China, Aug/2024.
+1. Seminar talk at Beijing Institute of Mathematical Sciences and Applications (BIMSA), Beijing,
 China, Aug/2024.
 1. Zurich colloquium in applied and computational mathematics, Apr/2024.
 1. Seminar at DAMTP, University of Cambridge. Feb/2024.
@@ -80,22 +80,16 @@ China, Aug/2024.
 ###  Conference/Workshop talks
 
 Conference/Workshop talks:
-1. IMSI Workshop “Discrete Exterior Calculus: Differential Geometry and Applications”, Chicago,
-USA. September 2025. (upcoming)
-1. BIRS workshop “Geometric mechanics formulations for continuum mechanics”, Banff, Canada.
-March 2025. (upcoming)
-1.  “New and old problems in Numerical Relativity” workshop at the Tsinghua Sanya International
-Mathematics Forum (TSIMF), Sanya, China. January 2025.
-1.  Minisymposium “Structure-preserving discretization of multiphysics systems”, 16th World
-Congress on Computational Mechanics and 4th Pan American Congress on Computational
-Mechanics, Vancouver, Canada. July 2024.
-1. Minisymposium “Numerical Methods for Geometric PDEs”, The 2024 SIAM Annual Meeting,
-Spokane, Washington, US. July 2024.
-1.  Keynote lecture at the NEMESIS project kick-off workshop, Montpellier, France. June 2024.
+1. IMSI Workshop “Discrete Exterior Calculus: Differential Geometry and Applications”, Chicago, USA. September 2025. (upcoming)
+1. BIRS workshop “Geometric mechanics formulations for continuum mechanics”, Banff, Canada. March 2025. (upcoming)
+1. “New and old problems in Numerical Relativity” workshop at the Tsinghua Sanya International Mathematics Forum (TSIMF), Sanya, China. January 2025.
+1. Minisymposium “Structure-preserving discretization of multiphysics systems”, 16th World Congress on Computational Mechanics and 4th Pan American Congress on Computational Mechanics, Vancouver, Canada. July 2024.
+1. Minisymposium “Numerical Methods for Geometric PDEs”, The 2024 SIAM Annual Meeting, Spokane, Washington, US. July 2024.
+1. Keynote lecture at the NEMESIS project kick-off workshop, Montpellier, France. June 2024.
 1. European Finite Element Fair, London, UK. June 2024.
-1.  Banff International Research Station (BIRS) “Homological Perspective on Splines and Finite Elements” workshop, University of British Columbia Okanagan (UBCO), Canada. May 2024.
+1. Banff International Research Station (BIRS) “Homological Perspective on Splines and Finite Elements” workshop, University of British Columbia Okanagan (UBCO), Canada. May 2024.
 1. Opening Conference of the CNRS Occitan Research Federation in Mathematics (OcciMath), LAMPS (Laboratory of Multidisciplinary Modeling and Simulations), University of Perpignan Via Domitia, France. April 2024.
-1.  Workshop: Theory and Numerics on Some Nonlinear PDEs; University of Oslo / online. October 2023.
+1. Workshop: Theory and Numerics on Some Nonlinear PDEs; University of Oslo / online. October 2023.
 1. ICIAM, Tokyo, Japan. August 2023.
 1. The 2023 International Workshop on Scientific Computing, Feng Kang Youth Forum on Scientific Computing (FKYF), The Institute of Computational Mathematics and Scientific/Engineering Computing of Chinese Academy of Sciences, Beijing, China. August 2023.  
 1. PKU Mathematics Forum, Peking University, Beijing, China. July 2023. 
