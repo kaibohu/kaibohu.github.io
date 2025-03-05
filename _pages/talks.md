@@ -20,6 +20,8 @@ Some presentation materials:
 - [Tensor product finite element BGG complexes](https://kaibohu.github.io/homepage/2023Glasgow.pdf) (Glasgow, 2023)
 - [Bounded Poincaré operators for BGG complexes](https://kaibohu.github.io/homepage/2023EPFL.pdf) (EPFL, 2023)
 - [Towards Finite Element Tensor Calculus](https://kaibohu.github.io/homepage/2024Zurich.pdf) (Zurich, 2024)
+- [Finite element differential complexes](https://kaibohu.github.io/homepage/2024Banff.pdf) (Banff, 2024, survey talk in '[Homological Perspective on Splines and Finite Elements](https://www.birs.ca/events/2024/5-day-workshops/24w5313)' workshop at BIRS)
+- [Modelling and computing generalized continua via complexes](https://kaibohu.github.io/homepage/2024Monpellier-Cosserat.pdf) (Montpellier, 2024)
 - [Topology-preserving computation for ideal magnetic relaxation](https://kaibohu.github.io/homepage/2024MTU.pdf) (Michigan, 2025)
 
 
@@ -30,7 +32,19 @@ Some presentation materials:
 
 
 ### Colloquium/Seminar talks
-
+1. MathSci Colloquium at Michigan Technological University, USA, Feb/2025.
+1.  Seminar talk at Zhejiang University, China, Jan/2025.
+1.  Applied Mathematics Seminar, Peking University, China, Dec/2024.
+1.  Applied Geometry, Algebra, and Topology in Edinburgh (AGATE) seminar, Edinburgh, UK, Nov/2024.
+1. Analysis and PDE Seminar, Durham University, UK, Nov/2024.
+1. Seminar at Institut supérieur de l’aéronautique et de l’espace (ISAE-SUPAERO), Toulouse, France, Oct/2024.
+1.  Séminaire ACSIOM, Institut Montpelliérain Alexander Grothendieck, Universit´e de Montpellier, France, Oct/2024.
+1.  Seminar talk at Shanghai University of Finance and Economics, China, Sep/2024.
+1. Seminar talk at Nanjing Normal University, China, Sep/2024.
+1.  Seminar talk at Nankai University, China, Aug/2024.
+1.  Seminar talk at Institute of Computational Mathematics and Scientific/Engineering Computing at Chinese Academy of Sciences, China, Aug/2024.
+1.  Seminar talk at Beijing Institute of Mathematical Sciences and Applications (BIMSA), Beijing,
+China, Aug/2024.
 1. Zurich colloquium in applied and computational mathematics, Apr/2024.
 1. Seminar at DAMTP, University of Cambridge. Feb/2024.
 1. Mathematics Seminar at the University of Dundee, UK. Oct/2023.
@@ -65,7 +79,21 @@ Some presentation materials:
 
 ###  Conference/Workshop talks
 
-1.  Banff International Research Station (BIRS) “Homological Perspective on Splines and Finite Elements” workshop, University of British Columbia Okanagan (UBCO), Canada. May 2024 (upcoming).
+Conference/Workshop talks:
+1. IMSI Workshop “Discrete Exterior Calculus: Differential Geometry and Applications”, Chicago,
+USA. September 2025. (upcoming)
+1. BIRS workshop “Geometric mechanics formulations for continuum mechanics”, Banff, Canada.
+March 2025. (upcoming)
+1.  “New and old problems in Numerical Relativity” workshop at the Tsinghua Sanya International
+Mathematics Forum (TSIMF), Sanya, China. January 2025.
+1.  Minisymposium “Structure-preserving discretization of multiphysics systems”, 16th World
+Congress on Computational Mechanics and 4th Pan American Congress on Computational
+Mechanics, Vancouver, Canada. July 2024.
+1. Minisymposium “Numerical Methods for Geometric PDEs”, The 2024 SIAM Annual Meeting,
+Spokane, Washington, US. July 2024.
+1.  Keynote lecture at the NEMESIS project kick-off workshop, Montpellier, France. June 2024.
+1. European Finite Element Fair, London, UK. June 2024.
+1.  Banff International Research Station (BIRS) “Homological Perspective on Splines and Finite Elements” workshop, University of British Columbia Okanagan (UBCO), Canada. May 2024.
 1. Opening Conference of the CNRS Occitan Research Federation in Mathematics (OcciMath), LAMPS (Laboratory of Multidisciplinary Modeling and Simulations), University of Perpignan Via Domitia, France. April 2024.
 1.  Workshop: Theory and Numerics on Some Nonlinear PDEs; University of Oslo / online. October 2023.
 1. ICIAM, Tokyo, Japan. August 2023.
