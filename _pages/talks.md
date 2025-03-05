@@ -79,7 +79,7 @@ China, Aug/2024.
 
 ###  Conference/Workshop talks
 
-Conference/Workshop talks:
+
 1. IMSI Workshop “Discrete Exterior Calculus: Differential Geometry and Applications”, Chicago, USA. September 2025. (upcoming)
 1. BIRS workshop “Geometric mechanics formulations for continuum mechanics”, Banff, Canada. March 2025. (upcoming)
 1. “New and old problems in Numerical Relativity” workshop at the Tsinghua Sanya International Mathematics Forum (TSIMF), Sanya, China. January 2025.
