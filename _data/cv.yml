@@ -55,12 +55,17 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026
+      items: 
+        - Nachdiplom lectures at ETH Zürich.
     - year: 2025
       items: 
         - Frontiers of Science Award (by the International Congress of Basic Science).
+      items: 
+        - The Feng Kang Visiting Scholar for Young Scientist, Institute of Computational Mathematics and Scientific/Engineering Computing, Chinese Academy of Sciences.
     - year: 2024
       items: 
-        - ERC Starting Grant.
+        - ERC Starting Grant (GeoFEM, Geometric Finite Element Methods).
 
     - year: 2023
       items: 
