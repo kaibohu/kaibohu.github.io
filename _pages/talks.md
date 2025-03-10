@@ -21,7 +21,7 @@ Some presentation materials:
 - [Bounded Poincaré operators for BGG complexes](https://kaibohu.github.io/homepage/2023EPFL.pdf) (EPFL, 2023)
 - [Towards Finite Element Tensor Calculus](https://kaibohu.github.io/homepage/2024Zurich.pdf) (Zurich, 2024)
 - [Finite element differential complexes](https://kaibohu.github.io/homepage/2024Banff.pdf) (Banff, 2024, survey talk in '[Homological Perspective on Splines and Finite Elements](https://www.birs.ca/events/2024/5-day-workshops/24w5313)' workshop at BIRS)
-- [Modelling and computing generalized continua via complexes](https://kaibohu.github.io/homepage/2024Monpellier-Cosserat.pdf) (Montpellier, 2024)
+- [Modelling and computing generalized continua via complexes](https://kaibohu.github.io/homepage/2024Montpellier-Cosserat.pdf) (Montpellier, 2024)
 - [Topology-preserving computation for ideal magnetic relaxation](https://kaibohu.github.io/homepage/2024MTU.pdf) (Michigan, 2025)
 - [Finite element form-valued forms](https://kaibohu.github.io/homepage/2025SIAMCSE-PeriodicTable.pdf) (Texas, 2025)
 
