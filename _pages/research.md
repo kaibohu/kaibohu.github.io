@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-A significant focus of my current research lies in structure-preserving and compatible discretization, with a particular emphasis on Finite Element Exterior Calculus (FEEC). This field, however, extends far beyond its name: "finite element" may extend to discrete patterns like finite/lattice differences, currents, or networks, while "exterior calculus" can integrate Cartan’s full formalism (particularly with connections to differential geometry) or, more broadly, tensor analysis. Representation theory and the Bernstein-Gelfand-Gelfand (BGG) construction are essential languages for expressing tensor symmetries. 
+A significant focus of my current research lies in structure-preserving and compatible discretization, with a particular emphasis on **Finite Element Exterior Calculus (FEEC)**. This field, however, extends beyond its name: "finite element" may extend to discrete patterns like finite/lattice differences, currents, or networks, while "exterior calculus" can integrate Cartan’s full formalism (particularly with connections to differential geometry) or, more broadly, tensor analysis.  The Bernstein-Gelfand-Gelfand (BGG) construction and representation theory are languages for expressing tensor symmetries. 
 
 Some specific topics I am interested in now include: 
 
@@ -23,6 +23,6 @@ Some specific topics I am interested in now include:
 
  - **Geometry, topology, PDEs, and physics on graphs**:  The broad idea is to discretize continuous theories on graphs or networks. Finite Element Exterior Calculus (in the narrow sense) is a special case on triangulation. In fact, for differential forms, Finite Element Exterior Calculus and graph (co)homology and Hodge-Laplacian share many common definitions and properties. Other problems include random graphs and phase transition (statistical topology) and topological/geometric data analysis etc. 
 
-Although my perspective on these topics continually evolves, I maintain a consistent interest in investigating continuous and discrete structures, and using them to design reliable, efficient, and high-fidelity numerical methods.
+Although my perspective on these topics continually evolves, I maintain a consistent interest in investigating continuous and discrete structures,  using them to design reliable, efficient, and high-fidelity numerical methods, and investigating the interactions between numerical analysis (finite elements) and other areas.
    
 
