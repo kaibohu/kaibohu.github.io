@@ -11,7 +11,7 @@ A significant focus of my current research lies in structure-preserving and comp
 
 Some specific topics I am interested in now include: 
 
- - **General theories of FEEC and Finite Element Tensor Calculus**: This includes tensor finite elements (discretizing geometric objects such as metrics, curvature, torsion, connection forms, form-valued forms, double forms, or bundle-valued forms), links to discrete differential geometry, BGG machinery and representation theory. High-order methods and solvers in the finite element context. 
+ - **General theories of FEEC and Finite Element Tensor Calculus**: This includes tensor finite elements (discretizing geometric objects such as metrics, curvature, torsion, connection forms, form-valued forms, double forms, or bundle-valued forms), links to discrete differential geometry, BGG machinery and representation theory. Construction of finite elements and complexes, high-order methods and solvers in the finite element context. 
 
  - **Computational topological hydrodynamics**: Topology-preserving numerical methods for fluid and plasma systems, relaxation problems (self-organization), dynamo problems and applications in solar physics, astrophysics, and fusion energy. 
 
