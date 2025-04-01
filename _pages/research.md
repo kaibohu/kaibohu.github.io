@@ -27,4 +27,4 @@ Although my perspective on these topics continually evolves, I maintain a consis
    
 &nbsp;
 
-[These slides](https://kaibohu.github.io/homepage/2025-general-research.pdf) summarized part of my research interests now.
+[**These slides**](https://kaibohu.github.io/homepage/2025-general-research.pdf) summarized part of my current research interests.
