@@ -24,7 +24,5 @@ Some specific topics I am interested in now include:
  - **Geometry, topology, PDEs, and physics on graphs**:  The broad idea is to discretize continuous theories on graphs or networks. Finite Element Exterior Calculus (in the narrow sense) is a special case on triangulation. In fact, for differential forms, Finite Element Exterior Calculus and graph (co)homology and Hodge-Laplacian share many common definitions and properties. Other problems include random graphs and phase transition (statistical topology) and topological/geometric data analysis etc. 
 
 Although my perspective on these topics continually evolves, I maintain a consistent interest in investigating continuous and discrete structures,  using them to design reliable, efficient, and high-fidelity numerical methods, and investigating the interactions between numerical analysis (finite elements) and other areas.
-   
-&nbsp;
 
 [**These slides**](https://kaibohu.github.io/homepage/2025-general-research.pdf) summarized part of my current research interests.
