@@ -7,7 +7,7 @@ nav_order: 8
 ---
 ## Current
 
-<br> <!-- Adds space between "Current" and "Postdocs" -->
+<br>
 
 <span style="font-size: 1.1em;"><strong>Postdocs</strong></span>
 
@@ -15,6 +15,7 @@ nav_order: 8
   <img src="../assets/img/YizhouLiang.jpg" alt="Yizhou Liang" style="width: 120px; margin-right: 15px;">
   <div>
     <strong>Yizhou Liang</strong><br>
+    <em>2025–</em><br>
     PhD: Peking University<br>
     Research: dynamo problem, finite element complexes
   </div>
@@ -24,6 +25,7 @@ nav_order: 8
   <img src="../assets/img/GanghuiZhang.jpg" alt="Ganghui Zhang" style="width: 120px; margin-right: 15px;">
   <div>
     <strong>Ganghui Zhang</strong><br>
+    <em>2025–</em><br>
     PhD: Tsinghua University<br>
     Research: numerical geometric flows, geometric PDEs
   </div>
@@ -33,6 +35,15 @@ nav_order: 8
 
 ## Previous
 
-### Postdocs
+<br>
 
-- [Marien Hanot](https://marienhanot.fr)
+<span style="font-size: 1.1em;"><strong>Postdocs</strong></span>
+
+<div style="display: flex; align-items: flex-start; margin-top: 1em;">
+  <div style="width: 120px; margin-right: 15px;"></div>
+  <div>
+    <strong><a href="https://marienhanot.fr">Marien Hanot</a></strong><br>
+    <em>2024</em><br>
+    Research: geometric mechanics, continuum models
+  </div>
+</div>
