@@ -3,7 +3,7 @@ layout: page
 permalink: /personal/
 title: Miscellany
 nav: true
-nav_order: 8
+nav_order: 10
 ---
 
 ''[If an atom or electron is a basic unit for physicists, his unit is the tetrahedron.](https://www.maths.ox.ac.uk/node/61184)'' 

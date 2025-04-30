@@ -100,7 +100,7 @@ China, Aug/2024.
 1.  56th Meeting of the Society for Natural Philosophy: Mechanics and Analysis, Pisa, Italy, Sep/21-23/2022.
 1.  INdAM Meeting “Approximation Theory and Numerical Analysis meet Algebra, Geometry, Topology”, Palazzone di Cortona, Italy, Sep/5-9/2022.
 1.  30 years of Acta Numerica conference at the Banach Centre in B ̧edlewo, Poland, Jun/25- Jul/2/2022.
-1. MFO workshop ”Hilbert Complexes: Analysis, Applications, and Discretizations”, Oberwol- fach, Germany, Jun/19-25/2022.
+1. MFO workshop ”Hilbert Complexes: Analysis, Applications, and Discretizations”, Oberwolfach, Germany, Jun/19-25/2022.
 1.  Canadian Applied and Industrial Mathematics Society annual meeting, UBC Okanagan Canada (online), Jun/13-16/2022.
 1. European Finite Element Fair, Aalto University, Finland, Jun/3-4/2022.
 1. European Finite Element Fair, Inria, Paris, Sep/10-11/2022. (online)
@@ -111,7 +111,7 @@ China, Aug/2024.
 1. International Congress on Industrial and Applied Mathematics (ICIAM 2019), Valencia, Spain, Jul/15-19/2019.
 1. Winther workshop in numerical methods, on the occasion of Ragnar Winther’s 70th birthday, Oslo, Norway, Mar/14/2019.
 1.  SIAM Minisymposium on Recent Developments in Numerical Methods for Fluids, Joint Mathematics Meeting of AMS and MAA, Baltimore, USA, Jan/16-19/2019.
-1. EuropeanConferenceonNumericalMathematicsandAdvancedApplications(ENUMATH2017), Voss, Norway, Sep/25-29/2017.
+1. European  Conference on Numerical Mathematics and Advanced Applications (ENUMATH2017), Voss, Norway, Sep/25-29/2017.
 1. Forum for youth scholars in computational mathematics, Peking University, Beijing, China, Jul/24-28/2017.
 1. Workshop on adaptive and multigrid methods for multiphysics problems, Beijing, China, Jun/23/2017.
 1. International Conference on Domain Decomposition, Svalbard, Norway, Feb/6-10/2017.
