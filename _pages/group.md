@@ -44,6 +44,6 @@ nav_order: 8
   <div>
     <strong><a href="https://marienhanot.fr">Marien Hanot</a></strong><br>
     <em>2024</em><br>
-    Research: geometric mechanics, continuum models
+    PhD: University of Montpellier<br>
   </div>
 </div>
