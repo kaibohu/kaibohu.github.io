@@ -49,7 +49,7 @@ nav_order: 8
         <li>
             <strong>Finite element eigenvalue problems</strong><br>
             <a href="https://www.uzerbinati.eu">Umberto Zerbinati</a> (University of Oxford), May 2025<br>
-            <strong>Location:</strong> James Clerk Maxwell Building (JCMB) 5328<br>
+            <strong>Location:</strong> James Clerk Maxwell Building (JCMB) 5328 <br>
             <strong>Time:</strong> May 13, 2025, 10:00 AM - 12:00 PM; May 14, 2025, 2:00 PM - 4:00 PM<br>
             <span class="toggle-abstract" onclick="toggleAbstract('abstract1')">Show Abstract</span>
             <div id="abstract1" class="abstract">
