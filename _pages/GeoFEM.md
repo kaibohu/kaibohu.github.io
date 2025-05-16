@@ -47,10 +47,11 @@ nav_order: 8
     <h3>Lectures and Short Courses</h3>
     <ul>
         <li>
-            <strong>Finite element eigenvalue problems</strong><br>
+            <strong>Spectral Theory and Spectral Practice</strong><br>
             <a href="https://www.uzerbinati.eu">Umberto Zerbinati</a> (University of Oxford), May 2025<br>
-            <strong>Location:</strong> James Clerk Maxwell Building (JCMB) 5328 <br>
-            <strong>Time:</strong> May 13, 2025, 10:00 AM - 12:00 PM; May 14, 2025, 2:00 PM - 4:00 PM<br>
+            <strong>Course Website:</strong> <a href="https://www.uzerbinati.eu/teaching/spectral_theory/">https://www.uzerbinati.eu/teaching/spectral_theory/</a><br>
+            <strong>Location:</strong> James Clerk Maxwell Building (JCMB) 5328 (May 13, 14), JCMB 5326 (May 16)<br>
+            <strong>Time:</strong> May 13, 2025, 10:00 AM - 12:00 PM; May 14, 2025, 2:00 PM - 4:00 PM; May 16, 2025, 3:00 PM - 5:00 PM<br>
             <span class="toggle-abstract" onclick="toggleAbstract('abstract1')">Show Abstract</span>
             <div id="abstract1" class="abstract">
                 This short course explores finite element discretisations of eigenvalue problems involving non-normal operators, with a focus on the advection-diffusion equation as a guiding example. We begin by revisiting fundamental spectral notions—self-adjointness, normality, spectra, and pseudospectra—with particular emphasis on how an operator spectrum informs us about the physical behaviour of the time-dependent PDEs. The core of the course is devoted to the classical analysis of finite element approximations: we present in detail the Bramble-Osborn results for non-self-adjoint eigenvalue problems, including full proofs, and discuss their implications for convergence and approximation quality. For comparison, we also review the celebrated Babuška-Osborn theory in the self-adjoint case. If time permits, we will conclude with a discussion on iterative solvers and preconditioning strategies tailored to non-normal eigenvalue problems. The course requires basic background in functional analysis and finite element methods.
