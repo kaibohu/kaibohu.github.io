@@ -24,7 +24,7 @@ nav_order: 7
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
   <img src="../assets/img/GanghuiZhang.jpg" alt="Ganghui Zhang" style="width: 120px; margin-right: 15px;">
   <div>
-    <strong>Ganghui Zhang</strong><br>
+    <strong><a href="https://ganghui-zhang.github.io/">Ganghui Zhang</a></strong><br>
     <em>2025–</em><br>
     PhD: Tsinghua University<br>
     Research: numerical geometric flows, geometric PDEs
