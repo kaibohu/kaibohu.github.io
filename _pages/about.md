@@ -31,7 +31,12 @@ I am the PI of an ERC Starting Grant 'GeoFEM (Geometric Finite Element Methods)'
 
 
 
-With <a href='http://www.macs.hw.ac.uk/~jb2055/index.htm'>Julian Braun</a> (Heriot-Watt), I am co-organizing the <a href='https://www.maths.ed.ac.uk/school-of-mathematics/events/acm'>Applied and Computational Mathematics (ACM) Seminars</a> joint between UoE and HW at the <a href='https://www.maxwell.ac.uk'>Maxwell Institute</a>. 
+<!-- With <a href='http://www.macs.hw.ac.uk/~jb2055/index.htm'>Julian Braun</a> (Heriot-Watt), I am co-organizing the <a href='https://www.maths.ed.ac.uk/school-of-mathematics/events/acm'>Applied and Computational Mathematics (ACM) Seminars</a> joint between UoE and HW at the <a href='https://www.maxwell.ac.uk'>Maxwell Institute</a>.  -->
+
+<br>
+
+I will move to University of Oxford and join the faculty at the [Mathematical Institute](https://www.maths.ox.ac.uk/) in the fall of 2025. 
+
 
 My CV can be found  <a href='https://kaibohu.github.io/assets/pdf/cv_Kaibo.pdf'>here</a>.
 
