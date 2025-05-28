@@ -32,7 +32,6 @@ I am the PI of an ERC Starting Grant 'GeoFEM (Geometric Finite Element Methods)'
 My CV can be found  <a href='https://kaibohu.github.io/assets/pdf/cv_Kaibo.pdf'>here</a>.
 
  
-<br>
 
-* I will move to University of Oxford and join the faculty at the [Mathematical Institute](https://www.maths.ox.ac.uk/) in the fall of 2025.  *
+\* I will move to University of Oxford and join the faculty at the [Mathematical Institute](https://www.maths.ox.ac.uk/) in the fall of 2025.  *
  
