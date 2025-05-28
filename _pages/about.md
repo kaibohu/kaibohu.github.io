@@ -32,29 +32,9 @@ I am the PI of an ERC Starting Grant 'GeoFEM (Geometric Finite Element Methods)'
 My CV can be found  <a href='https://kaibohu.github.io/assets/pdf/cv_Kaibo.pdf'>here</a>.
 
  
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Centered Announcement</title>
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-    .centered {
-      text-align: center;
-    }
-  </style>
-</head>
-<body>
+ 
   <div class="centered">
     * I will move to University of Oxford and join the faculty at the <a href="https://www.maths.ox.ac.uk/">Mathematical Institute</a> in the fall of 2025. *
   </div>
-</body>
-</html>
+ 
+ 
