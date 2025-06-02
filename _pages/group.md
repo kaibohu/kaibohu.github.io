@@ -14,8 +14,8 @@ nav_order: 7
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
   <img src="../assets/img/YizhouLiang.jpg" alt="Yizhou Liang" style="width: 120px; margin-right: 15px;">
   <div>
-    <strong>Yizhou Liang</strong><br>
-    <em>2025–</em><br>
+        <strong><a href="https://scholar.google.com/citations?user=Z4bLK94AAAAJ&hl=en">Yizhou Liang</a></strong><br>
+        <em>2025–</em><br>
     PhD: Peking University<br>
     Research: dynamo problem, finite element complexes
   </div>
@@ -27,7 +27,7 @@ nav_order: 7
     <strong><a href="https://ganghui-zhang.github.io/">Ganghui Zhang</a></strong><br>
     <em>2025–</em><br>
     PhD: Tsinghua University<br>
-    Research: numerical geometric flows, geometric PDEs
+    Research: numerical geometric PDEs
   </div>
 </div>
 
