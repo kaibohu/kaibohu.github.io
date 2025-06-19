@@ -6,7 +6,6 @@ nav: true
 nav_order: 8
 ---
 
- 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -33,17 +32,22 @@ nav_order: 8
         .toggle-abstract:hover {
             color: #0056b3;
         }
+        .lecture-title {
+            font-weight: bold;
+            font-size: 1.1em; /* Optional: slightly larger for emphasis */
+        }
     </style>
 </head>
 <body>
     <p>
-        The ERC Starting Grant <i>GeoFEM (Geometric Finite Element Methods)</i> investigates discretization of geometric objects with finite elements, connections between finite elements and discrete differential geometry, and applications.
+        The ERC Starting Project <i>GeoFEM (Geometric Finite Element Methods)</i> investigates discretization of geometric objects with finite elements, connections between finite elements and discrete differential geometry, and applications.
     </p>
     <p>
-GeoFEM will host lectures and short courses delivered by visitors, collaborators, and occasionally group members. These lectures will have an emphasis on emerging topics and recent advancements in finite elements (in a broad sense) for numerical PDEs and Finite Element Exterior Calculus that lack comprehensive documentation, aiming to contribute to broader research contexts. Some lectures will include online sessions. To attend remotely, please contact kaibo.hu@ed.ac.uk.
+        GeoFEM will host lectures and short courses delivered by visitors, collaborators, and occasionally group members. These lectures will have an emphasis on emerging topics and recent advancements in finite elements (in a broad sense) for numerical PDEs and Finite Element Exterior Calculus that lack comprehensive documentation, aiming to contribute to broader research contexts. Some lectures will include online sessions. To attend remotely, please contact 
+        <a href="mailto:kaibo.hu@ed.ac.uk">kaibo.hu@ed.ac.uk</a>.
     </p>
     <br>
-  <h3>Lectures and Short Courses</h3>
+    <h3>Lectures and Short Courses</h3>
     <ul>
         <li>
             <span class="lecture-title">Riemannian geometry with finite elements</span><br>
