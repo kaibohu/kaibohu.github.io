@@ -46,6 +46,24 @@ nav_order: 8
     <h3>Lectures and Short Courses</h3>
     <ul>
         <li>
+            <strong>Riemannian geometry with finite elements</strong><br>
+            <a href="https://webpages.scu.edu/ftp/egawlik/index.html">Evan Gawlik</a> (Santa Clara University), October 11-17, 2025<br>
+            <strong>Location:</strong> Andrew Wiles Building, Oxford<br>
+            <strong>Abstract:</strong> TBA<br>
+        </li>
+        <li>
+            <strong>Finite Element Systems</strong><br>
+            <a href="https://www.mn.uio.no/math/english/people/aca/snorrec/">Snorre Christiansen</a> (University of Oslo), October 6-14, 2025<br>
+            <strong>Location:</strong> Andrew Wiles Building, Oxford<br>
+            <strong>Abstract:</strong> TBA<br>
+        </li>
+        <li>
+            <strong>Title TBA</strong><br>
+            <a href="https://alisomia.github.io">Ting Lin</a> (Peking University), October 2025<br>
+            <strong>Location:</strong> Andrew Wiles Building, Oxford<br>
+            <strong>Abstract:</strong> TBA<br>
+        </li>
+        <li>
             <strong>Spectral Theory and Spectral Practice</strong><br>
             <a href="https://www.uzerbinati.eu">Umberto Zerbinati</a> (University of Oxford), May 2025<br>
             <strong>Course Website:</strong> <a href="https://www.uzerbinati.eu/teaching/spectral_theory/">https://www.uzerbinati.eu/teaching/spectral_theory/</a><br>
