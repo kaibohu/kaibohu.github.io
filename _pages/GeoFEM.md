@@ -40,31 +40,31 @@ nav_order: 8
         The ERC Starting Grant <i>GeoFEM (Geometric Finite Element Methods)</i> investigates discretization of geometric objects with finite elements, connections between finite elements and discrete differential geometry, and applications.
     </p>
     <p>
-     The GeoFEM project will host lectures and short courses delivered by visitors, collaborators, and occasionally group members. These lectures will have an emphasis on emerging topics and recent advancements in finite elements (in a broad sense) for numerical PDEs and Finite Element Exterior Calculus that lack comprehensive documentation, aiming to contribute to broader research contexts. Some lectures will include online sessions. To attend remotely, please contact kaibo.hu@ed.ac.uk.
+GeoFEM will host lectures and short courses delivered by visitors, collaborators, and occasionally group members. These lectures will have an emphasis on emerging topics and recent advancements in finite elements (in a broad sense) for numerical PDEs and Finite Element Exterior Calculus that lack comprehensive documentation, aiming to contribute to broader research contexts. Some lectures will include online sessions. To attend remotely, please contact kaibo.hu@ed.ac.uk.
     </p>
     <br>
-    <h3>Lectures and Short Courses</h3>
+  <h3>Lectures and Short Courses</h3>
     <ul>
         <li>
-            <strong>Riemannian geometry with finite elements</strong><br>
+            <span class="lecture-title">Riemannian geometry with finite elements</span><br>
             <a href="https://webpages.scu.edu/ftp/egawlik/index.html">Evan Gawlik</a> (Santa Clara University), October 11-17, 2025<br>
             <strong>Location:</strong> Andrew Wiles Building, Oxford<br>
             <strong>Abstract:</strong> TBA<br>
         </li>
         <li>
-            <strong>Finite Element Systems</strong><br>
+            <span class="lecture-title">Finite Element Systems</span><br>
             <a href="https://www.mn.uio.no/math/english/people/aca/snorrec/">Snorre Christiansen</a> (University of Oslo), October 6-14, 2025<br>
             <strong>Location:</strong> Andrew Wiles Building, Oxford<br>
             <strong>Abstract:</strong> TBA<br>
         </li>
         <li>
-            <strong>Title TBA</strong><br>
+            <span class="lecture-title">Title TBA</span><br>
             <a href="https://alisomia.github.io">Ting Lin</a> (Peking University), October 2025<br>
             <strong>Location:</strong> Andrew Wiles Building, Oxford<br>
             <strong>Abstract:</strong> TBA<br>
         </li>
         <li>
-            <strong>Spectral Theory and Spectral Practice</strong><br>
+            <span class="lecture-title">Spectral Theory and Spectral Practice</span><br>
             <a href="https://www.uzerbinati.eu">Umberto Zerbinati</a> (University of Oxford), May 2025<br>
             <strong>Course Website:</strong> <a href="https://www.uzerbinati.eu/teaching/spectral_theory/">https://www.uzerbinati.eu/teaching/spectral_theory/</a><br>
             <strong>Location:</strong> James Clerk Maxwell Building (JCMB) 5328 (May 13, 14), JCMB 5326 (May 16)<br>
