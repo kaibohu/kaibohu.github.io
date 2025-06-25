@@ -61,7 +61,7 @@ nav_order: 7
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
   <div style="width: 120px; margin-right: 15px;"></div>
   <div>
-    <strong>Karl Olav Tyssvang</strong><br>
+    <strong><a href="https://www.mn.uio.no/math/studier/aktuelt/arrangementer/master-2025/mastereksamen-MAT-mfa-Tyssvang.html">Karl Olav Tyssvang</a></strong><br>
     <em>2025–</em><br>
     MSc: University of Oslo
   </div>
