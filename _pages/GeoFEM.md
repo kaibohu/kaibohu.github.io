@@ -43,7 +43,7 @@ nav_order: 8
         The ERC Starting Project <i>GeoFEM (Geometric Finite Element Methods)</i> investigates discretization of geometric objects with finite elements, connections between finite elements and discrete differential geometry, and applications.
     </p>
     <p>
-        GeoFEM will host lectures and short courses delivered by visitors, collaborators, and occasionally group members. These lectures will have an emphasis on emerging topics and recent advancements in finite elements (in a broad sense) for numerical PDEs and Finite Element Exterior Calculus that lack comprehensive documentation, aiming to contribute to broader research contexts. Some lectures will include online sessions. To attend remotely, please contact 
+        GeoFEM will host lectures and short courses delivered by visitors, collaborators, and occasionally group members. These lectures will have an emphasis on emerging topics and recent advances in finite elements (in a broad sense) for numerical PDEs and Finite Element Exterior Calculus that lack comprehensive documentation, aiming to contribute to broader research contexts, as well as local researchers. Some lectures will include online sessions. To attend remotely, please contact 
         <a href="mailto:kaibo.hu@ed.ac.uk">kaibo.hu@ed.ac.uk</a>.
     </p>
     <br>
