@@ -5,11 +5,11 @@ title: Group
 nav: true
 nav_order: 7
 ---
-## Current
+
 
 <br>
 
-<span style="font-size: 1.1em;"><strong>Starting 2025 Fall</strong></span>
+## Starting 2025 Fall
 
 <br>
 
@@ -78,7 +78,7 @@ nav_order: 7
 
 <br>
 
-<span style="font-size: 1.1em;"><strong>Current</strong></span>
+## Current
 
 <br>
 
@@ -105,8 +105,7 @@ nav_order: 7
 </div>
 
 <br>
-
-<span style="font-size: 1.1em;"><strong>Previous</strong></span>
+## Previous
 
 <br>
 
