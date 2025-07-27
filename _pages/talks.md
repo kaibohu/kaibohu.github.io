@@ -33,6 +33,10 @@ Some presentation materials:
 
 
 ### Colloquium/Seminar talks
+1. Applied Math Seminar at University of Arkansas, Sep/2025. (online, upcoming)
+1. Seminar talk at  Institute of Computational Mathematics and Scientific/Engineering Computing at Chinese Academy of Sciences, China, Jul/2025.
+1. Seminar talk at Jilin University, China, Jul/2025.
+1. Seminar talk at  Istituto di Matematica Applicata e Tecnologie Informatiche ''Enrico Magenes" (IMATI) of the National Research Council of Italy (CNR), May/2025.
 1. MathSci Colloquium at Michigan Technological University, USA, Feb/2025.
 1. Seminar talk at Zhejiang University, China, Jan/2025.
 1. Applied Mathematics Seminar, Peking University, China, Dec/2024.
@@ -79,10 +83,15 @@ China, Aug/2024.
 
 
 ###  Conference/Workshop talks
-
-
-1. IMSI Workshop “Discrete Exterior Calculus: Differential Geometry and Applications”, Chicago, USA. September 2025. (upcoming)
-1. BIRS workshop “Geometric mechanics formulations for continuum mechanics”, Banff, Canada. March 2025. (upcoming)
+1. The 2025 International Congress of Chinese Mathematicians (ICCM), Shanghai, China. January 2026. (plenary talk, upcoming)
+1. IMSI Workshop ''Discrete Exterior Calculus: Differential Geometry and Applications’’, Chicago, USA. September 2025. (upcoming)
+1. MS ''New generation methods for numerical challenges in curl-div problems: Maxwell, MHD, and derived models'', Advanced Computational Methods in ENgineering and Applied Mathematics (ACOMEN 2025), Ghent, Belgium, September 2025. (upcoming)
+1. Section on ''Finite element complexes for structure-preservation in computational physics'', Modern Finite Element Technologies 2025 (MFET) ECCOMAS thematic conference, Aachen, Germany, August 2025. (upcoming)
+1. Workshop on ''Geometric Mechanics, Structure Preserving Discretization, and Discrete Differential Geometry''. SUNY Polytechnic Institute, Utica, NY, USA. July 2025. (online talk)
+1. International Congress of Basic Science, Beijing, China. July 2025. (Frontier of Science Award talk)
+1. Scottish Fluid Mechanics Meeting, University of Glasgow, UK. May 2025. 
+1. European Finite Element Fair, SISSA, Trieste, Italy. May 2025.
+1. BIRS workshop “Geometric mechanics formulations for continuum mechanics”, Banff, Canada. March 2025. 
 1. “New and old problems in Numerical Relativity” workshop at the Tsinghua Sanya International Mathematics Forum (TSIMF), Sanya, China. January 2025.
 1. Minisymposium “Structure-preserving discretization of multiphysics systems”, 16th World Congress on Computational Mechanics and 4th Pan American Congress on Computational Mechanics, Vancouver, Canada. July 2024.
 1. Minisymposium “Numerical Methods for Geometric PDEs”, The 2024 SIAM Annual Meeting, Spokane, Washington, US. July 2024.
