@@ -27,13 +27,20 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Senior Research Fellow, Associate Professor
+      institution: University of Oxford, UK.
+      year: 2025 -
+
     - title: Royal Society University Research Fellow
       institution: University of Oxford, UK.
       year: 2022 - 
       description:
-        - "University of Oxford: 2022 - 2023"
-        - "University of Edinburgh: 2023 - "
+        - "University of Oxford: 2022 - 2023, 2025 -"
+        - "University of Edinburgh: 2023 - 2025 "
 
+    - title: Reader
+      institution: University of Edinburgh, UK.
+      year: 2025
 
     - title: Hooke Research Fellow
       institution: University of Oxford, UK.

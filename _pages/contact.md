@@ -8,12 +8,13 @@ nav_order: 9
 ---
 
 #### Address
-
-School of Mathematics, the University of Edinburgh
-
- James Clerk Maxwell Building
  
-  Peter Guthrie Tait Rd, Edinburgh EH9 3FD, UK
+  
+  Mathematical Institute, University of Oxford
+  
+Radcliffe Observatory, Andrew Wiles Building
+
+ Woodstock Rd, Oxford OX2 6GG
  
 &nbsp;  
 
@@ -21,11 +22,9 @@ School of Mathematics, the University of Edinburgh
  
  
  
- kaibo.hu [a] ed.ac.uk
+ kaibo.hu [a] maths.ox.ac.uk
  
  &nbsp;  
  
  
-<figure>
-  <img src="../assets/img/mathmap.jpg" alt="Edinburgh math map" style="width:90%" class="center">
-</figure>
+ 
