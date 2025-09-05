@@ -1,527 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <!-- Head -->
-  <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
-    
-
-    <!-- Standard metadata -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Publications | Kaibo  Hu</title>
-    <meta name="author" content="Kaibo  Hu">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
-    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
-
-
-    <!-- Bootstrap & MDB -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
-
-    <!-- Bootstrap Table -->
-    <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.css">
-
-    <!-- Fonts & Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
-
-    <!-- Code Syntax Highlighting -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
-
-    
-
-    <!-- Styles -->
-    
-    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
-    
-    <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
-    <link rel="canonical" href="https://kaibohu.github.io/publications/">
-
-    <!-- Dark Mode -->
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
-    <script src="/assets/js/theme.js?96d6b3e1c3604aca8b6134c7afdd5db6"></script>
-    <script src="/assets/js/dark_mode.js?9b17307bb950ffa2e34be0227f53558f"></script>
-    
-
-  </head>
-
-  <!-- Body -->
-  <body class="fixed-top-nav sticky-bottom-footer">
-
-    <!-- Header -->
-    <header>
-
-      <!-- Nav Bar -->
-      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
-        <div class="container">
-          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Kaibo </span>Hu</a>
-          <!-- Navbar Toggle -->
-          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar top-bar"></span>
-            <span class="icon-bar middle-bar"></span>
-            <span class="icon-bar bottom-bar"></span>
-          </button>
-
-          <div class="collapse navbar-collapse text-right" id="navbarNav">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-
-              <!-- About -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/">About</a>
-              </li>
-              
-
-              <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/research/">Research</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/teaching/">Teaching</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="/publications/">Publications<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/talks/">Talks</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/cv/">CV</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/group/">Group</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/geofem/">GeoFEM</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/contact/">Contact</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/personal/">Miscellany</a>
-              </li>
-
-              <!-- Toogle theme mode -->
-              <li class="toggle-container">
-                <button id="light-toggle" title="Change theme">
-                  <i class="fas fa-moon"></i>
-                  <i class="fas fa-sun"></i>
-                </button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <!-- Scrolling Progress Bar -->
-      <progress id="progress" value="0">
-        <div class="progress-container">
-          <span class="progress-bar"></span>
-        </div>
-      </progress>
-    </header>
-
-
-    <!-- Content -->
-    <div class="container mt-5">
-      
-        <!-- page.html -->
-        <div class="post">
-
-          <header class="post-header">
-            <h1 class="post-title">Publications</h1>
-            <p class="post-description"></p>
-          </header>
-
-          <article>
-            <!-- _pages/publications.md -->
-<div class="publications">
-
-<h2 class="bibliography">2025</h2>
-<ol class="bibliography">
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="di2025design" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Design and analysis of twisted and BGG Stokes-de Rham polytopal complexes</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Daniele A Di Pietro, Jérôme Droniou, Kaibo Hu, and
-          <span class="more-authors" title="click to view 1 more author" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Arax Leroy' : '1 more author';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">1 more author</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>arXiv preprint arXiv:2507.17333</em>, 2025
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://arxiv.org/abs/2507.17333" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">di2025design</span><span class="p">,</span>
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title>Publications | Kaibo Hu</title> <meta name="author" content="Kaibo Hu"> <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. "> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website"> <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.css"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous"> <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://kaibohu.github.io/publications/"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark"> <script src="/assets/js/theme.js?96d6b3e1c3604aca8b6134c7afdd5db6"></script> <script src="/assets/js/dark_mode.js?9b17307bb950ffa2e34be0227f53558f"></script> </head> <body class="fixed-top-nav sticky-bottom-footer"> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Kaibo </span>Hu</a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">About</a> </li> <li class="nav-item "> <a class="nav-link" href="/research/">Research</a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">Teaching</a> </li> <li class="nav-item active"> <a class="nav-link" href="/publications/">Publications<span class="sr-only">(current)</span></a> </li> <li class="nav-item "> <a class="nav-link" href="/talks/">Talks</a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV</a> </li> <li class="nav-item "> <a class="nav-link" href="/group/">Group</a> </li> <li class="nav-item "> <a class="nav-link" href="/geofem/">GeoFEM</a> </li> <li class="nav-item "> <a class="nav-link" href="/contact/">Contact</a> </li> <li class="nav-item "> <a class="nav-link" href="/personal/">Miscellany</a> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="fas fa-moon"></i> <i class="fas fa-sun"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5"> <div class="post"> <header class="post-header"> <h1 class="post-title">Publications</h1> <p class="post-description"></p> </header> <article> <div class="publications"> <h2 class="bibliography">2025</h2> <ol class="bibliography"> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div> <div id="di2025design" class="col-sm-8"> <div class="title">Design and analysis of twisted and BGG Stokes-de Rham polytopal complexes</div> <div class="author"> Daniele A Di Pietro, Jérôme Droniou, Kaibo Hu, and <span class="more-authors" title="click to view 1 more author" onclick=" var element=$(this); element.attr('title', ''); var more_authors_text=element.text() == '1 more author' ? 'Arax Leroy' : '1 more author'; var cursorPosition=0; var textAdder=setInterval(function(){ element.text(more_authors_text.substring(0, cursorPosition + 1)); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">1 more author</span> </div> <div class="periodical"> <em>arXiv preprint arXiv:2507.17333</em>, 2025 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://arxiv.org/abs/2507.17333" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">di2025design</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Design and analysis of twisted and BGG Stokes-de Rham polytopal complexes}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Di Pietro, Daniele A and Droniou, J{\'e}r{\^o}me and Hu, Kaibo and Leroy, Arax}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{arXiv preprint arXiv:2507.17333}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="gopalakrishnan20252" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">A 2-complex containing Sobolev spaces of matrix fields</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Jay Gopalakrishnan, Kaibo Hu, and Joachim Schöberl</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>arXiv preprint arXiv:2507.11869</em>, 2025
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://arxiv.org/abs/2507.11869" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">gopalakrishnan20252</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div> <div id="gopalakrishnan20252" class="col-sm-8"> <div class="title">A 2-complex containing Sobolev spaces of matrix fields</div> <div class="author"> Jay Gopalakrishnan, Kaibo Hu, and Joachim Schöberl</div> <div class="periodical"> <em>arXiv preprint arXiv:2507.11869</em>, 2025 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://arxiv.org/abs/2507.11869" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">gopalakrishnan20252</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{{A 2-complex containing Sobolev spaces of matrix fields}}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Gopalakrishnan, Jay and Hu, Kaibo and Sch{\"o}berl, Joachim}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{arXiv preprint arXiv:2507.11869}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="DEC2025" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Convergence and Stability of Discrete Exterior Calculus for the Hodge Laplace Problem in Two Dimensions</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Chengbin Zhu, Snorre H. Christiansen, Kaibo Hu, and
-          <span class="more-authors" title="click to view 1 more author" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Anil N. Hirani' : '1 more author';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">1 more author</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>arXiv preprint arXiv:2505.08966</em>, 2025
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://arxiv.org/abs/2505.08966" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">DEC2025</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div> <div id="DEC2025" class="col-sm-8"> <div class="title">Convergence and Stability of Discrete Exterior Calculus for the Hodge Laplace Problem in Two Dimensions</div> <div class="author"> Chengbin Zhu, Snorre H. Christiansen, Kaibo Hu, and <span class="more-authors" title="click to view 1 more author" onclick=" var element=$(this); element.attr('title', ''); var more_authors_text=element.text() == '1 more author' ? 'Anil N. Hirani' : '1 more author'; var cursorPosition=0; var textAdder=setInterval(function(){ element.text(more_authors_text.substring(0, cursorPosition + 1)); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">1 more author</span> </div> <div class="periodical"> <em>arXiv preprint arXiv:2505.08966</em>, 2025 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://arxiv.org/abs/2505.08966" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">DEC2025</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Convergence and Stability of Discrete Exterior Calculus for the Hodge Laplace Problem in Two Dimensions}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Zhu, Chengbin and Christiansen, Snorre H. and Hu, Kaibo and Hirani, Anil N.}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{arXiv preprint arXiv:2505.08966}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="rssurvey2025" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Many facets of cohomology: Differential complexes and structure-aware formulations</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Kaibo Hu</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>arXiv preprint arXiv:2503.22813</em>, 2025
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://arxiv.org/abs/2503.22813" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">rssurvey2025</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div> <div id="rssurvey2025" class="col-sm-8"> <div class="title">Many facets of cohomology: Differential complexes and structure-aware formulations</div> <div class="author"> Kaibo Hu</div> <div class="periodical"> <em>arXiv preprint arXiv:2503.22813</em>, 2025 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://arxiv.org/abs/2503.22813" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">rssurvey2025</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Many facets of cohomology: Differential complexes and structure-aware formulations}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu, Kaibo}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{arXiv preprint arXiv:2503.22813}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="hu2024intrinsic" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Finite element form-valued forms: Construction</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Kaibo Hu, and Ting Lin</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>arXiv preprint arXiv:2503.03243</em>, 2025
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://arxiv.org/abs/2503.03243" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2024intrinsic</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div> <div id="hu2024intrinsic" class="col-sm-8"> <div class="title">Finite element form-valued forms: Construction</div> <div class="author"> Kaibo Hu, and Ting Lin</div> <div class="periodical"> <em>arXiv preprint arXiv:2503.03243</em>, 2025 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://arxiv.org/abs/2503.03243" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2024intrinsic</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Finite element form-valued forms: Construction}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu, Kaibo and Lin, Ting}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{arXiv preprint arXiv:2503.03243}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="he2025topology" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Topology-preserving discretization for the magneto-frictional equations arising in the Parker conjecture</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Mingdong He, Patrick E Farrell, Kaibo Hu, and
-          <span class="more-authors" title="click to view 1 more author" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Boris D Andrews' : '1 more author';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">1 more author</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>arXiv preprint arXiv:2501.11654</em>, 2025
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://arxiv.org/abs/2501.11654" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">he2025topology</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div> <div id="he2025topology" class="col-sm-8"> <div class="title">Topology-preserving discretization for the magneto-frictional equations arising in the Parker conjecture</div> <div class="author"> Mingdong He, Patrick E Farrell, Kaibo Hu, and <span class="more-authors" title="click to view 1 more author" onclick=" var element=$(this); element.attr('title', ''); var more_authors_text=element.text() == '1 more author' ? 'Boris D Andrews' : '1 more author'; var cursorPosition=0; var textAdder=setInterval(function(){ element.text(more_authors_text.substring(0, cursorPosition + 1)); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">1 more author</span> </div> <div class="periodical"> <em>arXiv preprint arXiv:2501.11654</em>, 2025 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://arxiv.org/abs/2501.11654" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">he2025topology</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Topology-preserving discretization for the magneto-frictional equations arising in the Parker conjecture}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{He, Mingdong and Farrell, Patrick E and Hu, Kaibo and Andrews, Boris D}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{arXiv preprint arXiv:2501.11654}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">SINUM</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="dziubek2025intrinsic" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Intrinsic Mixed Finite Element Methods for Linear Cosserat Elasticity</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Andrea Dziubek, Kaibo Hu, Michael Karow, and
-          <span class="more-authors" title="click to view 1 more author" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Michael Neunteufel' : '1 more author';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">1 more author</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>SIAM Journal on Numerical Analysis</em>, 2025
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">dziubek2025intrinsic</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">SINUM</abbr></div> <div id="dziubek2025intrinsic" class="col-sm-8"> <div class="title">Intrinsic Mixed Finite Element Methods for Linear Cosserat Elasticity</div> <div class="author"> Andrea Dziubek, Kaibo Hu, Michael Karow, and <span class="more-authors" title="click to view 1 more author" onclick=" var element=$(this); element.attr('title', ''); var more_authors_text=element.text() == '1 more author' ? 'Michael Neunteufel' : '1 more author'; var cursorPosition=0; var textAdder=setInterval(function(){ element.text(more_authors_text.substring(0, cursorPosition + 1)); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">1 more author</span> </div> <div class="periodical"> <em>SIAM Journal on Numerical Analysis</em>, 2025 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">dziubek2025intrinsic</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Intrinsic Mixed Finite Element Methods for Linear Cosserat Elasticity}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Dziubek, Andrea and Hu, Kaibo and Karow, Michael and Neunteufel, Michael}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{SIAM Journal on Numerical Analysis}</span><span class="p">,</span>
@@ -530,50 +37,7 @@
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{1833--1860}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{SIAM}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">ESAIM</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="da2025error" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Error estimates for a helicity-preserving finite element discretisation of an incompressible magnetohydrodynamics system</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Lourenco Beirao Da Veiga, Kaibo Hu, and Lorenzo Mascotto</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>ESAIM: Mathematical Modelling and Numerical Analysis</em>, 2025
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://www.esaim-m2an.org/articles/m2an/abs/2025/02/m2an240194/m2an240194.html" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">da2025error</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">ESAIM</abbr></div> <div id="da2025error" class="col-sm-8"> <div class="title">Error estimates for a helicity-preserving finite element discretisation of an incompressible magnetohydrodynamics system</div> <div class="author"> Lourenco Beirao Da Veiga, Kaibo Hu, and Lorenzo Mascotto</div> <div class="periodical"> <em>ESAIM: Mathematical Modelling and Numerical Analysis</em>, 2025 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://www.esaim-m2an.org/articles/m2an/abs/2025/02/m2an240194/m2an240194.html" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">da2025error</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Error estimates for a helicity-preserving finite element discretisation of an incompressible magnetohydrodynamics system}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Da Veiga, Lourenco Beirao and Hu, Kaibo and Mascotto, Lorenzo}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{ESAIM: Mathematical Modelling and Numerical Analysis}</span><span class="p">,</span>
@@ -582,50 +46,7 @@
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{1075--1094}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{EDP Sciences}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">MNS</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="chinese-survey" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Intrinsic finite elements: currents,  discrete geometry and periodic table (in Chinese)</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Kaibo Hu</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Mathematica Numerica Sinica (Young Researcher Review)</em>, 2025
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://computmath.cjoe.ac.cn/jssx/CN/10.12286/jssx.j2025-1308" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">chinese-survey</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">MNS</abbr></div> <div id="chinese-survey" class="col-sm-8"> <div class="title">Intrinsic finite elements: currents, discrete geometry and periodic table (in Chinese)</div> <div class="author"> Kaibo Hu</div> <div class="periodical"> <em>Mathematica Numerica Sinica (Young Researcher Review)</em>, 2025 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://computmath.cjoe.ac.cn/jssx/CN/10.12286/jssx.j2025-1308" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">chinese-survey</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Intrinsic finite elements: currents,  discrete geometry and periodic table (in Chinese)}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu, Kaibo}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Mathematica Numerica Sinica (Young Researcher Review)}</span><span class="p">,</span>
@@ -634,210 +55,22 @@
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{385-417}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://computmath.cjoe.ac.cn/jssx/CN/10.12286/jssx.j2025-1308}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">SIAGA</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="hu2023distributional" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Distributional Hessian and divdiv complexes on triangulation and cohomology</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Kaibo Hu, Ting Lin, and Qian Zhang</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>accepted, SIAM Journal on Applied Algebra and Geometry</em>, 2025
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://arxiv.org/abs/2311.15482" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2023distributional</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">SIAGA</abbr></div> <div id="hu2023distributional" class="col-sm-8"> <div class="title">Distributional Hessian and divdiv complexes on triangulation and cohomology</div> <div class="author"> Kaibo Hu, Ting Lin, and Qian Zhang</div> <div class="periodical"> <em>accepted, SIAM Journal on Applied Algebra and Geometry</em>, 2025 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://arxiv.org/abs/2311.15482" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2023distributional</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Distributional Hessian and divdiv complexes on triangulation and cohomology}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu, Kaibo and Lin, Ting and Zhang, Qian}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{accepted, SIAM Journal on Applied Algebra and Geometry}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">JEMS</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="bonaldi2023exterior" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">An exterior calculus framework for polytopal methods</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Francesco Bonaldi, Daniele A Di Pietro, Jérôme Droniou, and
-          <span class="more-authors" title="click to view 1 more author" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Kaibo Hu' : '1 more author';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">1 more author</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Journal of the European Mathematical Society</em>, 2025
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://arxiv.org/pdf/2303.11093.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">bonaldi2023exterior</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">JEMS</abbr></div> <div id="bonaldi2023exterior" class="col-sm-8"> <div class="title">An exterior calculus framework for polytopal methods</div> <div class="author"> Francesco Bonaldi, Daniele A Di Pietro, Jérôme Droniou, and <span class="more-authors" title="click to view 1 more author" onclick=" var element=$(this); element.attr('title', ''); var more_authors_text=element.text() == '1 more author' ? 'Kaibo Hu' : '1 more author'; var cursorPosition=0; var textAdder=setInterval(function(){ element.text(more_authors_text.substring(0, cursorPosition + 1)); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">1 more author</span> </div> <div class="periodical"> <em>Journal of the European Mathematical Society</em>, 2025 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://arxiv.org/pdf/2303.11093.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">bonaldi2023exterior</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{An exterior calculus framework for polytopal methods}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Bonaldi, Francesco and Di Pietro, Daniele A and Droniou, J{\'e}r{\^o}me and Hu, Kaibo}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal of the European Mathematical Society}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-</ol>
-<h2 class="bibliography">2024</h2>
-<ol class="bibliography">
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="aznaran2024uniformly" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Uniformly  hp -stable elements for the elasticity complex</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Francis RA Aznaran, Kaibo Hu, and Charles Parker</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>arXiv preprint arXiv:2409.17414</em>, 2024
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://arxiv.org/abs/2409.17414" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">aznaran2024uniformly</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> </ol> <h2 class="bibliography">2024</h2> <ol class="bibliography"> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div> <div id="aznaran2024uniformly" class="col-sm-8"> <div class="title">Uniformly hp -stable elements for the elasticity complex</div> <div class="author"> Francis RA Aznaran, Kaibo Hu, and Charles Parker</div> <div class="periodical"> <em>arXiv preprint arXiv:2409.17414</em>, 2024 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://arxiv.org/abs/2409.17414" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">aznaran2024uniformly</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Uniformly $ hp $-stable elements for the elasticity complex}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Aznaran, Francis RA and Hu, Kaibo and Parker, Charles}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{arXiv preprint arXiv:2409.17414}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">RINAM</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="hu2024quadratic" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Quadratic and cubic Lagrange finite elements for mixed Laplace eigenvalue problems on criss-cross meshes</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Kaibo Hu, Jiguang Sun, and Qian Zhang</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Results in Applied Mathematics</em>, 2024
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://www.sciencedirect.com/science/article/pii/S2590037424000505" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2024quadratic</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">RINAM</abbr></div> <div id="hu2024quadratic" class="col-sm-8"> <div class="title">Quadratic and cubic Lagrange finite elements for mixed Laplace eigenvalue problems on criss-cross meshes</div> <div class="author"> Kaibo Hu, Jiguang Sun, and Qian Zhang</div> <div class="periodical"> <em>Results in Applied Mathematics</em>, 2024 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://www.sciencedirect.com/science/article/pii/S2590037424000505" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2024quadratic</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Quadratic and cubic Lagrange finite elements for mixed Laplace eigenvalue problems on criss-cross meshes}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu, Kaibo and Sun, Jiguang and Zhang, Qian}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Results in Applied Mathematics}</span><span class="p">,</span>
@@ -846,101 +79,12 @@
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://www.sciencedirect.com/science/article/pii/S2590037424000505}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Elsevier}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-</ol>
-<h2 class="bibliography">2023</h2>
-<ol class="bibliography">
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="hu2023finite" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Finite elements for symmetric and traceless tensors in three dimensions</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Kaibo Hu, Ting Lin, and Bowen Shi</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>arXiv preprint arXiv:2311.16077</em>, 2023
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://arxiv.org/abs/2311.16077" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2023finite</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> </ol> <h2 class="bibliography">2023</h2> <ol class="bibliography"> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div> <div id="hu2023finite" class="col-sm-8"> <div class="title">Finite elements for symmetric and traceless tensors in three dimensions</div> <div class="author"> Kaibo Hu, Ting Lin, and Bowen Shi</div> <div class="periodical"> <em>arXiv preprint arXiv:2311.16077</em>, 2023 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://arxiv.org/abs/2311.16077" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2023finite</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Finite elements for symmetric and traceless tensors in three dimensions}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu, Kaibo and Lin, Ting and Shi, Bowen}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{arXiv preprint arXiv:2311.16077}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">FoCM</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="vcap2023bgg" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">BGG sequences with weak regularity and applications</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Andreas Čap, and Kaibo Hu</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Foundations of Computational Mathematics</em>, 2023
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://link.springer.com/article/10.1007/s10208-023-09608-9" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">vcap2023bgg</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">FoCM</abbr></div> <div id="vcap2023bgg" class="col-sm-8"> <div class="title">BGG sequences with weak regularity and applications</div> <div class="author"> Andreas Čap, and Kaibo Hu</div> <div class="periodical"> <em>Foundations of Computational Mathematics</em>, 2023 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://link.springer.com/article/10.1007/s10208-023-09608-9" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">vcap2023bgg</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{BGG sequences with weak regularity and applications}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{{\v{C}}ap, Andreas and Hu, Kaibo}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Foundations of Computational Mathematics}</span><span class="p">,</span>
@@ -948,50 +92,7 @@
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://link.springer.com/article/10.1007/s10208-023-09608-9}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">FoCM</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="christiansen2023finite" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Finite element systems for vector bundles: elasticity and curvature</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Snorre H Christiansen, and Kaibo Hu</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Foundations of Computational Mathematics</em>, 2023
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://link.springer.com/article/10.1007/s10208-022-09555-x" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">christiansen2023finite</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">FoCM</abbr></div> <div id="christiansen2023finite" class="col-sm-8"> <div class="title">Finite element systems for vector bundles: elasticity and curvature</div> <div class="author"> Snorre H Christiansen, and Kaibo Hu</div> <div class="periodical"> <em>Foundations of Computational Mathematics</em>, 2023 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://link.springer.com/article/10.1007/s10208-022-09555-x" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">christiansen2023finite</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Finite element systems for vector bundles: elasticity and curvature}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Christiansen, Snorre H and Hu, Kaibo}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Foundations of Computational Mathematics}</span><span class="p">,</span>
@@ -1001,172 +102,17 @@
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://link.springer.com/article/10.1007/s10208-022-09555-x}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="christiansen2020discrete" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">A discrete elasticity complex on three-dimensional Alfeld splits</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Snorre H Christiansen, Jay Gopalakrishnan, Johnny Guzmán, and
-          <span class="more-authors" title="click to view 1 more author" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Kaibo Hu' : '1 more author';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">1 more author</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>accepted, Numerische Mathematik</em>, 2023
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://arxiv.org/abs/2009.07744" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">christiansen2020discrete</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div> <div id="christiansen2020discrete" class="col-sm-8"> <div class="title">A discrete elasticity complex on three-dimensional Alfeld splits</div> <div class="author"> Snorre H Christiansen, Jay Gopalakrishnan, Johnny Guzmán, and <span class="more-authors" title="click to view 1 more author" onclick=" var element=$(this); element.attr('title', ''); var more_authors_text=element.text() == '1 more author' ? 'Kaibo Hu' : '1 more author'; var cursorPosition=0; var textAdder=setInterval(function(){ element.text(more_authors_text.substring(0, cursorPosition + 1)); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">1 more author</span> </div> <div class="periodical"> <em>accepted, Numerische Mathematik</em>, 2023 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://arxiv.org/abs/2009.07744" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">christiansen2020discrete</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{A discrete elasticity complex on three-dimensional Alfeld splits}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Christiansen, Snorre H and Gopalakrishnan, Jay and Guzm{\'a}n, Johnny and Hu, Kaibo}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{accepted, Numerische Mathematik}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="bonizzoni2023discrete" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Discrete tensor product BGG sequences: splines and finite elements</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Francesca Bonizzoni, Kaibo Hu, Guido Kanschat, and
-          <span class="more-authors" title="click to view 1 more author" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Duygu Sap' : '1 more author';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">1 more author</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>arXiv preprint arXiv:2302.02434</em>, 2023
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://arxiv.org/abs/2302.02434" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">bonizzoni2023discrete</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div> <div id="bonizzoni2023discrete" class="col-sm-8"> <div class="title">Discrete tensor product BGG sequences: splines and finite elements</div> <div class="author"> Francesca Bonizzoni, Kaibo Hu, Guido Kanschat, and <span class="more-authors" title="click to view 1 more author" onclick=" var element=$(this); element.attr('title', ''); var more_authors_text=element.text() == '1 more author' ? 'Duygu Sap' : '1 more author'; var cursorPosition=0; var textAdder=setInterval(function(){ element.text(more_authors_text.substring(0, cursorPosition + 1)); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">1 more author</span> </div> <div class="periodical"> <em>arXiv preprint arXiv:2302.02434</em>, 2023 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://arxiv.org/abs/2302.02434" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">bonizzoni2023discrete</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Discrete tensor product BGG sequences: splines and finite elements}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Bonizzoni, Francesca and Hu, Kaibo and Kanschat, Guido and Sap, Duygu}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{arXiv preprint arXiv:2302.02434}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">JCP</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="laakmann2023structure" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Structure-preserving and helicity-conserving finite element approximations and preconditioning for the Hall MHD equations</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Fabian Laakmann, Kaibo Hu, and Patrick E Farrell</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Journal of Computational Physics</em>, 2023
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0021999123005053" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">laakmann2023structure</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">JCP</abbr></div> <div id="laakmann2023structure" class="col-sm-8"> <div class="title">Structure-preserving and helicity-conserving finite element approximations and preconditioning for the Hall MHD equations</div> <div class="author"> Fabian Laakmann, Kaibo Hu, and Patrick E Farrell</div> <div class="periodical"> <em>Journal of Computational Physics</em>, 2023 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0021999123005053" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">laakmann2023structure</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Structure-preserving and helicity-conserving finite element approximations and preconditioning for the Hall MHD equations}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Laakmann, Fabian and Hu, Kaibo and Farrell, Patrick E}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal of Computational Physics}</span><span class="p">,</span>
@@ -1174,63 +120,7 @@
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Elsevier}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://www.sciencedirect.com/science/article/abs/pii/S0021999123005053}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">IMA</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="hu2023spurious" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Spurious solutions for high-order curl problems</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Kaibo Hu, Qian Zhang, Jiayu Han, and
-          <span class="more-authors" title="click to view 2 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '2 more authors' ? 'Lixiu Wang, Zhimin Zhang' : '2 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">2 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>IMA Journal of Numerical Analysis</em>, 2023
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://academic.oup.com/imajna/article-abstract/43/3/1422/6618076?redirectedFrom=fulltext" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2023spurious</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">IMA</abbr></div> <div id="hu2023spurious" class="col-sm-8"> <div class="title">Spurious solutions for high-order curl problems</div> <div class="author"> Kaibo Hu, Qian Zhang, Jiayu Han, and <span class="more-authors" title="click to view 2 more authors" onclick=" var element=$(this); element.attr('title', ''); var more_authors_text=element.text() == '2 more authors' ? 'Lixiu Wang, Zhimin Zhang' : '2 more authors'; var cursorPosition=0; var textAdder=setInterval(function(){ element.text(more_authors_text.substring(0, cursorPosition + 1)); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">2 more authors</span> </div> <div class="periodical"> <em>IMA Journal of Numerical Analysis</em>, 2023 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://academic.oup.com/imajna/article-abstract/43/3/1422/6618076?redirectedFrom=fulltext" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2023spurious</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Spurious solutions for high-order curl problems}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu, Kaibo and Zhang, Qian and Han, Jiayu and Wang, Lixiu and Zhang, Zhimin}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{IMA Journal of Numerical Analysis}</span><span class="p">,</span>
@@ -1239,200 +129,24 @@
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{1422--1449}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Oxford University Press}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="hu2023nonlinear" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Nonlinear elasticity complex and a finite element diagram chase</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Kaibo Hu</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>to appear in Springer INdAM Series “Approximation Theory and Numerical Analysis Meet Algebra, Geometry, Topology”, edited by Martina Lanini, Henry Schenck. Carla Manni.
-</em>, 2023
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://arxiv.org/abs/2302.02442" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2023nonlinear</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div> <div id="hu2023nonlinear" class="col-sm-8"> <div class="title">Nonlinear elasticity complex and a finite element diagram chase</div> <div class="author"> Kaibo Hu</div> <div class="periodical"> <em>to appear in Springer INdAM Series “Approximation Theory and Numerical Analysis Meet Algebra, Geometry, Topology”, edited by Martina Lanini, Henry Schenck. Carla Manni. </em>, 2023 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://arxiv.org/abs/2302.02442" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2023nonlinear</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Nonlinear elasticity complex and a finite element diagram chase}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu, Kaibo}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{to appear in Springer INdAM Series “Approximation Theory and Numerical Analysis Meet Algebra, Geometry, Topology”, edited by Martina Lanini, Henry Schenck. Carla Manni.
   }</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="cortona-supersmoothness" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Supersmoothness of the Alfeld split</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Michael S. Floater, and Kaibo Hu</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>to appear in Springer INdAM Series “Approximation Theory and Numerical Analysis Meet Algebra, Geometry, Topology”, edited by Martina Lanini, Henry Schenck. Carla Manni.
-</em>, 2023
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">cortona-supersmoothness</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div> <div id="cortona-supersmoothness" class="col-sm-8"> <div class="title">Supersmoothness of the Alfeld split</div> <div class="author"> Michael S. Floater, and Kaibo Hu</div> <div class="periodical"> <em>to appear in Springer INdAM Series “Approximation Theory and Numerical Analysis Meet Algebra, Geometry, Topology”, edited by Martina Lanini, Henry Schenck. Carla Manni. </em>, 2023 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">cortona-supersmoothness</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Supersmoothness of the Alfeld split}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Floater, Michael S. and Hu, Kaibo}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{to appear in Springer INdAM Series “Approximation Theory and Numerical Analysis Meet Algebra, Geometry, Topology”, edited by Martina Lanini, Henry Schenck. Carla Manni.
   }</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">JMPA</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="vcap2023bounded" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Bounded Poincaré operators for twisted and BGG complexes</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Andreas Čap, and Kaibo Hu</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>accepted, Journal de mathématiques pures et appliquées</em>, 2023
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://arxiv.org/abs/2304.07185" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">vcap2023bounded</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">JMPA</abbr></div> <div id="vcap2023bounded" class="col-sm-8"> <div class="title">Bounded Poincaré operators for twisted and BGG complexes</div> <div class="author"> Andreas Čap, and Kaibo Hu</div> <div class="periodical"> <em>accepted, Journal de mathématiques pures et appliquées</em>, 2023 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://arxiv.org/abs/2304.07185" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">vcap2023bounded</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Bounded Poincar\'e operators for twisted and BGG complexes}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{{\v{C}}ap, Andreas and Hu, Kaibo}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{accepted, Journal de mathématiques pures et appliquées}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-</ol>
-<h2 class="bibliography">2022</h2>
-<ol class="bibliography">
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">SINUM</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="hu2022family" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">A family of finite element Stokes complexes in three dimensions</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Kaibo Hu, Qian Zhang, and Zhimin Zhang</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>SIAM Journal on Numerical Analysis</em>, 2022
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://epubs.siam.org/doi/abs/10.1137/20M1358700" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2022family</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> </ol> <h2 class="bibliography">2022</h2> <ol class="bibliography"> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">SINUM</abbr></div> <div id="hu2022family" class="col-sm-8"> <div class="title">A family of finite element Stokes complexes in three dimensions</div> <div class="author"> Kaibo Hu, Qian Zhang, and Zhimin Zhang</div> <div class="periodical"> <em>SIAM Journal on Numerical Analysis</em>, 2022 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://epubs.siam.org/doi/abs/10.1137/20M1358700" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2022family</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{A family of finite element Stokes complexes in three dimensions}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu, Kaibo and Zhang, Qian and Zhang, Zhimin}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{SIAM Journal on Numerical Analysis}</span><span class="p">,</span>
@@ -1442,98 +156,12 @@
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{SIAM}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://epubs.siam.org/doi/abs/10.1137/20M1358700}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="hu2022oberwolfach" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Oberwolfach report: Discretization of Hilbert complexes</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Kaibo Hu</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>arXiv preprint arXiv:2208.03420</em>, 2022
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://arxiv.org/abs/2208.03420" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2022oberwolfach</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div> <div id="hu2022oberwolfach" class="col-sm-8"> <div class="title">Oberwolfach report: Discretization of Hilbert complexes</div> <div class="author"> Kaibo Hu</div> <div class="periodical"> <em>arXiv preprint arXiv:2208.03420</em>, 2022 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://arxiv.org/abs/2208.03420" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2022oberwolfach</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Oberwolfach report: Discretization of Hilbert complexes}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu, Kaibo}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{arXiv preprint arXiv:2208.03420}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">CMAM</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="hu2022partially" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Partially Discontinuous Nodal Finite Elements for 𝐻(curl) and 𝐻(div)</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Jun Hu, Kaibo Hu, and Qian Zhang</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Computational Methods in Applied Mathematics</em>, 2022
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://www.degruyter.com/document/doi/10.1515/cmam-2022-0053/html" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2022partially</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">CMAM</abbr></div> <div id="hu2022partially" class="col-sm-8"> <div class="title">Partially Discontinuous Nodal Finite Elements for 𝐻(curl) and 𝐻(div)</div> <div class="author"> Jun Hu, Kaibo Hu, and Qian Zhang</div> <div class="periodical"> <em>Computational Methods in Applied Mathematics</em>, 2022 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://www.degruyter.com/document/doi/10.1515/cmam-2022-0053/html" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2022partially</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Partially Discontinuous Nodal Finite Elements for 𝐻(curl) and 𝐻(div)}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu, Jun and Hu, Kaibo and Zhang, Qian}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Computational Methods in Applied Mathematics}</span><span class="p">,</span>
@@ -1542,53 +170,7 @@
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{613--629}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{De Gruyter}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-</ol>
-<h2 class="bibliography">2021</h2>
-<ol class="bibliography">
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">FoCM</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="arnold2021complexes" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Complexes from complexes</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Douglas N Arnold, and Kaibo Hu</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Foundations of Computational Mathematics</em>, 2021
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://link.springer.com/article/10.1007/s10208-021-09498-9" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">arnold2021complexes</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> </ol> <h2 class="bibliography">2021</h2> <ol class="bibliography"> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">FoCM</abbr></div> <div id="arnold2021complexes" class="col-sm-8"> <div class="title">Complexes from complexes</div> <div class="author"> Douglas N Arnold, and Kaibo Hu</div> <div class="periodical"> <em>Foundations of Computational Mathematics</em>, 2021 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://link.springer.com/article/10.1007/s10208-021-09498-9" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">arnold2021complexes</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Complexes from complexes}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Arnold, Douglas N and Hu, Kaibo}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Foundations of Computational Mathematics}</span><span class="p">,</span>
@@ -1598,50 +180,7 @@
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://link.springer.com/article/10.1007/s10208-021-09498-9}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">JCP</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="hu2021helicity" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Helicity-conservative finite element discretization for incompressible MHD systems</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Kaibo Hu, Young-Ju Lee, and Jinchao Xu</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Journal of Computational Physics</em>, 2021
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0021999121001790" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2021helicity</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">JCP</abbr></div> <div id="hu2021helicity" class="col-sm-8"> <div class="title">Helicity-conservative finite element discretization for incompressible MHD systems</div> <div class="author"> Kaibo Hu, Young-Ju Lee, and Jinchao Xu</div> <div class="periodical"> <em>Journal of Computational Physics</em>, 2021 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0021999121001790" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2021helicity</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Helicity-conservative finite element discretization for incompressible MHD systems}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu, Kaibo and Lee, Young-Ju and Xu, Jinchao}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal of Computational Physics}</span><span class="p">,</span>
@@ -1650,50 +189,7 @@
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Elsevier}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://www.sciencedirect.com/science/article/abs/pii/S0021999121001790}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">JCM</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="hu2017well" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Well-conditioned frames for high order finite element methods</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Kaibo Hu, and Ragnar Winther</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Journal of Computational Mathematics</em>, 2021
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://global-sci.org/intro/article_detail/jcm/18747.html" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2017well</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">JCM</abbr></div> <div id="hu2017well" class="col-sm-8"> <div class="title">Well-conditioned frames for high order finite element methods</div> <div class="author"> Kaibo Hu, and Ragnar Winther</div> <div class="periodical"> <em>Journal of Computational Mathematics</em>, 2021 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://global-sci.org/intro/article_detail/jcm/18747.html" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2017well</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Well-conditioned frames for high order finite element methods}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu, Kaibo and Winther, Ragnar}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal of Computational Mathematics}</span><span class="p">,</span>
@@ -1701,53 +197,7 @@
   <span class="na">volume</span> <span class="p">=</span> <span class="s">{39}</span><span class="p">,</span>
   <span class="na">number</span> <span class="p">=</span> <span class="s">{3}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{333--357}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-</ol>
-<h2 class="bibliography">2020</h2>
-<ol class="bibliography">
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">SISC</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="hu2020simple" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Simple curl-curl-conforming finite elements in two dimensions</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Kaibo Hu, Qian Zhang, and Zhimin Zhang</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>SIAM Journal on Scientific Computing</em>, 2020
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://epubs.siam.org/doi/abs/10.1137/20M1333390" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2020simple</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> </ol> <h2 class="bibliography">2020</h2> <ol class="bibliography"> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">SISC</abbr></div> <div id="hu2020simple" class="col-sm-8"> <div class="title">Simple curl-curl-conforming finite elements in two dimensions</div> <div class="author"> Kaibo Hu, Qian Zhang, and Zhimin Zhang</div> <div class="periodical"> <em>SIAM Journal on Scientific Computing</em>, 2020 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://epubs.siam.org/doi/abs/10.1137/20M1333390" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2020simple</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Simple curl-curl-conforming finite elements in two dimensions}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu, Kaibo and Zhang, Qian and Zhang, Zhimin}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{SIAM Journal on Scientific Computing}</span><span class="p">,</span>
@@ -1757,50 +207,7 @@
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{SIAM}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://epubs.siam.org/doi/abs/10.1137/20M1333390}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">ACM</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="floater2020characterization" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">A characterization of supersmoothness of multivariate splines</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Michael S Floater, and Kaibo Hu</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Advances in Computational Mathematics</em>, 2020
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://link.springer.com/article/10.1007/s10444-020-09813-y" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">floater2020characterization</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">ACM</abbr></div> <div id="floater2020characterization" class="col-sm-8"> <div class="title">A characterization of supersmoothness of multivariate splines</div> <div class="author"> Michael S Floater, and Kaibo Hu</div> <div class="periodical"> <em>Advances in Computational Mathematics</em>, 2020 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://link.springer.com/article/10.1007/s10444-020-09813-y" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">floater2020characterization</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{A characterization of supersmoothness of multivariate splines}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Floater, Michael S and Hu, Kaibo}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Advances in Computational Mathematics}</span><span class="p">,</span>
@@ -1810,50 +217,7 @@
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://link.springer.com/article/10.1007/s10444-020-09813-y}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">JCAM</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="hu2020convergence" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Convergence of a BE based finite element method for MHD models on Lipschitz domains</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Kaibo Hu, Weifeng Qiu, and Ke Shi</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Journal of Computational and Applied Mathematics</em>, 2020
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377042719304807" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2020convergence</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">JCAM</abbr></div> <div id="hu2020convergence" class="col-sm-8"> <div class="title">Convergence of a BE based finite element method for MHD models on Lipschitz domains</div> <div class="author"> Kaibo Hu, Weifeng Qiu, and Ke Shi</div> <div class="periodical"> <em>Journal of Computational and Applied Mathematics</em>, 2020 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377042719304807" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2020convergence</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Convergence of a BE based finite element method for MHD models on Lipschitz domains}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu, Kaibo and Qiu, Weifeng and Shi, Ke}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal of Computational and Applied Mathematics}</span><span class="p">,</span>
@@ -1862,50 +226,7 @@
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Elsevier}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://www.sciencedirect.com/science/article/abs/pii/S0377042719304807}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">JMPA</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="christiansen2020poincare" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Poincaré path integrals for elasticity</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Snorre H Christiansen, Kaibo Hu, and Espen Sande</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Journal de Mathématiques Pures et Appliquées</em>, 2020
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0021782419301187" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">christiansen2020poincare</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">JMPA</abbr></div> <div id="christiansen2020poincare" class="col-sm-8"> <div class="title">Poincaré path integrals for elasticity</div> <div class="author"> Snorre H Christiansen, Kaibo Hu, and Espen Sande</div> <div class="periodical"> <em>Journal de Mathématiques Pures et Appliquées</em>, 2020 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0021782419301187" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">christiansen2020poincare</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Poincar{\'e} path integrals for elasticity}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Christiansen, Snorre H and Hu, Kaibo and Sande, Espen}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal de Math{\'e}matiques Pures et Appliqu{\'e}es}</span><span class="p">,</span>
@@ -1914,50 +235,7 @@
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Elsevier}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://www.sciencedirect.com/science/article/abs/pii/S0021782419301187}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">BIT</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="gillette2020nonstandard" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Nonstandard finite element de Rham complexes on cubical meshes</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Andrew Gillette, Kaibo Hu, and Shuo Zhang</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>BIT Numerical Mathematics</em>, 2020
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://link.springer.com/article/10.1007/s10543-019-00779-y" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">gillette2020nonstandard</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">BIT</abbr></div> <div id="gillette2020nonstandard" class="col-sm-8"> <div class="title">Nonstandard finite element de Rham complexes on cubical meshes</div> <div class="author"> Andrew Gillette, Kaibo Hu, and Shuo Zhang</div> <div class="periodical"> <em>BIT Numerical Mathematics</em>, 2020 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://link.springer.com/article/10.1007/s10543-019-00779-y" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">gillette2020nonstandard</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Nonstandard finite element de Rham complexes on cubical meshes}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Gillette, Andrew and Hu, Kaibo and Zhang, Shuo}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{BIT Numerical Mathematics}</span><span class="p">,</span>
@@ -1966,53 +244,7 @@
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://link.springer.com/article/10.1007/s10543-019-00779-y}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-</ol>
-<h2 class="bibliography">2019</h2>
-<ol class="bibliography">
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">Math.Comp.</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="hu2019structure" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Structure-preserving finite element methods for stationary MHD models</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Kaibo Hu, and Jinchao Xu</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Mathematics of Computation</em>, 2019
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://www.ams.org/mcom/2019-88-316/S0025-5718-2018-03341-5/" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2019structure</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> </ol> <h2 class="bibliography">2019</h2> <ol class="bibliography"> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">Math.Comp.</abbr></div> <div id="hu2019structure" class="col-sm-8"> <div class="title">Structure-preserving finite element methods for stationary MHD models</div> <div class="author"> Kaibo Hu, and Jinchao Xu</div> <div class="periodical"> <em>Mathematics of Computation</em>, 2019 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://www.ams.org/mcom/2019-88-316/S0025-5718-2018-03341-5/" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2019structure</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Structure-preserving finite element methods for stationary MHD models}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu, Kaibo and Xu, Jinchao}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Mathematics of Computation}</span><span class="p">,</span>
@@ -2021,50 +253,7 @@
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{553--581}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2019}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://www.ams.org/mcom/2019-88-316/S0025-5718-2018-03341-5/}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">Num.Math.</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="he2019generalized" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Generalized Gaffney inequality and discrete compactness for discrete differential forms</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Juncai He, Kaibo Hu, and Jinchao Xu</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Numerische Mathematik</em>, 2019
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://link.springer.com/article/10.1007/s00211-019-01076-0" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">he2019generalized</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">Num.Math.</abbr></div> <div id="he2019generalized" class="col-sm-8"> <div class="title">Generalized Gaffney inequality and discrete compactness for discrete differential forms</div> <div class="author"> Juncai He, Kaibo Hu, and Jinchao Xu</div> <div class="periodical"> <em>Numerische Mathematik</em>, 2019 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://link.springer.com/article/10.1007/s00211-019-01076-0" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">he2019generalized</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Generalized Gaffney inequality and discrete compactness for discrete differential forms}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{He, Juncai and Hu, Kaibo and Xu, Jinchao}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Numerische Mathematik}</span><span class="p">,</span>
@@ -2074,53 +263,7 @@
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2019}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://link.springer.com/article/10.1007/s00211-019-01076-0}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-</ol>
-<h2 class="bibliography">2018</h2>
-<ol class="bibliography">
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">Num.Math.</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="christiansen2018generalized" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Generalized finite element systems for smooth differential forms and Stokes’ problem</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Snorre H Christiansen, and Kaibo Hu</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Numerische Mathematik</em>, 2018
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://link.springer.com/article/10.1007/s00211-018-0970-6" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">christiansen2018generalized</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> </ol> <h2 class="bibliography">2018</h2> <ol class="bibliography"> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">Num.Math.</abbr></div> <div id="christiansen2018generalized" class="col-sm-8"> <div class="title">Generalized finite element systems for smooth differential forms and Stokes’ problem</div> <div class="author"> Snorre H Christiansen, and Kaibo Hu</div> <div class="periodical"> <em>Numerische Mathematik</em>, 2018 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://link.springer.com/article/10.1007/s00211-018-0970-6" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">christiansen2018generalized</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Generalized finite element systems for smooth differential forms and Stokes’ problem}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Christiansen, Snorre H and Hu, Kaibo}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Numerische Mathematik}</span><span class="p">,</span>
@@ -2129,50 +272,7 @@
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2018}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://link.springer.com/article/10.1007/s00211-018-0970-6}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">Num.Math.</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="christiansen2018nodal" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Nodal finite element de Rham complexes</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Snorre H Christiansen, Jun Hu, and Kaibo Hu</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Numerische Mathematik</em>, 2018
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://link.springer.com/article/10.1007/s00211-017-0939-x" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">christiansen2018nodal</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">Num.Math.</abbr></div> <div id="christiansen2018nodal" class="col-sm-8"> <div class="title">Nodal finite element de Rham complexes</div> <div class="author"> Snorre H Christiansen, Jun Hu, and Kaibo Hu</div> <div class="periodical"> <em>Numerische Mathematik</em>, 2018 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://link.springer.com/article/10.1007/s00211-017-0939-x" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">christiansen2018nodal</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Nodal finite element de Rham complexes}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Christiansen, Snorre H and Hu, Jun and Hu, Kaibo}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Numerische Mathematik}</span><span class="p">,</span>
@@ -2182,52 +282,7 @@
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2018}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://link.springer.com/article/10.1007/s00211-017-0939-x}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-</ol>
-<h2 class="bibliography">2017</h2>
-<ol class="bibliography"><li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">Num.Math.</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="hu2017stable" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Stable finite element methods preserving ∇⋅B=0 exactly for MHD models</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Kaibo Hu, Yicong Ma, and Jinchao Xu</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Numerische Mathematik</em>, 2017
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://link.springer.com/article/10.1007/s00211-016-0803-4" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2017stable</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> </ol> <h2 class="bibliography">2017</h2> <ol class="bibliography"><li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">Num.Math.</abbr></div> <div id="hu2017stable" class="col-sm-8"> <div class="title">Stable finite element methods preserving ∇⋅B=0 exactly for MHD models</div> <div class="author"> Kaibo Hu, Yicong Ma, and Jinchao Xu</div> <div class="periodical"> <em>Numerische Mathematik</em>, 2017 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://link.springer.com/article/10.1007/s00211-016-0803-4" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hu2017stable</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Stable finite element methods preserving $\nabla\cdot {B}=0$ exactly for MHD models}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu, Kaibo and Ma, Yicong and Xu, Jinchao}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Numerische Mathematik}</span><span class="p">,</span>
@@ -2237,65 +292,7 @@
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2017}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://link.springer.com/article/10.1007/s00211-016-0803-4}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li></ol>
-<h2 class="bibliography">2016</h2>
-<ol class="bibliography">
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">JCP</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="ma2016robust" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Robust preconditioners for incompressible MHD models</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Yicong Ma, Kaibo Hu, Xiaozhe Hu, and
-          <span class="more-authors" title="click to view 1 more author" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Jinchao Xu' : '1 more author';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">1 more author</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Journal of Computational Physics</em>, 2016
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://www.sciencedirect.com/science/article/pii/S0021999116300602" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">ma2016robust</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li></ol> <h2 class="bibliography">2016</h2> <ol class="bibliography"> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">JCP</abbr></div> <div id="ma2016robust" class="col-sm-8"> <div class="title">Robust preconditioners for incompressible MHD models</div> <div class="author"> Yicong Ma, Kaibo Hu, Xiaozhe Hu, and <span class="more-authors" title="click to view 1 more author" onclick=" var element=$(this); element.attr('title', ''); var more_authors_text=element.text() == '1 more author' ? 'Jinchao Xu' : '1 more author'; var cursorPosition=0; var textAdder=setInterval(function(){ element.text(more_authors_text.substring(0, cursorPosition + 1)); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">1 more author</span> </div> <div class="periodical"> <em>Journal of Computational Physics</em>, 2016 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://www.sciencedirect.com/science/article/pii/S0021999116300602" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">ma2016robust</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Robust preconditioners for incompressible MHD models}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Ma, Yicong and Hu, Kaibo and Hu, Xiaozhe and Xu, Jinchao}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal of Computational Physics}</span><span class="p">,</span>
@@ -2304,197 +301,11 @@
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2016}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Elsevier}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://www.sciencedirect.com/science/article/pii/S0021999116300602}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">Sci.China</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="mhd-chinese" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">磁流体动力学方程组的稳定磁场-电流有限元格式</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-         胡凯博, and  许进超</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>中国科学: 数学</em>, 2016
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="http://www.cqvip.com/qk/93904a/2016007/669487568.html" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">mhd-chinese</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">Sci.China</abbr></div> <div id="mhd-chinese" class="col-sm-8"> <div class="title">磁流体动力学方程组的稳定磁场-电流有限元格式</div> <div class="author"> 胡凯博, and  许进超</div> <div class="periodical"> <em>中国科学: 数学</em>, 2016 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="http://www.cqvip.com/qk/93904a/2016007/669487568.html" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span> <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">mhd-chinese</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{磁流体动力学方程组的稳定磁场-电流有限元格式}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{胡凯博 and 许进超}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{中国科学: 数学}</span><span class="p">,</span>
   <span class="na">number</span> <span class="p">=</span> <span class="s">{7}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{967--980}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2016}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-</ol>
-
-</div>
-
-          </article>
-</div>
-
-      
-    </div>
-
-    <!-- Footer -->    <footer class="sticky-bottom mt-5">
-      <div class="container">
-        © Copyright 2025 Kaibo  Hu. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Photo at <a href="https://www.chch.ox.ac.uk" target="_blank" rel="external nofollow noopener">Christ Church</a>, Oxford, by Ian Wallman.
-
-      </div>
-    </footer>
-
-    <!-- JavaScripts -->
-    <!-- jQuery -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
-    <!-- Bootsrap & MDB scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
-
-    <!-- Masonry & imagesLoaded -->
-  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
-    
-  <!-- Medium Zoom JS -->
-  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
-  <script defer src="/assets/js/zoom.js"></script>
-
-  <!-- Bootstrap Table -->
-  <script defer src="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.js"></script>
-
-  <!-- Load Common JS -->
-  <script src="/assets/js/no_defer.js?d633890033921b33e0ceb13d22340a9c"></script>
-  <script defer src="/assets/js/common.js?acdb9690d7641b2f8d40529018c71a01"></script>
-  <script defer src="/assets/js/copy_code.js?c9d9dd48933de3831b3ee5ec9c209cac" type="text/javascript"></script>
-
-    
-  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-  <script async src="https://badge.dimensions.ai/badge.js"></script>
-
-    <!-- MathJax -->
-  <script type="text/javascript">
-    window.MathJax = {
-      tex: {
-        tags: 'ams'
-      }
-    };
-  </script>
-  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
-  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-
-    
-    
-
-<!-- Scrolling Progress Bar -->
-<script type="text/javascript">
-  /*
-   * This JavaScript code has been adapted from the article 
-   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
-   * published on the website https://css-tricks.com on the 7th of May, 2014.
-   * Couple of changes were made to the original code to make it compatible 
-   * with the `al-foio` theme.
-   */
-  const progressBar = $("#progress");
-  /*
-   * We set up the bar after all elements are done loading.
-   * In some cases, if the images in the page are larger than the intended
-   * size they'll have on the page, they'll be resized via CSS to accomodate
-   * the desired size. This mistake, however, breaks the computations as the
-   * scroll size is computed as soon as the elements finish loading.
-   * To account for this, a minimal delay was introduced before computing the
-   * values.
-   */
-  window.onload = function () {
-    setTimeout(progressBarSetup, 50);
-  };
-  /*
-   * We set up the bar according to the browser.
-   * If the browser supports the progress element we use that.
-   * Otherwise, we resize the bar thru CSS styling
-   */
-  function progressBarSetup() {
-    if ("max" in document.createElement("progress")) {
-      initializeProgressElement();
-      $(document).on("scroll", function() {
-        progressBar.attr({ value: getCurrentScrollPosition() });
-      });
-      $(window).on("resize", initializeProgressElement);
-    } else {
-      resizeProgressBar();
-      $(document).on("scroll", resizeProgressBar);
-      $(window).on("resize", resizeProgressBar);
-    }
-  }
-  /*
-   * The vertical scroll position is the same as the number of pixels that
-   * are hidden from view above the scrollable area. Thus, a value > 0 is
-   * how much the user has scrolled from the top
-   */
-  function getCurrentScrollPosition() {
-    return $(window).scrollTop();
-  }
-
-  function initializeProgressElement() {
-    let navbarHeight = $("#navbar").outerHeight(true);
-    $("body").css({ "padding-top": navbarHeight });
-    $("progress-container").css({ "padding-top": navbarHeight });
-    progressBar.css({ top: navbarHeight });
-    progressBar.attr({
-      max: getDistanceToScroll(),
-      value: getCurrentScrollPosition(),
-    });
-  }
-  /*
-   * The offset between the html document height and the browser viewport
-   * height will be greater than zero if vertical scroll is possible.
-   * This is the distance the user can scroll
-   */
-  function getDistanceToScroll() {
-    return $(document).height() - $(window).height();
-  }
-
-  function resizeProgressBar() {
-    progressBar.css({ width: getWidthPercentage() + "%" });
-  }
-  // The scroll ratio equals the percentage to resize the bar
-  function getWidthPercentage() {
-    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
-  }
-</script>
-
-  </body>
-</html>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> </ol> </div> </article> </div> </div> <footer class="sticky-bottom mt-5"> <div class="container"> © Copyright 2025 Kaibo Hu. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Photo at <a href="https://www.chch.ox.ac.uk" target="_blank" rel="external nofollow noopener">Christ Church</a>, Oxford, by Ian Wallman. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script> <script defer src="/assets/js/masonry.js" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script> <script defer src="/assets/js/zoom.js"></script> <script defer src="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.js"></script> <script src="/assets/js/no_defer.js?d633890033921b33e0ceb13d22340a9c"></script> <script defer src="/assets/js/common.js?acdb9690d7641b2f8d40529018c71a01"></script> <script defer src="/assets/js/copy_code.js?c9d9dd48933de3831b3ee5ec9c209cac" type="text/javascript"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script type="text/javascript">window.MathJax={tex:{tags:"ams"}};</script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script> <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script type="text/javascript">function progressBarSetup(){"max"in document.createElement("progress")?(initializeProgressElement(),$(document).on("scroll",function(){progressBar.attr({value:getCurrentScrollPosition()})}),$(window).on("resize",initializeProgressElement)):(resizeProgressBar(),$(document).on("scroll",resizeProgressBar),$(window).on("resize",resizeProgressBar))}function getCurrentScrollPosition(){return $(window).scrollTop()}function initializeProgressElement(){let e=$("#navbar").outerHeight(!0);$("body").css({"padding-top":e}),$("progress-container").css({"padding-top":e}),progressBar.css({top:e}),progressBar.attr({max:getDistanceToScroll(),value:getCurrentScrollPosition()})}function getDistanceToScroll(){return $(document).height()-$(window).height()}function resizeProgressBar(){progressBar.css({width:getWidthPercentage()+"%"})}function getWidthPercentage(){return getCurrentScrollPosition()/getDistanceToScroll()*100}const progressBar=$("#progress");window.onload=function(){setTimeout(progressBarSetup,50)};</script> </body> </html>
