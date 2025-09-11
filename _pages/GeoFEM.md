@@ -1,3 +1,10 @@
+---
+layout: page
+permalink: /geofem/
+title: GeoFEM
+nav: true
+nav_order: 8
+---
 <html lang="en">
 <head>
     <meta charset="UTF-8">
