@@ -1,11 +1,3 @@
----
-layout: page
-permalink: /geofem/
-title: GeoFEM
-nav: true
-nav_order: 8
----
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -69,7 +61,12 @@ nav_order: 8
         <li>
             <span class="lecture-title">A Posteriori Error Estimation by Preconditioning</span><br>
             <a href="https://sites.google.com/view/liyuwen/">Yuwen Li</a> (Zhejiang University), August 4–8, 2025<br>
-              <strong>Location:</strong> James Clerk Maxwell Building (JCMB), Edinburgh. August 7, 13:30–15:30: JCMB 6206; August 8, 13:30–15:30: JCMB 6201; August 11, 13:30–15:30: JCMB 6206  <br>
+            <strong>Location:</strong> James Clerk Maxwell Building (JCMB), Edinburgh. August 7, 13:30–15:30: JCMB 6206; August 8, 13:30–15:30: JCMB 6201; August 11, 13:30–15:30: JCMB 6206 <br>
+            <strong>Videos:</strong> 
+            <a href="https://drive.google.com/file/d/1YvWklp2JZ-AH7R1QrRuLEcbA0-bGBtbf/view?usp=share_link">Lecture 1</a>, 
+            <a href="https://drive.google.com/file/d/1YvWklp2JZ-AH7R1QrRuLEcbA0-bGBtbf/view?usp=share_link">Lecture 2</a>, 
+            <a href="https://drive.google.com/file/d/1YvWklp2JZ-AH7R1QrRuLEcbA0-bGBtbf/view?usp=share_link">Lecture 3</a><br>
+            <strong>Lecture Notes:</strong> <a href="https://drive.google.com/file/d/1YvWklp2JZ-AH7R1QrRuLEcbA0-bGBtbf/view?usp=share_link">Download Notes</a><br>
             <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract0')">Show Abstract</span>
             <div id="abstract0" class="abstract">
                 This short course explores preconditioning and a posteriori error estimation in finite element methods, focusing on H(curl) and H(div) spaces. We begin by reviewing fundamental concepts in a posteriori error estimates for adaptive methods and iterative solvers for linear algebraic systems. The course emphasizes the interplay between iterative solvers and a posteriori error estimates, demonstrating the derivation of novel parameter-robust and p-robust error estimators in H(curl) and H(div) using nodal auxiliary space preconditioning at the continuous level. For comparison, we also examine classical a posteriori error analysis in H(grad), H(curl), and H(div).
@@ -87,7 +84,6 @@ nav_order: 8
             </div>
         </li>
     </ul>
-
     <script>
         function toggleAbstract(id) {
             const abstract = document.getElementById(id);
