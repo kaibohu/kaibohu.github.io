@@ -42,7 +42,7 @@ nav_order: 8
         The ERC Starting Project <i>GeoFEM (Geometric Finite Element Methods)</i> explores the discretization of geometric objects using finite element methods, connections between finite elements and discrete differential geometry, and their applications.
     </p>
     <p>
-        GeoFEM hosts lectures and short courses delivered by visitors, collaborators, and occasionally group members. These sessions focus on emerging topics and recent advances in finite element methods (broadly defined) and Finite Element Exterior Calculus, particularly those lacking comprehensive documentation. Some lectures offer online participation. To attend remotely, please contact the <a href="mailto:kaibo.hu@maths.ox.ac.uk">PI</a>.
+        GeoFEM hosts lectures and short courses delivered by visitors, collaborators, and occasionally group members. These sessions focus on emerging topics and recent advances in finite element methods (broadly defined) and Finite Element Exterior Calculus, particularly those lacking comprehensive documentation. Some lectures offer online participation. To attend remotely, please <a href="mailto:kaibo.hu@maths.ox.ac.uk">contact</a>.
     </p>
     <br>
     <h3>Lectures and Short Courses</h3>
@@ -70,10 +70,10 @@ nav_order: 8
             <a href="https://sites.google.com/view/liyuwen/">Yuwen Li</a> (Zhejiang University), August 4–8, 2025<br>
             <strong>Location:</strong> James Clerk Maxwell Building (JCMB), Edinburgh. August 7, 13:30–15:30: JCMB 6206; August 8, 13:30–15:30: JCMB 6201; August 11, 13:30–15:30: JCMB 6206 <br>
             <strong>Videos:</strong> 
-            <a href="https://drive.google.com/file/d/1YvWklp2JZ-AH7R1QrRuLEcbA0-bGBtbf/view?usp=share_link">Lecture 1</a>, 
-            <a href="https://drive.google.com/file/d/1YvWklp2JZ-AH7R1QrRuLEcbA0-bGBtbf/view?usp=share_link">Lecture 2</a>, 
-            <a href="https://drive.google.com/file/d/1YvWklp2JZ-AH7R1QrRuLEcbA0-bGBtbf/view?usp=share_link">Lecture 3</a><br>
-            <strong>Lecture Notes:</strong> <a href="https://drive.google.com/file/d/1YvWklp2JZ-AH7R1QrRuLEcbA0-bGBtbf/view?usp=share_link">Download Notes</a><br>
+            <a href="https://drive.google.com/file/d/1YvWklp2JZ-AH7R1QrRuLEcbA0-bGBtbf/view?usp=sharing">Lecture 1</a>, 
+            <a href="https://drive.google.com/file/d/1JDWYS1lTmzWjF_IvnHgS0fo_Qb2PiIlv/view?usp=sharing">Lecture 2</a>, 
+            <a href="https://drive.google.com/file/d/1sx2DkO632NvZUIb6UoHH_ILPmy5O-ZfF/view?usp=sharing">Lecture 3</a><br>
+            <strong>Lecture Notes:</strong> <a href="https://drive.google.com/file/d/1rlgzKqeud-cRulJgS5VMkIPQqaCfnx2q/view?usp=sharing">Download Notes</a><br>
             <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract0')">Show Abstract</span>
             <div id="abstract0" class="abstract">
                 This short course explores preconditioning and a posteriori error estimation in finite element methods, focusing on H(curl) and H(div) spaces. We begin by reviewing fundamental concepts in a posteriori error estimates for adaptive methods and iterative solvers for linear algebraic systems. The course emphasizes the interplay between iterative solvers and a posteriori error estimates, demonstrating the derivation of novel parameter-robust and p-robust error estimators in H(curl) and H(div) using nodal auxiliary space preconditioning at the continuous level. For comparison, we also examine classical a posteriori error analysis in H(grad), H(curl), and H(div).
