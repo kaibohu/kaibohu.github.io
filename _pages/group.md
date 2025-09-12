@@ -10,7 +10,7 @@ nav_order: 7
 <br>
 <span style="font-size: 1em;"><strong>Postdocs</strong></span>
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
-  <div style="width: 120px; margin-right: 15px;"></div>
+  <img src="../assets/img/borisandrews.jpg" alt="Boris Andrews" style="width: 120px; margin-right: 15px;">
   <div>
     <strong><a href="https://borisandrews.github.io">Boris Andrews</a></strong><br>
     <em>2025–</em><br>
@@ -52,9 +52,9 @@ nav_order: 7
 <br>
 <span style="font-size: 1em;"><strong>PhD Students</strong></span>
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
-  <div style="width: 120px; margin-right: 15px;"></div>
+  <img src="../assets/img/MarkAlvaresPeres.jpg" alt="Mark Alvares Peres" style="width: 120px; margin-right: 15px;">
   <div>
-    <strong>Mark Alvares Peres</strong><br>
+    <strong><a href="https://markalvares.co.uk">Mark Alvares Peres</a></strong><br>
     <em>2025–</em><br>
     MSc: University of Edinburgh
   </div>
@@ -68,7 +68,7 @@ nav_order: 7
   </div>
 </div>
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
-  <div style="width: 120px; margin-right: 15px;"></div>
+  <img src="../assets/img/YuechenZhu.jpg" alt="Yuechen Zhu" style="width: 120px; margin-right: 15px;">
   <div>
     <strong><a href="https://zzzyc001.github.io">Yuechen Zhu</a></strong><br>
     <em>2025–</em><br>
