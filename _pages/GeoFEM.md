@@ -60,12 +60,6 @@ nav_order: 8
             <strong>Abstract:</strong> TBA
         </li>
         <li>
-            <span class="lecture-title">Title TBA</span><br>
-            <a href="https://alisomia.github.io">Ting Lin</a> (Peking University), October 2025<br>
-            <strong>Location:</strong> Andrew Wiles Building, Oxford<br>
-            <strong>Abstract:</strong> TBA
-        </li>
-        <li>
             <span class="lecture-title">A Posteriori Error Estimation by Preconditioning</span><br>
             <a href="https://sites.google.com/view/liyuwen/">Yuwen Li</a> (Zhejiang University), August 4–8, 2025<br>
             <strong>Location:</strong> James Clerk Maxwell Building (JCMB), Edinburgh. August 7, 13:30–15:30: JCMB 6206; August 8, 13:30–15:30: JCMB 6201; August 11, 13:30–15:30: JCMB 6206 <br>
