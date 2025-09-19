@@ -51,25 +51,31 @@ nav_order: 8
             <span class="lecture-title">Riemannian Geometry with Finite Elements</span><br>
             <a href="https://webpages.scu.edu/ftp/egawlik/">Evan Gawlik</a> (Santa Clara University), October 11–17, 2025<br>
             <strong>Location:</strong> Andrew Wiles Building, Oxford<br>
-            <strong>Abstract:</strong> TBA
+            <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract0')">Show Abstract</span>
+            <div id="abstract0" class="abstract">
+                This short course will cover techniques for discretizing the building blocks of Riemannian geometry---metrics, connections, and curvature---with finite elements. It will start with a brief introduction to the geometry of smooth surfaces and classical notions of discrete curvature on piecewise flat triangulated surfaces. We will explain how to generalize these notions of discrete curvature to triangulated manifolds equipped with piecewise polynomial metrics. Then we will explain how one can prove that these curvature discretizations converge to their smooth counterparts under refinement of the triangulation. Along the way, key concepts from Riemannian geometry will be reviewed, and links between discrete differential geometry and finite element theory will be highlighted and used extensively.
+            </div>
         </li>
         <li>
-            <span class="lecture-title">Finite Element Systems</span><br>
+            <span class="lecture-title">Finite elements in categorical language</span><br>
             <a href="https://www.mn.uio.no/math/english/people/aca/snorrec/">Snorre Christiansen</a> (University of Oslo), October 6–14, 2025<br>
             <strong>Location:</strong> Andrew Wiles Building, Oxford<br>
-            <strong>Abstract:</strong> TBA
+            <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract1')">Show Abstract</span>
+            <div id="abstract1" class="abstract">
+                I will show how finite elements can be described in terms of constructs from category theory. In particular they may be interpreted as presheaves on the poset category of a mesh. I will assume no prior knowledge of categories or sheaves. Ciarlet's definition of a finite element imposes a unisolvency condition which can be related to softness of sheaves. De Rham theorems relating different cohomologies can be proved in the general setting. Examples will be discussed.
+            </div>
         </li>
         <li>
             <span class="lecture-title">A Posteriori Error Estimation by Preconditioning</span><br>
             <a href="https://sites.google.com/view/liyuwen/">Yuwen Li</a> (Zhejiang University), August 4–8, 2025<br>
             <strong>Location:</strong> James Clerk Maxwell Building (JCMB), Edinburgh. August 7, 13:30–15:30: JCMB 6206; August 8, 13:30–15:30: JCMB 6201; August 11, 13:30–15:30: JCMB 6206 <br>
-            <strong>Videos:</strong> 
-            <a href="https://drive.google.com/file/d/1YvWklp2JZ-AH7R1QrRuLEcbA0-bGBtbf/view?usp=sharing">Lecture 1</a>, 
-            <a href="https://drive.google.com/file/d/1JDWYS1lTmzWjF_IvnHgS0fo_Qb2PiIlv/view?usp=sharing">Lecture 2</a>, 
+            <strong>Videos:</strong>
+            <a href="https://drive.google.com/file/d/1YvWklp2JZ-AH7R1QrRuLEcbA0-bGBtbf/view?usp=sharing">Lecture 1</a>,
+            <a href="https://drive.google.com/file/d/1JDWYS1lTmzWjF_IvnHgS0fo_Qb2PiIlv/view?usp=sharing">Lecture 2</a>,
             <a href="https://drive.google.com/file/d/1sx2DkO632NvZUIb6UoHH_ILPmy5O-ZfF/view?usp=sharing">Lecture 3</a><br>
             <strong>Lecture Notes:</strong> <a href="https://drive.google.com/file/d/1rlgzKqeud-cRulJgS5VMkIPQqaCfnx2q/view?usp=sharing">Download Notes</a><br>
-            <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract0')">Show Abstract</span>
-            <div id="abstract0" class="abstract">
+            <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract2')">Show Abstract</span>
+            <div id="abstract2" class="abstract">
                 This short course explores preconditioning and a posteriori error estimation in finite element methods, focusing on H(curl) and H(div) spaces. We begin by reviewing fundamental concepts in a posteriori error estimates for adaptive methods and iterative solvers for linear algebraic systems. The course emphasizes the interplay between iterative solvers and a posteriori error estimates, demonstrating the derivation of novel parameter-robust and p-robust error estimators in H(curl) and H(div) using nodal auxiliary space preconditioning at the continuous level. For comparison, we also examine classical a posteriori error analysis in H(grad), H(curl), and H(div).
             </div>
         </li>
@@ -79,8 +85,8 @@ nav_order: 8
             <strong>Course Website:</strong> <a href="https://www.uzerbinati.eu/teaching/spectral_theory/">https://www.uzerbinati.eu/teaching/spectral_theory/</a><br>
             <strong>Location:</strong> James Clerk Maxwell Building (JCMB) 5328 (May 13–14), JCMB 5326 (May 16), Edinburgh<br>
             <strong>Time:</strong> May 13, 2025, 10:00–12:00; May 14, 2025, 14:00–16:00; May 16, 2025, 15:00–17:00<br>
-            <span class="toggle-abstract" onclick="toggleAbstract('abstract1')">Show Abstract</span>
-            <div id="abstract1" class="abstract">
+            <span class="toggle-abstract" onclick="toggleAbstract('abstract3')">Show Abstract</span>
+            <div id="abstract3" class="abstract">
                 This short course explores finite element discretizations of eigenvalue problems involving non-normal operators, with a focus on the advection-diffusion equation as a guiding example. We begin by revisiting fundamental spectral notions—self-adjointness, normality, spectra, and pseudospectra—with particular emphasis on how an operator’s spectrum informs the physical behavior of time-dependent PDEs. The core of the course is devoted to the classical analysis of finite element approximations: we present the Bramble-Osborn results for non-self-adjoint eigenvalue problems, including full proofs, and discuss their implications for convergence and approximation quality. For comparison, we also review the celebrated Babuška-Osborn theory for self-adjoint cases. If time permits, we will conclude with a discussion on iterative solvers and preconditioning strategies tailored to non-normal eigenvalue problems. The course requires a basic background in functional analysis and finite element methods.
             </div>
         </li>
