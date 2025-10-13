@@ -47,31 +47,32 @@ nav_order: 8
     <br>
     <h3>Lectures and Short Courses</h3>
     <ul>
-<li>
-    <span class="lecture-title">Riemannian Geometry with Finite Elements</span><br>
-    <a href="https://webpages.scu.edu/ftp/egawlik/">Evan Gawlik</a> (Santa Clara University), October 11–17, 2025<br>
-    <strong>Location:</strong> VC1, Andrew Wiles Building, Oxford<br>
-    <strong>Time & Teams:</strong><br>
-    October 13, 14:00–16:00 — <a href="https://teams.microsoft.com/l/meetup-join/375524153064/SZ9Kt6DH">Join via MS Teams</a> (ID: 375 524 153 064, Code: SZ9Kt6DH)<br>
-    October 14, 10:00–12:00 — <a href="https://teams.microsoft.com/l/meetup-join/346287252272/Xp76eC7n">Join via MS Teams</a> (ID: 346 287 252 272, Code: Xp76eC7n)<br>
-    October 15, 13:00–15:00 — <a href="https://teams.microsoft.com/l/meetup-join/3561352169323/Mc6JQ6sK">Join via MS Teams</a> (ID: 356 135 216 932 3, Code: Mc6JQ6sK)<br>
-    <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract0')">Show Abstract</span>
-    <div id="abstract0" class="abstract">
-        This short course will cover techniques for discretizing the building blocks of Riemannian geometry---metrics, connections, and curvature---with finite elements. It will start with a brief introduction to the geometry of smooth surfaces and classical notions of discrete curvature on piecewise flat triangulated surfaces. We will explain how to generalize these notions of discrete curvature to triangulated manifolds equipped with piecewise polynomial metrics. Then we will explain how one can prove that these curvature discretizations converge to their smooth counterparts under refinement of the triangulation. Along the way, key concepts from Riemannian geometry will be reviewed, and links between discrete differential geometry and finite element theory will be highlighted and used extensively.
-    </div>
-</li>
-<li>
-    <span class="lecture-title">Finite elements in categorical language</span><br>
-    <a href="https://www.mn.uio.no/math/english/people/aca/snorrec/">Snorre Christiansen</a> (University of Oslo), October 6–14, 2025<br>
-    <strong>Location:</strong> VC1, Andrew Wiles Building, Oxford<br>
-    <strong>Time & Teams:</strong><br>
-    October 8, 14:00–16:00 — <a href="https://teams.microsoft.com/l/meetup-join/3119702157737/u87Qa3vk">Join via MS Teams</a> (ID: 311 970 215 773 7, Code: u87Qa3vk)<br>
-    October 10, 14:00–16:00 — <a href="https://teams.microsoft.com/l/meetup-join/3210658138477/wB6NH3Mn">Join via MS Teams</a> (ID: 321 065 813 847 7, Code: wB6NH3Mn)<br>
-    <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract1')">Show Abstract</span>
-    <div id="abstract1" class="abstract">
-        I will show how finite elements can be described in terms of constructs from category theory. In particular they may be interpreted as presheaves on the poset category of a mesh. I will assume no prior knowledge of categories or sheaves. Ciarlet's definition of a finite element imposes a unisolvency condition which can be related to softness of sheaves. De Rham theorems relating different cohomologies can be proved in the general setting. Examples will be discussed.
-    </div>
-</li>
+        <li>
+            <span class="lecture-title">Riemannian Geometry with Finite Elements</span><br>
+            <a href="https://webpages.scu.edu/ftp/egawlik/">Evan Gawlik</a> (Santa Clara University), October 11–17, 2025<br>
+            <strong>Location:</strong> VC1, Andrew Wiles Building, Oxford<br>
+            <strong>Time & Teams:</strong><br>
+            October 13, 14:00–16:00 — <a href="https://teams.microsoft.com/l/meetup-join/375524153064/SZ9Kt6DH">Join via MS Teams</a> (ID: 375 524 153 064, Code: SZ9Kt6DH)<br>
+            October 14, 10:00–12:00 — <a href="https://teams.microsoft.com/l/meetup-join/346287252272/Xp76eC7n">Join via MS Teams</a> (ID: 346 287 252 272, Code: Xp76eC7n)<br>
+            October 15, 13:00–15:00 — <a href="https://teams.microsoft.com/l/meetup-join/3561352169323/Mc6JQ6sK">Join via MS Teams</a> (ID: 356 135 216 932 3, Code: Mc6JQ6sK)<br>
+            <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract0')">Show Abstract</span>
+            <div id="abstract0" class="abstract">
+                This short course will cover techniques for discretizing the building blocks of Riemannian geometry---metrics, connections, and curvature---with finite elements. It will start with a brief introduction to the geometry of smooth surfaces and classical notions of discrete curvature on piecewise flat triangulated surfaces. We will explain how to generalize these notions of discrete curvature to triangulated manifolds equipped with piecewise polynomial metrics. Then we will explain how one can prove that these curvature discretizations converge to their smooth counterparts under refinement of the triangulation. Along the way, key concepts from Riemannian geometry will be reviewed, and links between discrete differential geometry and finite element theory will be highlighted and used extensively.
+            </div>
+        </li>
+        <li>
+            <span class="lecture-title">Finite elements in categorical language</span><br>
+            <a href="https://www.mn.uio.no/math/english/people/aca/snorrec/">Snorre Christiansen</a> (University of Oslo), October 6–14, 2025<br>
+            <strong>Location:</strong> VC1, Andrew Wiles Building, Oxford<br>
+            <strong>Time & Teams:</strong><br>
+            October 8, 14:00–16:00 — <a href="https://teams.microsoft.com/l/meetup-join/3119702157737/u87Qa3vk">Join via MS Teams</a> (ID: 311 970 215 773 7, Code: u87Qa3vk)<br>
+            October 10, 14:00–16:00 — <a href="https://teams.microsoft.com/l/meetup-join/3210658138477/wB6NH3Mn">Join via MS Teams</a> (ID: 321 065 813 847 7, Code: wB6NH3Mn)<br>
+            October 13, 11:00–12:00 — <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDdhN2UxNWQtOTBjNS00NDI2LWJiNmYtYTJkOTgyMDUyYWI5%40thread.v2/0?context=%7b%22Tid%22%3a%22cc95de1b-97f5-4f93-b4ba-fe68b852cf91%22%2c%22Oid%22%3a%2254b2b078-57c2-453c-8400-48da4f48a176%22%7d">Join via MS Teams</a> (ID: 334 256 182 725 4, Code: Wd7DL9XW)<br>
+            <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract1')">Show Abstract</span>
+            <div id="abstract1" class="abstract">
+                I will show how finite elements can be described in terms of constructs from category theory. In particular they may be interpreted as presheaves on the poset category of a mesh. I will assume no prior knowledge of categories or sheaves. Ciarlet's definition of a finite element imposes a unisolvency condition which can be related to softness of sheaves. De Rham theorems relating different cohomologies can be proved in the general setting. Examples will be discussed.
+            </div>
+        </li>
         <li>
             <span class="lecture-title">A Posteriori Error Estimation by Preconditioning</span><br>
             <a href="https://sites.google.com/view/liyuwen/">Yuwen Li</a> (Zhejiang University), August 4–8, 2025<br>
