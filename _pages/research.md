@@ -15,11 +15,11 @@ Some specific topics I am interested in now include:
 
  - **Computational topological hydrodynamics and magnetohydrodynamics (MHD)**: Topology-preserving numerical methods for fluid and plasma systems, relaxation problems (self-organization), dynamo problems and applications in solar physics, astrophysics, and fusion energy. 
 
-From Kelvin and Helmholtz to Arnold, Khesin, and Moffatt (among others), topology has become central to fluid dynamics. Quantities such as helicity and enstrophy encode knotting, topological constraints, and the fine structure such as turbulence energy cascades in both fluid and MHD systems.
+	From Kelvin and Helmholtz to Arnold, Khesin, and Moffatt (among others), topology has become central to fluid dynamics. Quantities such as helicity and enstrophy encode knotting, topological constraints, and the fine structure such as turbulence energy cascades in both fluid and MHD systems.
 
-Despite these elegant theories, practical applications remain limited, largely due to the lack of topology-preserving numerical methods. Recent advances in FEEC sheds new light on the numerical realization of topological hydrodynamics and MHD.
+	Despite these elegant theories, practical applications remain limited, largely due to the lack of topology-preserving numerical methods. Recent advances in FEEC sheds new light on the numerical realization of topological hydrodynamics and MHD.
 
-My PhD work focused on *how to preserve* geometric and physical structures in computation. More recently, I have been drawn into *why such preservation matters* (the mathematical and physical consequences of structure-preservation), and where their limits lie (e.g., the failure of energy conservation in weak solutions as predicted by the Onsager conjecture). The ultimate goal is to achieve reliable computation under weak regularity, over long-time evolution, and on general manifold geometries, topologies and symmetries.
+	My PhD work focused on *how to preserve* geometric and physical structures in computation. More recently, I have been drawn into *why such preservation matters* (the mathematical and physical consequences of structure-preservation), and where their limits lie (e.g., the failure of energy conservation in weak solutions as predicted by the Onsager conjecture). The ultimate goal is to achieve reliable computation under weak regularity, over long-time evolution, and on general manifold geometries, topologies and symmetries.
 
 
  - **Algebraic and geometric modeling of generalized continua, discretization and solvers**: This involves micropolar continua, defect theories, and multidimensional models, drawing inspiration from rational mechanics (e.g., the Cosserat brothers’ models, Eringen’s micropolar theory, Kröner and Nye’s defect modeling, and Yavari-Goriely’s geometric dislocation/disclination theory). Hilbert complexes and BGG constructions offer computationally friendly tools with built-in analysis. 
