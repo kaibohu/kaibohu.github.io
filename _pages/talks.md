@@ -25,7 +25,7 @@ Some presentation materials:
 - [Topology-preserving computation for ideal magnetic relaxation](https://kaibohu.github.io/homepage/2024MTU.pdf) (Michigan, 2025)
 - [Finite element form-valued forms](https://kaibohu.github.io/homepage/2025SIAMCSE-PeriodicTable.pdf) (Texas, 2025)
 - [Finite elements for symmetric and traceless tensors in three dimensions](https://kaibohu.github.io/homepage/2025Ghent.pdf) (Ghent, 2025)
-- [Towards Computational Topological Hydrodynamics: relaxation, dynamo, finite element exterior calculus](https://kaibohu.github.io/homepage/2025PKU-forum.pdf) (Peking, 2025)
+- [Towards Computational Topological (Magneto)Hydrodynamics](https://kaibohu.github.io/homepage/2025PKU-forum.pdf) (Peking, 2025)
 
 
  
