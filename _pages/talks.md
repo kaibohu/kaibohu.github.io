@@ -25,17 +25,16 @@ Some presentation materials:
 - [Topology-preserving computation for ideal magnetic relaxation](https://kaibohu.github.io/homepage/2024MTU.pdf) (Michigan, 2025)
 - [Finite element form-valued forms](https://kaibohu.github.io/homepage/2025SIAMCSE-PeriodicTable.pdf) (Texas, 2025)
 - [Finite elements for symmetric and traceless tensors in three dimensions](https://kaibohu.github.io/homepage/2025Ghent.pdf) (Ghent, 2025)
+- [Towards Computational Topological Hydrodynamics: relaxation, dynamo, finite element exterior calculus](https://kaibohu.github.io/homepage/2025PKU-forum.pdf) (Peking, 2025)
 
 
  
 
 
-
-
-
 ### Colloquium/Seminar talks
 1. Leeds Geometry and Analysis Seminar, University of Leeds, UK, Feb/2026. (upcoming)
-1. Mathematics and Applications Colloquium, KAUST, Saudi Arabia, Sep/2025. (upcoming)
+1. Applied Topology Seminar, Mathematical Institute, University of Oxford, Nov/2025.
+1. Mathematics and Applications Colloquium, KAUST, Saudi Arabia, Sep/2025. 
 1. Applied Math Seminar at University of Arkansas, Sep/2025. (online)
 1. Seminar talk at  Institute of Computational Mathematics and Scientific/Engineering Computing at Chinese Academy of Sciences, China, Jul/2025.
 1. Seminar talk at Jilin University, China, Jul/2025.
@@ -87,6 +86,7 @@ China, Aug/2024.
 
 ###  Conference/Workshop talks
 1. The 2025 International Congress of Chinese Mathematicians (ICCM), Shanghai, China. January 2026. (plenary talk, upcoming)
+1. Plenary talk at Peking University Computational and applied mathematics PhD forum, November 2025.
 1. Workshop on Scientific Computing and Machine Learning, Penn State University, USA. November 2-3, 2025. 
 1. MS ''New generation methods for numerical challenges in curl-div problems: Maxwell, MHD, and derived models'', Advanced Computational Methods in ENgineering and Applied Mathematics (ACOMEN 2025), Ghent, Belgium, September 2025. 
 1. IMSI Workshop ''Discrete Exterior Calculus: Differential Geometry and Applications’’, Chicago, USA. September 2025. 
