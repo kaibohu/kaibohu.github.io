@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will give a talk in the Partial Differential Equations seminar series at the Mathematical Institute, Oxford. (Upcoming)
+I will give a [Partial Differential Equations Seminar](https://www.maths.ox.ac.uk/events/list/682) at the Mathematical Institute, Oxford. (Upcoming)
