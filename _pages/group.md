@@ -34,6 +34,14 @@ nav_order: 7
   </div>
 </div>
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
+  <div style="width: 120px; margin-right: 15px;"></div>
+  <div>
+    <strong><a href="https://www.maths.ox.ac.uk/people/jindong.wang">Jindong Wang (Newton International Fellow)</a></strong><br>
+    <em>2026–</em><br>
+    PhD: Peking University
+  </div>
+</div>
+<div style="display: flex; align-items: flex-start; margin-top: 1em;">
   <img src="../assets/img/GanghuiZhang.jpg" alt="Ganghui Zhang" style="width: 120px; margin-right: 15px;">
   <div>
     <strong><a href="https://ganghui-zhang.github.io/">Ganghui Zhang</a></strong><br>
