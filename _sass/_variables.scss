@@ -3,34 +3,37 @@
  * To adjust anything, simply edit the variables below and rebuild the theme.
  ******************************************************************************/
 
-
 // Colors
-$red-color:           #FF3636 !default;
-$red-color-dark:      #B71C1C !default;
-$orange-color:        #F29105 !default;
-$blue-color:          #0076df !default;
-$blue-color-dark:     #00369f !default;
-$cyan-color:          #2698BA !default;
-$light-cyan-color:    lighten($cyan-color, 25%);
-$green-color:         #00ab37 !default;
-$green-color-lime:    #B7D12A !default;
-$green-color-dark:    #009f06 !default;
-$green-color-light:   #ddffdd !default;
-$green-color-bright:  #11D68B !default;
-$purple-color:     #002147 !default;   // 经典牛津蓝（主 accent，最正宗）
-$light-purple-color: #0066CC !default; // 亮牛津蓝（用于 hover、淡色 accent）
-$pink-color:       #002147 !default;   // 统一用主牛津蓝（替换原来的粉色）
-$pink-color-light: #E6F0FA !default;   // 极浅牛津蓝灰（用于背景、淡色块）
-$yellow-color:        #efcc00 !default;
+$red-color: #FF3636 !default;
+$red-color-dark: #B71C1C !default;
+$orange-color: #F29105 !default;
+$blue-color: #0076df !default;
+$blue-color-dark: #00369f !default;
+$cyan-color: #2698BA !default;
+$light-cyan-color: lighten($cyan-color, 25%);
+$green-color: #00ab37 !default;
+$green-color-lime: #B7D12A !default;
+$green-color-dark: #009f06 !default;
+$green-color-light: #ddffdd !default;
+$green-color-bright: #11D68B !default;
 
-$grey-color:          #828282 !default;
-$grey-color-light:    lighten($grey-color, 40%);
-$grey-color-dark:     #1C1C1D;
-$grey-900:            #212529;
+// 牛津蓝系列（最优雅深沉学术配色）
+$purple-color:     #002147 !default;   // 经典牛津蓝（主 accent：TOC boxes、标题、年份背景）
+$light-purple-color: #0066CC !default; // 亮牛津蓝（hover、活跃链接、淡 accent）
+$pink-color:       #002147 !default;   // 统一替换原粉色为官方牛津蓝
+$pink-color-light: #E6F0FA !default;   // 极浅牛津蓝灰（淡背景、light blocks）
 
+$yellow-color: #efcc00 !default;
+$grey-color: #828282 !default;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark: #1C1C1D;
+$grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// 添加/覆盖链接颜色变量（确保链接可读，但保持深沉）
+$link-color:       #003366 !default;   // 中深牛津蓝（链接正常状态：优雅深沉，可明显区分黑文本）
+$link-color-hover: #0066CC !default;   // 亮牛津蓝（hover 时亮起，高端过渡）
 
 // Theme colors
 $code-bg-color-light: #f0f5ff !default;     // 极浅牛津蓝灰（白天模式，清新不刺眼）
