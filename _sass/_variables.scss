@@ -17,11 +17,11 @@ $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11D68B !default;
 
-// 牛津蓝系列（最优雅深沉学术配色）
-$purple-color:     #002147 !default;   // 经典牛津蓝（主 accent：TOC boxes、标题、年份背景）
-$light-purple-color: #0066CC !default; // 亮牛津蓝（hover、活跃链接、淡 accent）
-$pink-color:       #002147 !default;   // 统一替换原粉色为官方牛津蓝
-$pink-color-light: #E6F0FA !default;   // 极浅牛津蓝灰（淡背景、light blocks）
+// 柔和优雅蓝色系列（牛津蓝柔版 + 软皇家蓝链接）
+$purple-color:     #1e40af !default;   // 柔和深皇家蓝（主 accent：TOC boxes、标题、年份标签背景） - 比 #002147 柔和一些，深沉优雅
+$light-purple-color: #3b82f6 !default; // 亮蓝（hover、活跃链接、淡 accent） - 柔和过渡
+$pink-color:       #1e40af !default;   // 统一替换原粉色为柔和深蓝
+$pink-color-light: #eff6ff !default;   // 极浅蓝灰（淡背景、light blocks） - 清新柔和
 
 $yellow-color: #efcc00 !default;
 $grey-color: #828282 !default;
@@ -31,9 +31,10 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
-$link-color:       #005588 !default;   // 中蓝 #005588：优雅、可见（推荐先试这个）
-$link-color-hover: #0066CC !default;   // hover 亮蓝（不变）
+// 链接色（明显区分黑文本，同时柔和优雅）
+$link-color:       #2563eb !default;   // 中亮软皇家蓝（正常链接：清晰可见，学术蓝调，柔和不刺眼）
+$link-color-hover: #3b82f6 !default;   // hover 亮蓝（高端、柔和过渡）
 
 // Theme colors
-$code-bg-color-light: #f0f5ff !default;     // 极浅牛津蓝灰（白天模式，清新不刺眼）
-$code-bg-color-dark:  #001f3f !default;     // 深牛津蓝（暗黑模式，沉稳专业）
+$code-bg-color-light: #f0f9ff !default;     // 极浅蓝白（白天模式，清新柔和）
+$code-bg-color-dark:  #0f172a !default;     // 深蓝黑（暗黑模式，沉稳）
