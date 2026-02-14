@@ -54,7 +54,7 @@ nav_order: 8
     <ul>
         <li>
             <span class="lecture-title">Auxiliary Space Theory: Simple Construction of Sophisticated Iterative Methods for Linear Systems</span><br>
-            <a href="https://sites.google.com/view/jonghopark">Jongho Park</a>(KAUST)<br>
+            <a href="https://sites.google.com/view/jonghopark">Jongho Park</a> (KAUST)<br>
             <strong>Location:</strong> Andrew Wiles Building, Oxford<br>
             <strong>Time:</strong> To be confirmed (multiple sessions)<br>
             <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract4')">Show Abstract</span>
