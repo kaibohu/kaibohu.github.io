@@ -31,9 +31,9 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
-// 添加/覆盖链接颜色变量（确保链接可读，但保持深沉）
-$link-color:       #003366 !default;   // 中深牛津蓝（链接正常状态：优雅深沉，可明显区分黑文本）
-$link-color-hover: #0066CC !default;   // 亮牛津蓝（hover 时亮起，高端过渡）
+// 链接专用：用牛津蓝的中等深调（优雅 + 明显）
+$link-color:       #004080 !default;   // 中牛津蓝（#004080）——深沉学术，但对比黑文本足够（WCAG AA 通过）
+$link-color-hover: #0066CC !default;   // hover 亮起，高端过渡
 
 // Theme colors
 $code-bg-color-light: #f0f5ff !default;     // 极浅牛津蓝灰（白天模式，清新不刺眼）
