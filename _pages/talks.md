@@ -32,11 +32,14 @@ Some presentation materials:
 
 
 ### Colloquium/Seminar talks
-1. Leeds Geometry and Analysis Seminar, University of Leeds, UK, Feb/2026. (upcoming)
+1. Leeds Geometry and Analysis Seminar, University of Leeds, UK, Feb/2026. 
+1.  Computational Mathematics and Applications Seminar, Mathematical Institute, University of Oxford, UK, Jan/2026.
+1. Partial Differential Equations Seminar, Mathematical Institute, University of Oxford, UK, Jan/2026.
+1. Feng Kang Visiting Scholar colloquium talk at the Institute of Computational Mathematics and Scientific/Engineering Computing at the Chinese Academy of Sciences, China, Nov/2025.
 1. Applied Topology Seminar, Mathematical Institute, University of Oxford, Nov/2025.
 1. Mathematics and Applications Colloquium, KAUST, Saudi Arabia, Sep/2025. 
 1. Applied Math Seminar at University of Arkansas, Sep/2025. (online)
-1. Seminar talk at  Institute of Computational Mathematics and Scientific/Engineering Computing at Chinese Academy of Sciences, China, Jul/2025.
+1. Seminar talk at the Institute of Computational Mathematics and Scientific/Engineering Computing at the Chinese Academy of Sciences, China, Jul/2025.
 1. Seminar talk at Jilin University, China, Jul/2025.
 1. Seminar talk at  Istituto di Matematica Applicata e Tecnologie Informatiche ''Enrico Magenes" (IMATI) of the National Research Council of Italy (CNR), May/2025.
 1. MathSci Colloquium at Michigan Technological University, USA, Feb/2025.
@@ -45,11 +48,11 @@ Some presentation materials:
 1. Applied Geometry, Algebra, and Topology in Edinburgh (AGATE) seminar, Edinburgh, UK, Nov/2024.
 1. Analysis and PDE Seminar, Durham University, UK, Nov/2024.
 1. Seminar at Institut supérieur de l’aéronautique et de l’espace (ISAE-SUPAERO), Toulouse, France, Oct/2024.
-1. Séminaire ACSIOM, Institut Montpelliérain Alexander Grothendieck, Universit´e de Montpellier, France, Oct/2024.
+1. Séminaire ACSIOM, Institut Montpelliérain Alexander Grothendieck, Université de Montpellier, France, Oct/2024.
 1. Seminar talk at Shanghai University of Finance and Economics, China, Sep/2024.
 1. Seminar talk at Nanjing Normal University, China, Sep/2024.
 1. Seminar talk at Nankai University, China, Aug/2024.
-1. Seminar talk at Institute of Computational Mathematics and Scientific/Engineering Computing at Chinese Academy of Sciences, China, Aug/2024.
+1. Seminar talk at the Institute of Computational Mathematics and Scientific/Engineering Computing at Chinese Academy of Sciences, China, Aug/2024.
 1. Seminar talk at Beijing Institute of Mathematical Sciences and Applications (BIMSA), Beijing,
 China, Aug/2024.
 1. Zurich colloquium in applied and computational mathematics, Apr/2024.
@@ -63,7 +66,7 @@ China, Aug/2024.
 1. Seminar at TU Delft, the Netherlands, Dec/16/2022.
 1. Gravity Seminar Series of STAG (gravity/string theory/mathematical physics group) of Mathematical Sciences, University of Southampton, Dec/8/2022.
 1. Institute of Computational Mathematics and Scientific/Engineering Computing, Chinese Academy of Sciences, Beijing, China, Nov/2022.
-1. Seminar at University of Hong Kong, China, Oct/05/2022.
+1. Seminar at the University of Hong Kong, China, Oct/05/2022.
 1. Scientific Afternoon, Christ Church, University of Oxford, UK, Jul/15/2022.
 1. Culham Centre for Fusion Energy, UK, Apr/26/2022.
 1. Scientific Computing Seminar, Heidelberg University, Germany, Mar/21/2022.
@@ -75,7 +78,7 @@ China, Aug/2024.
 1. General relativity journal club, Department of Physics, University of Oxford, UK, Jun/24/2021.
 1. Numerical analysis internal seminar, University of Oxford, UK, Feb/23/2021.
 1. Institute of Computational Mathematics and Scientific/Engineering Computing, Chinese Academy of Sciences, Beijing, China, Dec/01-02/2020.
-1. Zurich Colloquium on Applied and Computational Mathematics, ETH Zu ̈rich, Switzerland, Oct/14/2020.
+1. Zurich Colloquium on Applied and Computational Mathematics, ETH Zürich, Switzerland, Oct/14/2020.
 1. Applied and Computational Mathematics seminar, Department of Mathematics, University of California, Irvine, USA, Apr/13/2020.
 1. Harmonic Analysis and Differential Equations (HADES) seminar, Department of Mathematics, University of Illinois at Urbana-Champaign, USA, Sep/27/2019.
 1. Institute of Computational Mathematics and Scientific/Engineering Computing, Chinese Academy of Sciences, Beijing, China, Jul/17/2017.
@@ -85,9 +88,14 @@ China, Aug/2024.
 
 
 ###  Conference/Workshop talks
-1. The 2025 International Congress of Chinese Mathematicians (ICCM), Shanghai, China. January 2026. (plenary talk, upcoming)
+1.  Workshop “Discrete Geometric Structures 2026”, TU Wien, Austria, Aug/2026. (upcoming)
+1.  Workshop “Discrete Laplacians”, Center for Systems Biology, Max Planck Institute, Dresden, Germany, Jun/2026. (Keynote lecture, upcoming)
+1. Foundations of Computational Mathematics (FoCM 2026), Vienna, Austria, Jul/2026. (upcoming)
+1. The 2025 International Congress of Chinese Mathematicians (ICCM), Shanghai, China. January 2026. (plenary talk)
+1. Mathematics Colloquium, Yau Mathematical Sciences Center (YMSC), Tsinghua University, China, Dec/2025.  
 1. Plenary talk at Peking University Computational and applied mathematics PhD forum, November 2025.
-1. Workshop on Scientific Computing and Machine Learning, Penn State University, USA. November 2-3, 2025. 
+1. Workshop on Scientific Computing and Machine Learning, Penn State University, USA. November 2-3, 2025.
+1. Optimisation and Numerical Analysis seminar, School of Mathematics, University of Birmingham, UK, Oct/2025.  
 1. MS ''New generation methods for numerical challenges in curl-div problems: Maxwell, MHD, and derived models'', Advanced Computational Methods in ENgineering and Applied Mathematics (ACOMEN 2025), Ghent, Belgium, September 2025. 
 1. IMSI Workshop ''Discrete Exterior Calculus: Differential Geometry and Applications’’, Chicago, USA. September 2025. 
 1. Section on ''Finite element complexes for structure-preservation in computational physics'', Modern Finite Element Technologies 2025 (MFET) ECCOMAS thematic conference, Aachen, Germany, August 2025. 
