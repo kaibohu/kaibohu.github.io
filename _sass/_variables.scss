@@ -17,10 +17,10 @@ $green-color-lime:    #B7D12A !default;
 $green-color-dark:    #009f06 !default;
 $green-color-light:   #ddffdd !default;
 $green-color-bright:  #11D68B !default;
-$purple-color:        #B509AC !default;
-$light-purple-color:  #3182ce !default;
-$pink-color:          #2c5282 !default;
-$pink-color-light:    #4a5568 !default;
+$purple-color:     #002147 !default;   // 经典牛津蓝（主 accent，最正宗）
+$light-purple-color: #0066CC !default; // 亮牛津蓝（用于 hover、淡色 accent）
+$pink-color:       #002147 !default;   // 统一用主牛津蓝（替换原来的粉色）
+$pink-color-light: #E6F0FA !default;   // 极浅牛津蓝灰（用于背景、淡色块）
 $yellow-color:        #efcc00 !default;
 
 $grey-color:          #828282 !default;
@@ -33,6 +33,5 @@ $black-color: #000000 !default;
 
 
 // Theme colors
-
-$code-bg-color-light:     #4a5568 !default;
-$code-bg-color-dark:      #2c5282 !default;
+$code-bg-color-light: #f0f5ff !default;     // 极浅牛津蓝灰（白天模式，清新不刺眼）
+$code-bg-color-dark:  #001f3f !default;     // 深牛津蓝（暗黑模式，沉稳专业）
