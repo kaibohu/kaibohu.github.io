@@ -31,9 +31,8 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
-// 链接专用：用牛津蓝的中等深调（优雅 + 明显）
-$link-color:       #004080 !default;   // 中牛津蓝（#004080）——深沉学术，但对比黑文本足够（WCAG AA 通过）
-$link-color-hover: #0066CC !default;   // hover 亮起，高端过渡
+$link-color:       #005588 !default;   // 中蓝 #005588：优雅、可见（推荐先试这个）
+$link-color-hover: #0066CC !default;   // hover 亮蓝（不变）
 
 // Theme colors
 $code-bg-color-light: #f0f5ff !default;     // 极浅牛津蓝灰（白天模式，清新不刺眼）
