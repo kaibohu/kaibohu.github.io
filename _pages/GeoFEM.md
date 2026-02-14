@@ -35,6 +35,11 @@ nav_order: 8
             font-weight: bold;
             font-size: 1.1em;
         }
+        .references {
+            margin-top: 12px;
+            padding-top: 8px;
+            border-top: 1px solid #ddd;
+        }
     </style>
 </head>
 <body>
@@ -49,47 +54,43 @@ nav_order: 8
     <ul>
         <li>
             <span class="lecture-title">Auxiliary Space Theory: Simple Construction of Sophisticated Iterative Methods for Linear Systems</span><br>
-            <a href="https://sites.google.com/view/jonghopark">Jongho Park</a> (likely presenter, based on related work), November 2025<br>
+            <a href="https://sites.google.com/view/jonghopark">Jongho Park</a>, November 2025<br>
             <strong>Location:</strong> Andrew Wiles Building, Oxford<br>
             <strong>Time:</strong> To be confirmed (multiple sessions)<br>
             <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract4')">Show Abstract</span>
             <div id="abstract4" class="abstract">
                 We present an auxiliary space theory that provides a unified framework for analyzing various iterative methods for solving linear systems. By interpreting a given iterative method for the original system as an equivalent, yet more elementary, iterative method for an auxiliary system defined on a larger space, we derive sharp convergence estimates using elementary linear algebra. In particular, we establish identities for the error propagation operator and the condition number associated with iterative methods, which generalize and refine existing results. The proposed auxiliary space theory is applicable to the analysis of numerous advanced numerical methods in scientific computing. To demonstrate its utility, we present a variety of applications, including subspace correction methods, Hiptmair–Xu preconditioners, saddle point problems, and iterative substructuring methods, and show how the proposed framework yields refined analyses in each case.
+                <div class="references">
+                    <strong>References:</strong><br>
+                    [1] Jongho Park. Unified analysis of saddle point problems via auxiliary space theory. arXiv preprint 2509.11434 (2025).<br>
+                    [2] Jongho Park and Jinchao Xu. Auxiliary space theory for the analysis of iterative methods for semidefinite linear systems. arXiv preprint 2509.07179 (2025).<br>
+                    [3] Jinchao Xu and Ludmil Zikatanov. Algebraic multigrid method. Acta Numer., 26 (2017), pp. 591–721. (Section 4 only)
+                </div>
             </div>
-            <strong>References:</strong>
-            <ul>
-                <li>[1] Jongho Park. Unified analysis of saddle point problems via auxiliary space theory. arXiv preprint 2509.11434 (2025).</li>
-                <li>[2] Jongho Park and Jinchao Xu. Auxiliary space theory for the analysis of iterative methods for semidefinite linear systems. arXiv preprint 2509.07179 (2025).</li>
-                <li>[3] Jinchao Xu and Ludmil Zikatanov. Algebraic multigrid method. Acta Numer., 26 (2017), pp. 591–721. (Section 4 only)</li>
-            </ul>
         </li>
 
         <li>
             <span class="lecture-title">Riemannian Geometry with Finite Elements</span><br>
             <a href="https://webpages.scu.edu/ftp/egawlik/">Evan Gawlik</a> (Santa Clara University), October 11–17, 2025<br>
             <strong>Location:</strong> VC1, Andrew Wiles Building, Oxford<br>
-            <strong>Time:</strong><br>
-            October 13, 14:00–16:00<br>
-            October 14, 10:00–12:00<br>
-            October 15, 13:00–15:00<br>
+            <strong>Time:</strong> October 13, 14:00–16:00; October 14, 10:00–12:00; October 15, 13:00–15:00<br>
             <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract0')">Show Abstract</span>
             <div id="abstract0" class="abstract">
                 This short course will cover techniques for discretizing the building blocks of Riemannian geometry---metrics, connections, and curvature---with finite elements. It will start with a brief introduction to the geometry of smooth surfaces and classical notions of discrete curvature on piecewise flat triangulated surfaces. We will explain how to generalize these notions of discrete curvature to triangulated manifolds equipped with piecewise polynomial metrics. Then we will explain how one can prove that these curvature discretizations converge to their smooth counterparts under refinement of the triangulation. Along the way, key concepts from Riemannian geometry will be reviewed, and links between discrete differential geometry and finite element theory will be highlighted and used extensively.
             </div>
         </li>
+
         <li>
             <span class="lecture-title">Finite elements in categorical language</span><br>
             <a href="https://www.mn.uio.no/math/english/people/aca/snorrec/">Snorre Christiansen</a> (University of Oslo), October 6–14, 2025<br>
             <strong>Location:</strong> VC1, Andrew Wiles Building, Oxford<br>
-            <strong>Time:</strong><br>
-            October 8, 14:00–16:00<br>
-            October 10, 14:00–16:00<br>
-            October 13, 11:00–12:00<br>
+            <strong>Time:</strong> October 8, 14:00–16:00; October 10, 14:00–16:00; October 13, 11:00–12:00<br>
             <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract1')">Show Abstract</span>
             <div id="abstract1" class="abstract">
                 I will show how finite elements can be described in terms of constructs from category theory. In particular they may be interpreted as presheaves on the poset category of a mesh. I will assume no prior knowledge of categories or sheaves. Ciarlet's definition of a finite element imposes a unisolvency condition which can be related to softness of sheaves. De Rham theorems relating different cohomologies can be proved in the general setting. Examples will be discussed.
             </div>
         </li>
+
         <li>
             <span class="lecture-title">A Posteriori Error Estimation by Preconditioning</span><br>
             <a href="https://sites.google.com/view/liyuwen/">Yuwen Li</a> (Zhejiang University), August 4–8, 2025<br>
@@ -104,6 +105,7 @@ nav_order: 8
                 This short course explores preconditioning and a posteriori error estimation in finite element methods, focusing on H(curl) and H(div) spaces. We begin by reviewing fundamental concepts in a posteriori error estimates for adaptive methods and iterative solvers for linear algebraic systems. The course emphasizes the interplay between iterative solvers and a posteriori error estimates, demonstrating the derivation of novel parameter-robust and p-robust error estimators in H(curl) and H(div) using nodal auxiliary space preconditioning at the continuous level. For comparison, we also examine classical a posteriori error analysis in H(grad), H(curl), and H(div).
             </div>
         </li>
+
         <li>
             <span class="lecture-title">Spectral Theory and Spectral Practice</span><br>
             <a href="https://www.uzerbinati.eu">Umberto Zerbinati</a> (University of Oxford), May 13–16, 2025<br>
