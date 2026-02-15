@@ -125,16 +125,40 @@ As a numerical analyst, I feel lucky and passionate to work at this interface of
   </div>
 </div>
 
-Another reason the Andrew Wiles Building holds special meaning for me — beyond its famous Escher-like staircase — is the “crystals” in the south wing. These glass panels display a surface plot of (likely) the first eigenfunction of the 2D Laplacian, probably computed via finite elements. I photographed them on a quiet night during the pandemic and have often used this image in talks to evoke piecewise-flat manifolds and Regge elements.
+Another reason I feel a special fondness for the Andrew Wiles Building, apart from its Escher-inspired staircase, is the presence of the "crystals." From these, one can glimpse the lively teaching and conference areas downstairs. The crystals in the south wing depict a surface plot of the first eigenfunction of the two-dimensional Laplacian (probably a finite element solution). I took a picture of these crystals on a quiet night during the pandemic and often use it to visualize Regge elements (piecewise-flat manifolds) in my presentations.
+
+<style>
+  .awb-image {
+    max-width: 600px;   /* 控制整体宽度 */
+    max-height: 360px;  /* 控制高度 */
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  figure {
+    text-align: center;
+    margin: 30px 0;
+  }
+
+  figcaption {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 8px;
+  }
+</style>
 
 <figure>
-  <img src="../assets/img/andrewwiles.png" alt="South wing crystals at Andrew Wiles Building" style="width:80%; display:block; margin:0 auto;">
-  <figcaption>South wing crystals — a visualization of eigenfunctions and piecewise-flat geometry.</figcaption>
+  <img src="../assets/img/andrewwiles.png"
+       alt="South wing crystals at Andrew Wiles Building"
+       class="awb-image">
 </figure>
 
 <figure>
-  <img src="../assets/img/stair.png" alt="Escher-inspired staircase at Andrew Wiles Building" style="width:80%; display:block; margin:0 auto 2em;">
-  <figcaption>The mesmerizing staircase in the Andrew Wiles Building.</figcaption>
+  <img src="../assets/img/stair.png"
+       alt="Escher-inspired staircase at Andrew Wiles Building"
+       class="awb-image">
 </figure>
 
 **Reference**  
