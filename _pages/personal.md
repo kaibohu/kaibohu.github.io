@@ -6,14 +6,11 @@ nav: true
 nav_order: 10
 ---
 
-## Contents
+
 
 - [Some Books](#some-books)
 - [Cascading Principles](#cascading-principles)
-<!-- 未来可以继续加，例如：
-- [Talks & Presentations](#talks)
-- [Photography](#photography)
--->
+
 
 ### Some Books
 
