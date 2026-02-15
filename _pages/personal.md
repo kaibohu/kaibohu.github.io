@@ -38,12 +38,12 @@ I am always drawn to new questions, but dynamics, geometry, mechanics and physic
   <img src="../assets/img/ArnoldKhesin.jpg" alt="Topological Methods in Hydrodynamics">
   <img src="../assets/img/book-arnold.png" alt="Mathematical Methods of Classical Mechanics">
   <img src="../assets/img/book-ciarlet.jpg" alt="Linear and Nonlinear Functional Analysis">
-  <img src="../assets/img/book-elasticity.jpg" alt="Mathematical Foundations of Elasticity">
+    <img src="../assets/img/book-feec.jpg" alt="Finite Element Exterior Calculus">
 </div>
 
 <div class="book-row">
-  <img src="../assets/img/book-feec.jpg" alt="Finite Element Exterior Calculus">
   <img src="../assets/img/book-geometry.jpg" alt="Modern Geometry">
+  <img src="../assets/img/book-elasticity.jpg" alt="Mathematical Foundations of Elasticity">
   <img src="../assets/img/book-sedov.jpg" alt="Mechanics of Continuous Media">
 </div>
 
