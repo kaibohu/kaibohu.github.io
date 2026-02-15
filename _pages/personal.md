@@ -129,23 +129,21 @@ Another reason I feel a special fondness for the Andrew Wiles Building, apart fr
 
 <style>
   .awb-image {
-    max-width: 600px;   /* 控制整体宽度 */
-    max-height: 360px;  /* 控制高度 */
-    width: 100%;
+    max-width: 450px;
+    max-height: 350px;
+    width: auto;
     height: auto;
     display: block;
     margin: 0 auto;
   }
-
   figure {
     text-align: center;
-    margin: 30px 0;
+    margin: 24px 0;
   }
-
   figcaption {
     font-size: 0.9em;
     color: #555;
-    margin-top: 8px;
+    margin-top: 6px;
   }
 </style>
 
