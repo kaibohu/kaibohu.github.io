@@ -84,7 +84,7 @@ nav_order: 8
         <strong>Time:</strong> 17 February 2026, 14:00–15:00; 20 February 2026, 14:00–16:00<br>
         <strong>Videos:</strong>
         <a href="https://drive.google.com/file/d/1a91Wjkvg25Ca28vKxMCol-WR7pqxB6tt/view?usp=drive_link">Lecture 1</a>,
-        <a href="https://drive.google.com/file/d/1MVEgnlgzTo8HHfYnrIdNqBwqafOgo4Vq/view?usp=drive_link">Lecture 2</a>,
+        <a href="https://drive.google.com/file/d/1nBcSCA7_4NNbqjASUazLeZ6EMBu5axUh/view?usp=drive_link">Lecture 2</a>,
         <a href="https://drive.google.com/file/d/1i-STSRux5fcwzzCE0SZCtvBCEHMSdTWz/view?usp=drive_link">Lecture 3</a><br>
         <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract4')">Show Abstract</span>
         <div id="abstract4" class="abstract">
