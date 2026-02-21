@@ -52,22 +52,51 @@ nav_order: 8
     <br>
     <h3>Lectures and Short Courses</h3>
     <ul>
+    
         <li>
-            <span class="lecture-title">Auxiliary Space Theory: Simple Construction of Sophisticated Iterative Methods for Linear Systems</span><br>
-            <a href="https://sites.google.com/view/jonghopark">Jongho Park</a> (KAUST)<br>
-            <strong>Location:</strong> Andrew Wiles Building, Oxford<br>
-            <strong>Time:</strong> To be confirmed (multiple sessions)<br>
-            <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract4')">Show Abstract</span>
-            <div id="abstract4" class="abstract">
-                We present an auxiliary space theory that provides a unified framework for analyzing various iterative methods for solving linear systems. By interpreting a given iterative method for the original system as an equivalent, yet more elementary, iterative method for an auxiliary system defined on a larger space, we derive sharp convergence estimates using elementary linear algebra. In particular, we establish identities for the error propagation operator and the condition number associated with iterative methods, which generalize and refine existing results. The proposed auxiliary space theory is applicable to the analysis of numerous advanced numerical methods in scientific computing. To demonstrate its utility, we present a variety of applications, including subspace correction methods, Hiptmair–Xu preconditioners, saddle point problems, and iterative substructuring methods, and show how the proposed framework yields refined analyses in each case.
-                <div class="references">
-                    <strong>References:</strong><br>
-                    [1] Jongho Park. Unified analysis of saddle point problems via auxiliary space theory. arXiv preprint 2509.11434 (2025).<br>
-                    [2] Jongho Park and Jinchao Xu. Auxiliary space theory for the analysis of iterative methods for semidefinite linear systems. arXiv preprint 2509.07179 (2025).<br>
-                    [3] Jinchao Xu and Ludmil Zikatanov. Algebraic multigrid method. Acta Numer., 26 (2017), pp. 591–721. (Section 4 only)
-                </div>
+        <span class="lecture-title">Mathematical Theory for Deep Neural Networks</span><br>
+        <a href="https://www.kaust.edu.sa/en/study/faculty/jinchao-xu">Jinchao Xu</a> (KAUST)<br>
+        <strong>Location:</strong> TBA<br>
+        <strong>Time:</strong> 15–19 June 2026<br>
+        <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract6')">Show Abstract</span>
+        <div id="abstract6" class="abstract">
+            TBA
+        </div>
+    </li>
+    
+    <li>
+        <span class="lecture-title">TBA </span><br>
+        <a href="https://faculty.txst.edu/profile/1922571">Young-Ju Lee</a> (Texas State University)<br>
+        <strong>Location:</strong> TBA<br>
+        <strong>Time:</strong> 23–24 March 2026<br>
+        <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract5')">Show Abstract</span>
+        <div id="abstract5" class="abstract">
+            TBA
+        </div>
+    </li>
+
+    
+    
+<li>
+        <span class="lecture-title">Auxiliary Space Theory: Simple Construction of Sophisticated Iterative Methods for Linear Systems</span><br>
+        <a href="https://sites.google.com/view/jonghopark">Jongho Park</a> (KAUST)<br>
+        <strong>Location:</strong> Andrew Wiles Building, Oxford<br>
+        <strong>Time:</strong> 17 February 2026, 14:00–15:00; 20 February 2026, 14:00–16:00<br>
+        <strong>Videos:</strong>
+        <a href="https://drive.google.com/file/d/1a91Wjkvg25Ca28vKxMCol-WR7pqxB6tt/view?usp=drive_link">Lecture 1</a>,
+        <a href="https://drive.google.com/file/d/1MVEgnlgzTo8HHfYnrIdNqBwqafOgo4Vq/view?usp=drive_link">Lecture 2</a>,
+        <a href="https://drive.google.com/file/d/1i-STSRux5fcwzzCE0SZCtvBCEHMSdTWz/view?usp=drive_link">Lecture 3</a><br>
+        <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract4')">Show Abstract</span>
+        <div id="abstract4" class="abstract">
+            We present an auxiliary space theory that provides a unified framework for analyzing various iterative methods for solving linear systems. By interpreting a given iterative method for the original system as an equivalent, yet more elementary, iterative method for an auxiliary system defined on a larger space, we derive sharp convergence estimates using elementary linear algebra. In particular, we establish identities for the error propagation operator and the condition number associated with iterative methods, which generalize and refine existing results. The proposed auxiliary space theory is applicable to the analysis of numerous advanced numerical methods in scientific computing. To demonstrate its utility, we present a variety of applications, including subspace correction methods, Hiptmair–Xu preconditioners, saddle point problems, and iterative substructuring methods, and show how the proposed framework yields refined analyses in each case.
+            <div class="references">
+                <strong>References:</strong><br>
+                [1] Jongho Park. Unified analysis of saddle point problems via auxiliary space theory. arXiv preprint 2509.11434 (2025).<br>
+                [2] Jongho Park and Jinchao Xu. Auxiliary space theory for the analysis of iterative methods for semidefinite linear systems. arXiv preprint 2509.07179 (2025).<br>
+                [3] Jinchao Xu and Ludmil Zikatanov. Algebraic multigrid method. Acta Numer., 26 (2017), pp. 591–721. (Section 4 only)
             </div>
-        </li>
+        </div>
+    </li>
 
         <li>
             <span class="lecture-title">Riemannian Geometry with Finite Elements</span><br>
