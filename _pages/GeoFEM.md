@@ -69,8 +69,8 @@ nav_order: 8
         <a href="https://www.dundee.ac.uk/people/gunnar-hornig">Gunnar Hornig</a> (University of Dundee)<br>
         <strong>Location:</strong> TBA<br>
         <strong>Time:</strong> 14–16 April 2026<br>
-        <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract6')">Show Abstract</span>
-        <div id="abstract6" class="abstract">
+        <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract7')">Show Abstract</span>
+        <div id="abstract7" class="abstract">
             TBA
         </div>
     </li>
