@@ -64,6 +64,17 @@ nav_order: 8
         </div>
     </li>
     
+            <li>
+        <span class="lecture-title">TBA</span><br>
+        <a href="https://www.dundee.ac.uk/people/gunnar-hornig">Gunnar Hornig</a> (University of Dundee)<br>
+        <strong>Location:</strong> TBA<br>
+        <strong>Time:</strong> 14–16 April 2026<br>
+        <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract6')">Show Abstract</span>
+        <div id="abstract6" class="abstract">
+            TBA
+        </div>
+    </li>
+    
     <li>
         <span class="lecture-title">TBA </span><br>
         <a href="https://faculty.txst.edu/profile/1922571">Young-Ju Lee</a> (Texas State University)<br>
@@ -86,6 +97,7 @@ nav_order: 8
         <a href="https://drive.google.com/file/d/1a91Wjkvg25Ca28vKxMCol-WR7pqxB6tt/view?usp=drive_link">Lecture 1</a>,
         <a href="https://drive.google.com/file/d/1nBcSCA7_4NNbqjASUazLeZ6EMBu5axUh/view?usp=drive_link">Lecture 2</a>,
         <a href="https://drive.google.com/file/d/1i-STSRux5fcwzzCE0SZCtvBCEHMSdTWz/view?usp=drive_link">Lecture 3</a><br>
+        <strong>Lecture Notes:</strong> <a href="https://kaibohu.github.io/homepage/JonghoPark-course.pdf">Lecture Notes</a><br>
         <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract4')">Show Abstract</span>
         <div id="abstract4" class="abstract">
             We present an auxiliary space theory that provides a unified framework for analyzing various iterative methods for solving linear systems. By interpreting a given iterative method for the original system as an equivalent, yet more elementary, iterative method for an auxiliary system defined on a larger space, we derive sharp convergence estimates using elementary linear algebra. In particular, we establish identities for the error propagation operator and the condition number associated with iterative methods, which generalize and refine existing results. The proposed auxiliary space theory is applicable to the analysis of numerous advanced numerical methods in scientific computing. To demonstrate its utility, we present a variety of applications, including subspace correction methods, Hiptmair–Xu preconditioners, saddle point problems, and iterative substructuring methods, and show how the proposed framework yields refined analyses in each case.
@@ -128,7 +140,7 @@ nav_order: 8
             <a href="https://drive.google.com/file/d/1YvWklp2JZ-AH7R1QrRuLEcbA0-bGBtbf/view?usp=sharing">Lecture 1</a>,
             <a href="https://drive.google.com/file/d/1JDWYS1lTmzWjF_IvnHgS0fo_Qb2PiIlv/view?usp=sharing">Lecture 2</a>,
             <a href="https://drive.google.com/file/d/1sx2DkO632NvZUIb6UoHH_ILPmy5O-ZfF/view?usp=sharing">Lecture 3</a><br>
-            <strong>Lecture Notes:</strong> <a href="https://drive.google.com/file/d/1rlgzKqeud-cRulJgS5VMkIPQqaCfnx2q/view?usp=sharing">Download Notes</a><br>
+            <strong>Lecture Notes:</strong> <a href="https://drive.google.com/file/d/1rlgzKqeud-cRulJgS5VMkIPQqaCfnx2q/view?usp=sharing">Lecture Notes</a><br>
             <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract2')">Show Abstract</span>
             <div id="abstract2" class="abstract">
                 This short course explores preconditioning and a posteriori error estimation in finite element methods, focusing on H(curl) and H(div) spaces. We begin by reviewing fundamental concepts in a posteriori error estimates for adaptive methods and iterative solvers for linear algebraic systems. The course emphasizes the interplay between iterative solvers and a posteriori error estimates, demonstrating the derivation of novel parameter-robust and p-robust error estimators in H(curl) and H(div) using nodal auxiliary space preconditioning at the continuous level. For comparison, we also examine classical a posteriori error analysis in H(grad), H(curl), and H(div).
