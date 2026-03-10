@@ -34,7 +34,6 @@ nav_order: 7
   </div>
 </div>
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
-  <div style="width: 120px; margin-right: 15px;"></div>
     <img src="../assets/img/JindongWang.png" alt="Jindong Wang" style="width: 120px; margin-right: 15px;">
   <div>
     <strong><a href="https://jindong24.github.io/">Jindong Wang</a> (Newton International Fellow)</strong><br>
@@ -69,7 +68,6 @@ nav_order: 7
   </div>
 </div>
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
-  <div style="width: 120px; margin-right: 15px;"></div>
     <img src="../assets/img/Olav.jpg" alt="Karl Olav Tyssvang" style="width: 120px; margin-right: 15px;">
   <div>
     <strong><a href="https://karltyssvang.github.io/">Karl Olav Tyssvang</a></strong><br>
