@@ -34,7 +34,7 @@ nav_order: 7
   </div>
 </div>
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
-    <img src="../assets/img/JindongWang.png" alt="Jindong Wang" style="width: 120px; margin-right: 15px;">
+    <img src="../assets/img/JindongWang.jpg" alt="Jindong Wang" style="width: 120px; margin-right: 15px;">
   <div>
     <strong><a href="https://jindong24.github.io/">Jindong Wang</a> (Newton International Fellow)</strong><br>
     <em>2026–</em><br>
