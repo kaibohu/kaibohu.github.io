@@ -52,63 +52,77 @@ nav_order: 8
     <br>
     <h3>Lectures and Short Courses</h3>
     <ul>
-    
-        <li>
-        <span class="lecture-title">Mathematical Theory for Deep Neural Networks</span><br>
-        <a href="https://www.kaust.edu.sa/en/study/faculty/jinchao-xu">Jinchao Xu</a> (KAUST)<br>
-        <strong>Location:</strong> TBA<br>
-        <strong>Time:</strong> 15–19 June 2026<br>
-        <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract6')">Show Abstract</span>
-        <div id="abstract6" class="abstract">
-            TBA
-        </div>
-    </li>
-    
-            <li>
-        <span class="lecture-title">TBA</span><br>
-        <a href="https://www.dundee.ac.uk/people/gunnar-hornig">Gunnar Hornig</a> (University of Dundee)<br>
-        <strong>Location:</strong> TBA<br>
-        <strong>Time:</strong> 14–16 April 2026<br>
-        <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract7')">Show Abstract</span>
-        <div id="abstract7" class="abstract">
-            TBA
-        </div>
-    </li>
-    
-    <li>
-        <span class="lecture-title">TBA </span><br>
-        <a href="https://faculty.txst.edu/profile/1922571">Young-Ju Lee</a> (Texas State University)<br>
-        <strong>Location:</strong> TBA<br>
-        <strong>Time:</strong> 23–24 March 2026<br>
-        <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract5')">Show Abstract</span>
-        <div id="abstract5" class="abstract">
-            TBA
-        </div>
-    </li>
 
-    
-    
-<li>
-        <span class="lecture-title">Auxiliary Space Theory: Simple Construction of Sophisticated Iterative Methods for Linear Systems</span><br>
-        <a href="https://sites.google.com/view/jonghopark">Jongho Park</a> (KAUST)<br>
-        <strong>Location:</strong> Andrew Wiles Building, Oxford<br>
-        <strong>Time:</strong> 17 February 2026, 14:00–15:00; 20 February 2026, 14:00–16:00<br>
-        <strong>Videos:</strong>
-        <a href="https://drive.google.com/file/d/1a91Wjkvg25Ca28vKxMCol-WR7pqxB6tt/view?usp=drive_link">Lecture 1</a>,
-        <a href="https://drive.google.com/file/d/1nBcSCA7_4NNbqjASUazLeZ6EMBu5axUh/view?usp=drive_link">Lecture 2</a>,
-        <a href="https://drive.google.com/file/d/1i-STSRux5fcwzzCE0SZCtvBCEHMSdTWz/view?usp=drive_link">Lecture 3</a><br>
-        <strong>Lecture Notes:</strong> <a href="https://kaibohu.github.io/homepage/JonghoPark-course.pdf">Lecture Notes</a><br>
-        <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract4')">Show Abstract</span>
-        <div id="abstract4" class="abstract">
-            We present an auxiliary space theory that provides a unified framework for analyzing various iterative methods for solving linear systems. By interpreting a given iterative method for the original system as an equivalent, yet more elementary, iterative method for an auxiliary system defined on a larger space, we derive sharp convergence estimates using elementary linear algebra. In particular, we establish identities for the error propagation operator and the condition number associated with iterative methods, which generalize and refine existing results. The proposed auxiliary space theory is applicable to the analysis of numerous advanced numerical methods in scientific computing. To demonstrate its utility, we present a variety of applications, including subspace correction methods, Hiptmair–Xu preconditioners, saddle point problems, and iterative substructuring methods, and show how the proposed framework yields refined analyses in each case.
-            <div class="references">
-                <strong>References:</strong><br>
-                [1] Jongho Park. Unified analysis of saddle point problems via auxiliary space theory. arXiv preprint 2509.11434 (2025).<br>
-                [2] Jongho Park and Jinchao Xu. Auxiliary space theory for the analysis of iterative methods for semidefinite linear systems. arXiv preprint 2509.07179 (2025).<br>
-                [3] Jinchao Xu and Ludmil Zikatanov. Algebraic multigrid method. Acta Numer., 26 (2017), pp. 591–721. (Section 4 only)
+        <li>
+            <span class="lecture-title">Mathematical Theory for Deep Neural Networks</span><br>
+            <a href="https://www.kaust.edu.sa/en/study/faculty/jinchao-xu">Jinchao Xu</a> (KAUST)<br>
+            <strong>Location:</strong> TBA<br>
+            <strong>Time:</strong> 15–19 June 2026<br>
+            <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract6')">Show Abstract</span>
+            <div id="abstract6" class="abstract">
+                TBA
             </div>
-        </div>
-    </li>
+        </li>
+
+        <li>
+            <span class="lecture-title">Solving PDEs with FEM using the open source finite element package NGSolve</span><br>
+            <a href="https://www.tuwien.at/mg/asc/schoeberl/">Joachim Schöberl</a> (TU Wien)<br>
+            <strong>Details:</strong> GeoFEM will fund this course as part of the Research School at SciCADE2026.<br>
+            <strong>Application:</strong> Open until 1 March 2026<br>
+            <strong>Website:</strong> <a href="https://scicade.org/research-school">https://scicade.org/research-school</a><br>
+            <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract8')">Show Abstract</span>
+            <div id="abstract8" class="abstract">
+                This course introduces solving partial differential equations (PDEs) using finite element methods with the open-source software package NGSolve. It covers practical aspects of FEM implementation, mesh generation, assembly, solvers, and visualization in NGSolve, aimed at researchers and students working on scientific computing and PDE problems.
+            </div>
+        </li>
+
+        <li>
+            <span class="lecture-title">TBA</span><br>
+            <a href="https://www.dundee.ac.uk/people/gunnar-hornig">Gunnar Hornig</a> (University of Dundee)<br>
+            <strong>Location:</strong> TBA<br>
+            <strong>Time:</strong> 14–16 April 2026<br>
+            <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract7')">Show Abstract</span>
+            <div id="abstract7" class="abstract">
+                TBA
+            </div>
+        </li>
+
+        <li>
+            <span class="lecture-title">Iterative solvers and subspace correction</span><br>
+            <a href="https://faculty.txst.edu/profile/1922571">Young-Ju Lee</a> (Texas State University)<br>
+            <strong>Location:</strong> TBA<br>
+            <strong>Time:</strong> 23–24 March 2026<br>
+            <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract5')">Show Abstract</span>
+            <div id="abstract5" class="abstract">
+                <p><strong>Session 1: Parallel Subspace Correction Methods for Semicoercive and Nearly Semicoercive Convex Optimization with Applications to Nonlinear PDEs</strong></p>
+                <p>We develop new convergence results for parallel subspace correction methods applied to unconstrained semicoercive and nearly semicoercive convex optimization problems. This extends the classical theory for singular and nearly singular linear systems to a broader class of nonlinear problems. In particular, we show that the theoretical framework established for linear singular and nearly singular problems also applies in the convex optimization setting. For semicoercive problems, the convergence rate is characterized through a seminorm-stable decomposition involving the subspaces and the kernel of the operator, in close analogy with the singular linear case. For nearly semicoercive problems, we prove a parameter-independent convergence rate under the assumption that the kernel of the semicoercive component admits a decomposition into local kernels, paralleling the theory for nearly singular problems. As an application, we analyze two-level additive Schwarz methods for a class of nonlinear partial differential equations with Neumann boundary conditions within this abstract framework.</p>
+
+                <p><strong>Session 2: A High-Order Augmented Lagrangian Method with Arbitrarily Fast Convergence</strong></p>
+                <p>We introduce a high-order augmented Lagrangian method for convex optimization problems with linear constraints that attains arbitrarily fast, and even superlinear, convergence rates. Our analysis begins with the high-order proximal point method, for which we establish convergence rates under suitable uniform convexity assumptions on the objective functional. Building on these results, we formulate a high-order augmented Lagrangian scheme and derive its convergence properties by relating it to the high-order proximal point framework. We conclude by demonstrating the method’s applicability to several scientific problems, including data fitting, porous media flow, and scientific machine learning.</p>
+            </div>
+        </li>
+
+        <li>
+            <span class="lecture-title">Auxiliary Space Theory: Simple Construction of Sophisticated Iterative Methods for Linear Systems</span><br>
+            <a href="https://sites.google.com/view/jonghopark">Jongho Park</a> (KAUST)<br>
+            <strong>Location:</strong> Andrew Wiles Building, Oxford<br>
+            <strong>Time:</strong> 17 February 2026, 14:00–15:00; 20 February 2026, 14:00–16:00<br>
+            <strong>Videos:</strong>
+            <a href="https://drive.google.com/file/d/1a91Wjkvg25Ca28vKxMCol-WR7pqxB6tt/view?usp=drive_link">Lecture 1</a>,
+            <a href="https://drive.google.com/file/d/1nBcSCA7_4NNbqjASUazLeZ6EMBu5axUh/view?usp=drive_link">Lecture 2</a>,
+            <a href="https://drive.google.com/file/d/1i-STSRux5fcwzzCE0SZCtvBCEHMSdTWz/view?usp=drive_link">Lecture 3</a><br>
+            <strong>Lecture Notes:</strong> <a href="https://kaibohu.github.io/homepage/JonghoPark-course.pdf">Lecture Notes</a><br>
+            <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract4')">Show Abstract</span>
+            <div id="abstract4" class="abstract">
+                We present an auxiliary space theory that provides a unified framework for analyzing various iterative methods for solving linear systems. By interpreting a given iterative method for the original system as an equivalent, yet more elementary, iterative method for an auxiliary system defined on a larger space, we derive sharp convergence estimates using elementary linear algebra. In particular, we establish identities for the error propagation operator and the condition number associated with iterative methods, which generalize and refine existing results. The proposed auxiliary space theory is applicable to the analysis of numerous advanced numerical methods in scientific computing. To demonstrate its utility, we present a variety of applications, including subspace correction methods, Hiptmair–Xu preconditioners, saddle point problems, and iterative substructuring methods, and show how the proposed framework yields refined analyses in each case.
+                <div class="references">
+                    <strong>References:</strong><br>
+                    [1] Jongho Park. Unified analysis of saddle point problems via auxiliary space theory. arXiv preprint 2509.11434 (2025).<br>
+                    [2] Jongho Park and Jinchao Xu. Auxiliary space theory for the analysis of iterative methods for semidefinite linear systems. arXiv preprint 2509.07179 (2025).<br>
+                    [3] Jinchao Xu and Ludmil Zikatanov. Algebraic multigrid method. Acta Numer., 26 (2017), pp. 591–721. (Section 4 only)
+                </div>
+            </div>
+        </li>
 
         <li>
             <span class="lecture-title">Riemannian Geometry with Finite Elements</span><br>
@@ -158,7 +172,9 @@ nav_order: 8
                 This short course explores finite element discretizations of eigenvalue problems involving non-normal operators, with a focus on the advection-diffusion equation as a guiding example. We begin by revisiting fundamental spectral notions—self-adjointness, normality, spectra, and pseudospectra—with particular emphasis on how an operator’s spectrum informs the physical behavior of time-dependent PDEs. The core of the course is devoted to the classical analysis of finite element approximations: we present the Bramble-Osborn results for non-self-adjoint eigenvalue problems, including full proofs, and discuss their implications for convergence and approximation quality. For comparison, we also review the celebrated Babuška-Osborn theory for self-adjoint cases. If time permits, we will conclude with a discussion on iterative solvers and preconditioning strategies tailored to non-normal eigenvalue problems. The course requires a basic background in functional analysis and finite element methods.
             </div>
         </li>
+
     </ul>
+
     <script>
         function toggleAbstract(id) {
             const abstract = document.getElementById(id);
