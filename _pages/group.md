@@ -34,9 +34,9 @@ nav_order: 7
   </div>
 </div>
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
-  <div style="width: 120px; margin-right: 15px;"></div>
+    <img src="../assets/img/JindongWang.jpg" alt="Jindong Wang" style="width: 120px; margin-right: 15px;">
   <div>
-    <strong><a href="https://www.maths.ox.ac.uk/people/jindong.wang">Jindong Wang (Newton International Fellow)</a></strong><br>
+    <strong><a href="https://jindong24.github.io/">Jindong Wang</a> (Newton International Fellow)</strong><br>
     <em>2026–</em><br>
     PhD: Peking University
   </div>
@@ -68,9 +68,9 @@ nav_order: 7
   </div>
 </div>
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
-  <div style="width: 120px; margin-right: 15px;"></div>
+    <img src="../assets/img/Olav.jpg" alt="Karl Olav Tyssvang" style="width: 120px; margin-right: 15px;">
   <div>
-    <strong><a href="https://www.mn.uio.no/math/studier/aktuelt/arrangementer/master-2025/mastereksamen-MAT-mfa-Tyssvang.html">Karl Olav Tyssvang</a></strong><br>
+    <strong><a href="https://karltyssvang.github.io/">Karl Olav Tyssvang</a></strong><br>
     <em>2025–</em><br>
     MSc: University of Oslo
   </div>
