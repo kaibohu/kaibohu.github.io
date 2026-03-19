@@ -16,3 +16,4 @@ bin/deploy
 *.sh
 _pages/about.log
 _pages/GeoFEM.log
+_pages/talks.log

@@ -32,6 +32,9 @@ Some presentation materials:
 
 
 ### Colloquium/Seminar talks
+1. CAM Colloquium, University of Chicago, USA, March/2026.
+1. 'Modelling of Materials' Seminar, Mathematical Institute,  Charles University, Prague, Czechia. 
+1. Seminar of Numerical Mathematics, Department of Numerical Mathematics, Charles University, Prague, Czechia. 
 1. Leeds Geometry and Analysis Seminar, University of Leeds, UK, Feb/2026. 
 1.  Computational Mathematics and Applications Seminar, Mathematical Institute, University of Oxford, UK, Jan/2026.
 1. Partial Differential Equations Seminar, Mathematical Institute, University of Oxford, UK, Jan/2026.
