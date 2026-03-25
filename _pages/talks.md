@@ -26,14 +26,14 @@ Some presentation materials:
 - [Finite element form-valued forms](https://kaibohu.github.io/homepage/2025SIAMCSE-PeriodicTable.pdf) (Texas, 2025)
 - [Finite elements for symmetric and traceless tensors in three dimensions](https://kaibohu.github.io/homepage/2025Ghent.pdf) (Ghent, 2025)
 - [Towards Computational Topological (Magneto)Hydrodynamics: long term evolution of fluids and plasma](https://kaibohu.github.io/homepage/2025LSEC.pdf) (Beijing, 2025) 
-
+- [Modelling generalized continua via homological algebra](https://kaibohu.github.io/homepage/2026Prague-modelling.pdf) (Prague, 2026)
 
  
 
 
 ### Colloquium/Seminar talks
 1. CAM Colloquium, University of Chicago, USA, March/2026.
-1. 'Modelling of Materials' Seminar, Mathematical Institute,  Charles University, Prague, Czechia. 
+1. Modelling of Materials Seminar, Mathematical Institute,  Charles University, Prague, Czechia. 
 1. Seminar of Numerical Mathematics, Department of Numerical Mathematics, Charles University, Prague, Czechia. 
 1. Leeds Geometry and Analysis Seminar, University of Leeds, UK, Feb/2026. 
 1.  Computational Mathematics and Applications Seminar, Mathematical Institute, University of Oxford, UK, Jan/2026.
