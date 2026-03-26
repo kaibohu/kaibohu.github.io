@@ -75,7 +75,7 @@ nav_order: 7
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
   <img src="../assets/img/MingdongHe.png" alt="Mingdong He" style="width: 120px; margin-right: 15px;">
   <div>
-    <strong><a href="https://sites.google.com/view/mingdonghe/home/">Mingdong He</strong><br>
+    <strong><a href="https://sites.google.com/view/mingdonghe/home/">Mingdong He</a></strong><br>
     <em>2023–</em> (joint supervision with Patrick Farrell)<br>
     MASt: University of Cambridge
   </div>
