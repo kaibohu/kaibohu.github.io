@@ -5,10 +5,15 @@ title: Group
 nav: true
 nav_order: 7
 ---
+
 <br>
+
 ## Current Members
+
 <br>
+
 <span style="font-size: 1em;"><strong>Postdocs</strong></span>
+
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
   <img src="../assets/img/borisandrews.jpg" alt="Boris Andrews" style="width: 120px; margin-right: 15px;">
   <div>
@@ -17,6 +22,7 @@ nav_order: 7
     DPhil: University of Oxford
   </div>
 </div>
+
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
   <img src="../assets/img/YizhouLiang.jpg" alt="Yizhou Liang" style="width: 120px; margin-right: 15px;">
   <div>
@@ -25,6 +31,7 @@ nav_order: 7
     PhD: Peking University
   </div>
 </div>
+
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
   <div style="width: 120px; margin-right: 15px;"></div>
   <div>
@@ -33,14 +40,16 @@ nav_order: 7
     PhD: Monash University
   </div>
 </div>
+
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
-    <img src="../assets/img/JindongWang.jpg" alt="Jindong Wang" style="width: 120px; margin-right: 15px;">
+  <img src="../assets/img/JindongWang.jpg" alt="Jindong Wang" style="width: 120px; margin-right: 15px;">
   <div>
     <strong><a href="https://jindong24.github.io/">Jindong Wang</a> (Newton International Fellow)</strong><br>
     <em>2026–</em><br>
     PhD: Peking University
   </div>
 </div>
+
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
   <img src="../assets/img/GanghuiZhang.jpg" alt="Ganghui Zhang" style="width: 120px; margin-right: 15px;">
   <div>
@@ -49,6 +58,7 @@ nav_order: 7
     PhD: Tsinghua University
   </div>
 </div>
+
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
   <div style="width: 120px; margin-right: 15px;"></div>
   <div>
@@ -57,8 +67,20 @@ nav_order: 7
     PhD: Fudan University
   </div>
 </div>
+
 <br>
+
 <span style="font-size: 1em;"><strong>PhD Students</strong></span>
+
+<div style="display: flex; align-items: flex-start; margin-top: 1em;">
+  <img src="../assets/img/MingdongHe.png" alt="Mingdong He" style="width: 120px; margin-right: 15px;">
+  <div>
+    <strong>Mingdong He</strong><br>
+    <em>2023–</em> (joint supervision with Patrick Farrell)<br>
+    MASt: University of Cambridge
+  </div>
+</div>
+
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
   <img src="../assets/img/MarkAlvaresPeres.jpg" alt="Mark Alvares Peres" style="width: 120px; margin-right: 15px;">
   <div>
@@ -67,14 +89,16 @@ nav_order: 7
     MSc: University of Edinburgh
   </div>
 </div>
+
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
-    <img src="../assets/img/Olav.jpg" alt="Karl Olav Tyssvang" style="width: 120px; margin-right: 15px;">
+  <img src="../assets/img/Olav.jpg" alt="Karl Olav Tyssvang" style="width: 120px; margin-right: 15px;">
   <div>
     <strong><a href="https://karltyssvang.github.io/">Karl Olav Tyssvang</a></strong><br>
-    <em>2025–</em><br>
+    <em>2025–</em> (joint supervision with Snorre Christiansen)<br>
     MSc: University of Oslo
   </div>
 </div>
+
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
   <img src="../assets/img/YuechenZhu.jpg" alt="Yuechen Zhu" style="width: 120px; margin-right: 15px;">
   <div>
@@ -83,10 +107,15 @@ nav_order: 7
     Undergraduate: Peking University
   </div>
 </div>
+
 <br>
+
 ## Previous Members
+
 <br>
+
 <span style="font-size: 1em;"><strong>Postdocs</strong></span>
+
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
   <div style="width: 120px; margin-right: 15px;"></div>
   <div>
