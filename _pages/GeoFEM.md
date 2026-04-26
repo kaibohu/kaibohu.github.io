@@ -54,6 +54,18 @@ nav_order: 8
     <ul>
 
         <li>
+            <span class="lecture-title">Traces, Bubbles, and Supersmoothness: Constructing Conforming Finite Elements for Tensor Complexes</span><br>
+            <a href="https://oden.utexas.edu/people/directory/bowen-shi-2319/">Bowen Shi</a> (Oden Institute, UT Austin)<br>
+            <strong>Location:</strong> Andrew Wiles Building, Oxford<br>
+            <strong>Time:</strong> TBA<br>
+            <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract-bowen')">Show Abstract</span>
+            <div id="abstract-bowen" class="abstract">
+                Finite element exterior calculus (FEEC) provides a systematic framework for discretizing differential complexes while preserving their underlying cohomological structure. Starting from the de Rham complex and the classical $H^1$, $H(\mathrm{curl})$, and $H(\mathrm{div})$-conforming finite elements, this perspective has been extended through BGG constructions to tensor-valued complexes such as the Hessian, elasticity, and divdiv complexes. These developments reveal a common construction principle: conforming finite element spaces should be designed together with the traces, bubbles, and cohomological properties of the complex. <br><br>
+                In this talk, we discuss this philosophy and its extension to a third-order tensor complex: the three-dimensional conformal deformation complex. Its middle spaces consist of symmetric traceless tensor fields, connected by the conformal Killing operator, the linearized Cotton–York operator, and divergence. We explain how trace complexes determine interelement continuity, how bubble complexes reveal necessary vertex supersmoothness, and how these ingredients lead to conforming finite element subcomplexes that are exact on contractible domains. The construction also yields an inf–sup stable $H(\mathrm{div})$-conforming pair for symmetric traceless tensors, providing a structure-preserving discretization of transverse-traceless fields.
+            </div>
+        </li>
+
+        <li>
             <span class="lecture-title">Mathematical Theory for Deep Neural Networks</span><br>
             <a href="https://www.kaust.edu.sa/en/study/faculty/jinchao-xu">Jinchao Xu</a> (KAUST)<br>
             <strong>Location:</strong> TBA<br>
@@ -76,17 +88,24 @@ nav_order: 8
             </div>
         </li>
 
-        <li>
-            <span class="lecture-title">TBA</span><br>
+          <li>
+            <span class="lecture-title">Topological perspectives of MHD</span><br>
             <a href="https://www.dundee.ac.uk/people/gunnar-hornig">Gunnar Hornig</a> (University of Dundee)<br>
-            <strong>Location:</strong> TBA<br>
+            <strong>Location:</strong> VC1, Andrew Wiles Building, Oxford<br>
             <strong>Time:</strong> 14–16 April 2026<br>
             <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract7')">Show Abstract</span>
             <div id="abstract7" class="abstract">
-                TBA
+                <p><strong>TALK 1: Magnetic Helicity and Related Quantities (Tuesday 14th April, 2:30pm)</strong><br>
+                Magnetic helicity is a widely used concept in astrophysics and plasma physics that measures the linking of magnetic flux within a domain. We will explain its relation to the Gauss linking number, and explore various generalisations. First, we extend the definition to multiply connected domains and to magnetically open domains. We then introduce the concept of field-line helicity, its relation to the Calabi invariant, and, ultimately, Arnold's inequality, which relates helicity to magnetic energy.</p>
+
+                <p><strong>TALK 2: Magnetic Relaxation and the Parker Problem (Wednesday 15th April, 2:30pm)</strong><br>
+                The equations of Magnetohydrodynamics (MHD) describe the evolution of a plasma. For most astrophysical and many technical plasmas, the dissipative term in the equations is very small. If one neglects this term (ideal MHD), the equations have an infinite number of conserved quantities related to the conservation of the topology of the magnetic field. On the other hand, even with very small resistivity, strong current sheets can develop in localised regions, leading to magnetic reconnection. This raises the question of which ideal invariants are still approximate invariants in the limit of small, but non-vanishing, resistivity. We will discuss several numerical relaxation experiments we have performed on plasmas with complex, braided magnetic fields to determine which invariants govern the relaxation process toward a minimum-energy state. This includes a critical review of Taylor's theory, a discussion of the role of turbulence, and the Parker problem, i.e., whether equilibria are accessible from arbitrary initial configurations.</p>
+
+                <p><strong>TALK 3: Topological Invariants of Magnetic Fields Beyond Helicity (Thursday 16th April, 2:30pm)</strong><br>
+                We explain how higher-order linking, e.g. of the type of Borromean rings, can be measured in magnetic fields using invariants derived from Massey products. We discuss the limitations of these integrals, in particular the ordering problem that has hindered their broader application. We then discuss extensions to higher-dimensional spaces, e.g., link invariants such as the Novikov invariant, which can be applied to the electromagnetic field in 4-dimensional spacetime.</p>
             </div>
         </li>
-
+        
         <li>
             <span class="lecture-title">Iterative solvers and subspace correction</span><br>
             <a href="https://faculty.txst.edu/profile/1922571">Young-Ju Lee</a> (Texas State University)<br>
