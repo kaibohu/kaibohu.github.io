@@ -57,7 +57,7 @@ nav_order: 8
             <span class="lecture-title">Traces, Bubbles, and Supersmoothness: Constructing Conforming Finite Elements for Tensor Complexes</span><br>
             <a href="https://oden.utexas.edu/people/directory/bowen-shi-2319/">Bowen Shi</a> (Oden Institute, UT Austin)<br>
             <strong>Location:</strong> Andrew Wiles Building, Oxford<br>
-            <strong>Time:</strong> TBA<br>
+            <strong>Time:</strong> 20-24 July, 2026<br>
             <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract-bowen')">Show Abstract</span>
             <div id="abstract-bowen" class="abstract">
                 Finite element exterior calculus (FEEC) provides a systematic framework for discretizing differential complexes while preserving their underlying cohomological structure. Starting from the de Rham complex and the classical $H^1$, $H(\mathrm{curl})$, and $H(\mathrm{div})$-conforming finite elements, this perspective has been extended through BGG constructions to tensor-valued complexes such as the Hessian, elasticity, and divdiv complexes. These developments reveal a common construction principle: conforming finite element spaces should be designed together with the traces, bubbles, and cohomological properties of the complex. <br><br>
