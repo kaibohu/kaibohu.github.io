@@ -22,6 +22,6 @@ I obtained my PhD at <a href='https://bicmr.pku.edu.cn'>Peking University</a> in
 
 I am the PI of an ERC Starting Grant '<a href='https://cordis.europa.eu/project/id/101164551'>GeoFEM (Geometric Finite Element Methods)</a>'. The project investigates discretization of geometric objects with finite elements, connections between finite elements and discrete differential geometry and applications.
 
-I am on the editorial board for <a href='https://epubs.siam.org/journal/sjnaam'>SIAM Journal on Numerical Analysis</a>. 
+I am on the editorial boards for <a href='https://link.springer.com/journal/10208'>Foundations of Computational Mathematics</a> and <a href='https://epubs.siam.org/journal/sjnaam'>SIAM Journal on Numerical Analysis</a>. 
 
 <a href='https://www.maths.ox.ac.uk/people/kaibo.hu'>Institutional homepage</a> | <a href='https://kaibohu.github.io/assets/pdf/cv_Kaibo.pdf'>Curriculum vitae</a>
