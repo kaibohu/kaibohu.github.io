@@ -24,4 +24,6 @@ I am the PI of an ERC Starting Grant '<a href='https://cordis.europa.eu/project/
 
 I am on the editorial boards for <a href='https://link.springer.com/journal/10208'>Foundations of Computational Mathematics</a> and <a href='https://epubs.siam.org/journal/sjnaam'>SIAM Journal on Numerical Analysis</a>. 
 
+Currently, I am co-organizing a [Thematic Program on ''Differential complexes''](https://www.esi.ac.at/events/e585/) at the Erwin Schrödinger International Institute. In the autumn semester 2026, I will give [Nachdiplom lectures](https://math.ethz.ch/fim/activities/nachdiplom-lectures.html) at [FIM](https://math.ethz.ch/fim) in Zurich. [poster](https://kaibohu.github.io/homepage/nachdiplom-poster.pdf)
+
 <a href='https://www.maths.ox.ac.uk/people/kaibo.hu'>Institutional homepage</a> | <a href='https://kaibohu.github.io/assets/pdf/cv_Kaibo.pdf'>Curriculum vitae</a>
