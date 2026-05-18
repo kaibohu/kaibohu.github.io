@@ -125,3 +125,19 @@ nav_order: 7
     Current Position: Maître de Conférences, Université de Lille
   </div>
 </div>
+
+
+ 
+
+ 
+
+<div style="text-align: center;">
+  <img src="../assets/img/group@ESI.jpeg"
+       alt="Group picture at ESI Vienna"
+       style="width: 85%; max-width: 900px; border-radius: 6px;">
+  <p style="margin-top: 0.8em; font-size: 0.95em; color: #555;">
+    Group picture of students, postdocs, and visitors during the ESI program
+    <a href="https://www.esi.ac.at/events/e585/">“Differential Complexes: Theory, Discretization, and Applications”</a>,
+    Vienna, May 2026.
+  </p>
+</div>
