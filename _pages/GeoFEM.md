@@ -92,7 +92,7 @@ nav_order: 8
             <span class="lecture-title">Mathematical Theory for Deep Neural Networks</span><br>
             <a href="https://www.kaust.edu.sa/en/study/faculty/jinchao-xu">Jinchao Xu</a> (KAUST)<br>
             <strong>Location:</strong> TBA<br>
-            <strong>Time:</strong> 15–19 June 2026<br>
+<strong>Time:</strong> 16 June 2026, 09:00–11:00; 17 June 2026, 09:00–11:00<br>
             <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract6')">Show Abstract</span>
             <div id="abstract6" class="abstract">
                 TBA
