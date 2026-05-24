@@ -53,6 +53,29 @@ nav_order: 8
     <h3>Lectures and Short Courses</h3>
     <ul>
 
+<li>
+    <span class="lecture-title">Discrete Exterior Calculus</span><br>
+    <a href="https://hirani.web.illinois.edu/">Anil Hirani</a> (University of Illinois Urbana–Champaign)<br>
+    <strong>Location:</strong> Andrew Wiles Building, Oxford<br>
+    <strong>Time:</strong> 31 August–4 September 2026<br>
+    <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract-anil')">Show Abstract</span>
+    <div id="abstract-anil" class="abstract">
+        TBA
+    </div>
+</li>
+
+<li>
+    <span class="lecture-title">TBA</span><br>
+    <a href="https://olligross.github.io">Oliver Gross</a> (UC San Diego)<br>
+    <strong>Location:</strong> TBA<br>
+    <strong>Time:</strong> 6–8 July 2026<br>
+    <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract-oliver')">Show Abstract</span>
+    <div id="abstract-oliver" class="abstract">
+        TBA
+    </div>
+</li>
+
+
         <li>
             <span class="lecture-title">Traces, Bubbles, and Supersmoothness: Constructing Conforming Finite Elements for Tensor Complexes</span><br>
             <a href="https://oden.utexas.edu/people/directory/bowen-shi-2319/">Bowen Shi</a> (Oden Institute, UT Austin)<br>
