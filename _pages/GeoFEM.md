@@ -54,13 +54,28 @@ nav_order: 8
     <ul>
 
 <li>
-    <span class="lecture-title">Discrete Exterior Calculus</span><br>
+    <span class="lecture-title">Lectures on Discrete Exterior Calculus (DEC)</span><br>
     <a href="https://hirani.web.illinois.edu/">Anil Hirani</a> (University of Illinois Urbana–Champaign)<br>
     <strong>Location:</strong> Andrew Wiles Building, Oxford<br>
-    <strong>Time:</strong> 31 August–4 September 2026<br>
+    <strong>Time:</strong> 31 August–4 September 2026, 10:30–12:00 each day (5 lectures)<br>
     <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract-anil')">Show Abstract</span>
     <div id="abstract-anil" class="abstract">
-        TBA
+        Discrete Exterior Calculus (DEC) is a combinatorial construction of objects and operators that mimics the structure of exterior calculus on smooth manifolds, but is built on a simplicial complex without requiring a differentiable structure. DEC serves dual roles: as a framework for solving numerical PDEs, which establishes links with finite element exterior calculus (FEEC), and as a mathematical structure in its own right, establishing links with discrete geometry and topology. These whiteboard lectures will emphasize the use of concrete examples to convey the core ideas. Following a brief overview of the landscape, the series is divided into five 90-minute sessions:<br><br>
+
+        <strong>Lecture 1 (Discrete forms, exterior derivative, wedge product, naturality):</strong>
+        This opening lecture establishes the combinatorial foundations of the framework. We will introduce simplicial complexes, chains, and cochains, interpreting cochains as discrete differential forms. We will then examine the coboundary operator as the discrete exterior derivative. The session will conclude by constructing the discrete wedge product via the anti-symmetrized cup product, examining the Leibniz product rule, and discussing simplicial maps and naturality.<br><br>
+
+        <strong>Lecture 2 (Discrete Hodge star, codifferential, contraction and Lie derivative):</strong>
+        This session starts with metric-dependent structures. We will examine well-centered and Delaunay triangulations, circumcentric duality, and the construction of the dual cell complex. After defining the combinatorial orientation of the dual complex, we will construct the discrete Hodge star and the codifferential. Returning to combinatorial structures, we will state two identities about the contraction (hook) operator leading to definitions of the discrete contraction operator. One of these definitions implies the L2 duality of the wedge and contraction. We will examine this duality and its applications in double forms and PDEs in some detail. The discrete Lie derivative will then be defined by assuming the Cartan homotopy formula.<br><br>
+
+        <strong>Lecture 3 (Hodge-Laplace problems and relationship with FEEC):</strong>
+        Focusing on numerical solutions to partial differential equations, this lecture addresses Hodge-Laplace problems and their relationship with lowest-degree Whitney forms. We will compare mixed and direct formulations of these problems and establish the equivalence of DEC and FEEC norms. The session will also cover boundary conditions, convergence, and stability.<br><br>
+
+        <strong>Lecture 4 (Vector bundle valued DEC):</strong>
+        This session extends the framework to discrete vector bundles. After introducing bundles equipped with a connection, we will explore the subdivision functor and define the exterior covariant derivative. This leads to discrete formulations of curvature and the Bianchi identity. We will conclude with a discussion of coarsened and anti-symmetrized theories, and curvature obstructions to the Leibniz rule in these theories. Time permitting, we will briefly discuss flat connections and twisted de Rham cohomology.<br><br>
+
+        <strong>Lecture 5 (Algebraic and topological implications of the discrete wedge):</strong>
+        The final lecture bridges the geometric framework with algebraic topology by analyzing the properties of the discrete wedge product. We will examine the failure of strict associativity, which gives rise to the structure of A-infinity algebras, and address the commuting cochain problem. Finally, we will introduce the discrete Poincare operator, utilizing it to compute simplicial A-infinity structures and explicitly compute potentials, connecting the algebraic topology back to the computational realization of discrete Hodge theory.
     </div>
 </li>
 
