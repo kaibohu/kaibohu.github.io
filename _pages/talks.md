@@ -27,6 +27,7 @@ Some presentation materials:
 - [Finite elements for symmetric and traceless tensors in three dimensions](https://kaibohu.github.io/homepage/2025Ghent.pdf) (Ghent, 2025)
 - [Towards Computational Topological (Magneto)Hydrodynamics: long term evolution of fluids and plasma](https://kaibohu.github.io/homepage/2025LSEC.pdf) (Beijing, 2025) 
 - [Modelling generalized continua via homological algebra](https://kaibohu.github.io/homepage/2026Prague-modelling.pdf) (Prague, 2026)
+- [Towards Computational Topological (Magneto)Hydrodynamics](https://kaibohu.github.io/homepage/2026FoCM-PDE.pdf), [Towards Finite Element Tensor Calculus (FETC)]()
 
  
 

@@ -80,9 +80,9 @@ nav_order: 8
 </li>
 
 <li>
-    <span class="lecture-title">TBA</span><br>
+    <span class="lecture-title">Conformal geometry and MHD</span><br>
     <a href="https://olligross.github.io">Oliver Gross</a> (UC San Diego)<br>
-    <strong>Location:</strong> TBA<br>
+    <strong>Location:</strong> Andrew Wiles Building<br>
     <strong>Time:</strong> 6–8 July 2026<br>
     <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract-oliver')">Show Abstract</span>
     <div id="abstract-oliver" class="abstract">
