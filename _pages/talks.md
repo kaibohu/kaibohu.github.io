@@ -25,17 +25,17 @@ Some presentation materials:
 - [Topology-preserving computation for ideal magnetic relaxation](https://kaibohu.github.io/homepage/2024MTU.pdf) (Michigan, 2025)
 - [Finite element form-valued forms](https://kaibohu.github.io/homepage/2025SIAMCSE-PeriodicTable.pdf) (Texas, 2025)
 - [Finite elements for symmetric and traceless tensors in three dimensions](https://kaibohu.github.io/homepage/2025Ghent.pdf) (Ghent, 2025)
-- [Towards Computational Topological (Magneto)Hydrodynamics: long term evolution of fluids and plasma](https://kaibohu.github.io/homepage/2025LSEC.pdf) (Beijing, 2025) 
 - [Modelling generalized continua via homological algebra](https://kaibohu.github.io/homepage/2026Prague-modelling.pdf) (Prague, 2026)
-- [Towards Computational Topological (Magneto)Hydrodynamics](https://kaibohu.github.io/homepage/2026FoCM-PDE.pdf), [Towards Finite Element Tensor Calculus (FETC)]()
+- [Towards Finite Element Tensor Calculus (FETC)](https://kaibohu.github.io/homepage/2026FoCM.pdf), [Towards Computational Topological (Magneto)Hydrodynamics](https://kaibohu.github.io/homepage/2026FoCM-PDE.pdf) (Vienna, FoCM, 2026)
 
  
 
 
 ### Colloquium/Seminar talks
+1. Plasma Seminar at the Oxford plasma theory group, Oxford, UK, Sep/2026. (upcoming)
 1. CAM Colloquium, University of Chicago, USA, March/2026.
-1. Modelling of Materials Seminar, Mathematical Institute,  Charles University, Prague, Czechia. 
-1. Seminar of Numerical Mathematics, Department of Numerical Mathematics, Charles University, Prague, Czechia. 
+1. Modelling of Materials Seminar, Mathematical Institute,  Charles University, Prague, Czechia, March/2026.
+1. Seminar of Numerical Mathematics, Department of Numerical Mathematics, Charles University, Prague, Czechia, March/2026.
 1. Leeds Geometry and Analysis Seminar, University of Leeds, UK, Feb/2026. 
 1.  Computational Mathematics and Applications Seminar, Mathematical Institute, University of Oxford, UK, Jan/2026.
 1. Partial Differential Equations Seminar, Mathematical Institute, University of Oxford, UK, Jan/2026.
