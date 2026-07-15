@@ -19,14 +19,14 @@ Some presentation materials:
 - [Discretization of Hilbert complexes](https://kaibohu.github.io/homepage/2022Oberwolfach.pdf) (survey talk) [report](https://arxiv.org/pdf/2208.03420.pdf) (MFO, Oberwolfach, 2022)
 - [Tensor product finite element BGG complexes](https://kaibohu.github.io/homepage/2023Glasgow.pdf) (Glasgow, 2023)
 - [Bounded Poincaré operators for BGG complexes](https://kaibohu.github.io/homepage/2023EPFL.pdf) (EPFL, 2023)
-- [Towards Finite Element Tensor Calculus](https://kaibohu.github.io/homepage/2024Zurich.pdf) (Zurich, 2024)
 - [Finite element differential complexes](https://kaibohu.github.io/homepage/2024Banff.pdf) (Banff, 2024, survey talk in '[Homological Perspective on Splines and Finite Elements](https://www.birs.ca/events/2024/5-day-workshops/24w5313)' workshop at BIRS)
 - [Modelling and computing generalized continua via complexes](https://kaibohu.github.io/homepage/2024Montpellier-Cosserat.pdf) (Montpellier, 2024)
 - [Topology-preserving computation for ideal magnetic relaxation](https://kaibohu.github.io/homepage/2024MTU.pdf) (Michigan, 2025)
 - [Finite element form-valued forms](https://kaibohu.github.io/homepage/2025SIAMCSE-PeriodicTable.pdf) (Texas, 2025)
 - [Finite elements for symmetric and traceless tensors in three dimensions](https://kaibohu.github.io/homepage/2025Ghent.pdf) (Ghent, 2025)
 - [Modelling generalized continua via homological algebra](https://kaibohu.github.io/homepage/2026Prague-modelling.pdf) (Prague, 2026)
-- [Towards Finite Element Tensor Calculus (FETC)](https://kaibohu.github.io/homepage/2026FoCM.pdf), [Towards Computational Topological (Magneto)Hydrodynamics](https://kaibohu.github.io/homepage/2026FoCM-PDE.pdf) (Vienna, FoCM, 2026)
+- [Towards Finite Element Tensor Calculus (FETC)](https://kaibohu.github.io/homepage/2026FoCM.pdf) (Vienna, FoCM, 2026)
+- [Towards Computational Topological (Magneto)Hydrodynamics](https://kaibohu.github.io/homepage/2026FoCM-PDE.pdf) (Vienna, FoCM, 2026)
 
  
 
