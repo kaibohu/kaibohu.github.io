@@ -84,6 +84,10 @@ nav_order: 8
     <a href="https://olligross.github.io">Oliver Gross</a> (UC San Diego)<br>
     <strong>Location:</strong> Andrew Wiles Building<br>
     <strong>Time:</strong> 6–8 July 2026<br>
+    <strong>Videos:</strong>
+    <a href="https://drive.google.com/file/d/1dlC_5DscfpVNbnNUYnKUucXdOyBxLrMK/view?usp=sharing">Lecture 1</a>,
+    <a href="https://drive.google.com/file/d/1uQYaWBzSzphw6qMhilswGzkbRo434Gsp/view?usp=sharing">Lecture 2</a><br>
+    <strong>Slides:</strong> <a href="https://drive.google.com/file/d/1quN3_CqHYCO8YcxXOnIFXty9VRDErvJe/view?usp=sharing">Slides</a><br>
     <strong>Abstract:</strong> <span class="toggle-abstract" onclick="toggleAbstract('abstract-oliver')">Show Abstract</span>
     <div id="abstract-oliver" class="abstract">
         TBA
