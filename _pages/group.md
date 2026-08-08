@@ -51,15 +51,6 @@ nav_order: 7
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
-  <img src="../assets/img/GanghuiZhang.jpg" alt="Ganghui Zhang" style="width: 120px; margin-right: 15px;">
-  <div>
-    <strong><a href="https://ganghui-zhang.github.io/">Ganghui Zhang</a></strong><br>
-    <em>2025–</em><br>
-    PhD: Tsinghua University
-  </div>
-</div>
-
-<div style="display: flex; align-items: flex-start; margin-top: 1em;">
   <div style="width: 120px; margin-right: 15px;"></div>
   <div>
     <strong><a href="https://scholar.google.com/citations?user=3KCL30EAAAAJ&hl=en">Puchun Zhou</a></strong><br>
@@ -115,6 +106,16 @@ nav_order: 7
 <br>
 
 <span style="font-size: 1em;"><strong>Postdocs</strong></span>
+
+<div style="display: flex; align-items: flex-start; margin-top: 1em;">
+  <img src="../assets/img/GanghuiZhang.jpg" alt="Ganghui Zhang" style="width: 120px; margin-right: 15px;">
+  <div>
+    <strong><a href="https://ganghui-zhang.github.io/">Ganghui Zhang</a></strong><br>
+    <em>2025–2026</em><br>
+    PhD: Tsinghua University<br>
+    Current Position: Postdoc, Hong Kong Polytechnic University
+  </div>
+</div>
 
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
   <div style="width: 120px; margin-right: 15px;"></div>
