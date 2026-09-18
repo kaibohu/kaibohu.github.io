@@ -9,6 +9,7 @@ nav_order: 4
 Some presentation materials:
 
 - [Structure-preserving discretization and preconditioning for MHD](https://kaibohu.github.io/homepage/2020Princeton.pdf) (Princeton 2020)
+- [Structure-preserving finite element methods for incompressible MHD systems](https://kaibohu.github.io/homepage/2023CSE.pdf) (SIAM CSE 2023)
 - [Complexes from complexes](https://kaibohu.github.io/homepage/201909Cambridge.pdf) (Cambridge 2019), and [slides](https://kaibohu.github.io/homepage/2020Zurich.pdf) on the same topic for a broader audience (Zürich 2020)
 - [Well-conditioned frames for high-order finite elements](https://kaibohu.github.io/homepage/2021Oxford.pdf) (Oxford 2021)
 - [Poincaré (homotopy) operators for elasticity](https://kaibohu.github.io/homepage/2019ICIAM.pdf) (Valencia, ICIAM 2019)
@@ -151,4 +152,3 @@ China, Aug/2024.
 1. 11th. World Congress on Computational Mechanics & 5th. European Conference on Computational Mechanics & 6th. European Conference on Computation Fluid Dynamics; Barcelona, Spain, July 25/2014.
 1. The 2nd Student Forum on Numerical Method of PDEs & the 1st Beijing Computational Mathematical Student Forum, Beijing, China, Jul/13/2014.
 1. The 1st Peking University Computational Mathematics Student Forum, Beijing, China, Nov/16/2013.
-
