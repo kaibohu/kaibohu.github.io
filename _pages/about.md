@@ -26,4 +26,10 @@ I am on the editorial boards for <a href='https://link.springer.com/journal/1020
 
 I will give [Nachdiplom lectures](https://math.ethz.ch/fim/activities/nachdiplom-lectures.html) at [FIM](https://math.ethz.ch/fim) in Zurich. [poster](https://kaibohu.github.io/homepage/nachdiplom-poster.pdf)
 
+<details style="margin-bottom: 1rem;">
+  <summary style="cursor: pointer;">Short bio</summary>
+  <p>Kaibo Hu is a Senior Research Fellow and Associate Professor at the Mathematical Institute, University of Oxford, and a Royal Society University Research Fellow. His research concerns structure-preserving numerical methods and the connections between computation, geometry and topology. He works on finite element exterior calculus and finite element tensor calculus, with applications to magnetohydrodynamics, continuum mechanics, numerical relativity and geometric PDEs.</p>
+  <p>He obtained his PhD from Peking University in 2017 and subsequently held positions at the Universities of Oslo, Minnesota, Oxford and Edinburgh. At Edinburgh, he was a Reader before returning to Oxford in 2025. He leads the ERC Starting Grant project GeoFEM (Geometric Finite Element Methods). He received the SIAM Computational Science and Engineering Early Career Prize in 2023 and the Stephen Smale Prize in 2026.</p>
+</details>
+
 <a href='https://www.maths.ox.ac.uk/people/kaibo.hu'>Institutional homepage</a> | <a href='https://kaibohu.github.io/assets/pdf/cv_Kaibo.pdf'>Curriculum vitae</a>
