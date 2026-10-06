@@ -84,7 +84,7 @@ nav_order: 7
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
   <img src="../assets/img/Olav.jpg" alt="Karl Olav Tyssvang" style="width: 120px; margin-right: 15px;">
   <div>
-    <strong><a href="https://karltyssvang.github.io/">Karl Olav Tyssvang</a></strong><br>
+    <strong><a href="https://olavtyssvang.github.io/">Karl Olav Tyssvang</a></strong><br>
     <em>2025–</em> (joint supervision with Snorre Christiansen)<br>
     MSc: University of Oslo
   </div>
