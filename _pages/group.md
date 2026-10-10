@@ -18,8 +18,7 @@ nav_order: 7
   <img src="../assets/img/borisandrews.jpg" alt="Boris Andrews" style="width: 120px; margin-right: 15px;">
   <div>
     <strong><a href="https://borisandrews.github.io">Boris Andrews</a></strong><br>
-    <em>2025–</em><br>
-    DPhil: University of Oxford
+    <em>2025–</em>
   </div>
 </div>
 
@@ -27,8 +26,7 @@ nav_order: 7
   <img src="../assets/img/YizhouLiang.jpg" alt="Yizhou Liang" style="width: 120px; margin-right: 15px;">
   <div>
     <strong><a href="https://scholar.google.com/citations?user=Z4bLK94AAAAJ&hl=en">Yizhou Liang</a></strong><br>
-    <em>2025–</em><br>
-    PhD: Peking University
+    <em>2025–</em>
   </div>
 </div>
 
@@ -36,8 +34,7 @@ nav_order: 7
   <div style="width: 120px; margin-right: 15px;"></div>
   <div>
     <strong><a href="https://scholar.google.it/citations?user=LwtzvicAAAAJ&hl=it">Jia Jia Qian</a></strong><br>
-    <em>2025–</em><br>
-    PhD: Monash University
+    <em>2025–</em>
   </div>
 </div>
 
@@ -45,8 +42,7 @@ nav_order: 7
   <img src="../assets/img/JindongWang.jpg" alt="Jindong Wang" style="width: 120px; margin-right: 15px;">
   <div>
     <strong><a href="https://jindong24.github.io/">Jindong Wang</a> (Newton International Fellow)</strong><br>
-    <em>2026–</em><br>
-    PhD: Peking University
+    <em>2026–</em>
   </div>
 </div>
 
@@ -54,8 +50,7 @@ nav_order: 7
   <div style="width: 120px; margin-right: 15px;"></div>
   <div>
     <strong><a href="https://scholar.google.com/citations?user=3KCL30EAAAAJ&hl=en">Puchun Zhou</a></strong><br>
-    <em>2025–</em><br>
-    PhD: Fudan University
+    <em>2025–</em>
   </div>
 </div>
 
@@ -67,8 +62,7 @@ nav_order: 7
   <img src="../assets/img/MingdongHe.png" alt="Mingdong He" style="width: 120px; margin-right: 15px;">
   <div>
     <strong><a href="https://sites.google.com/view/mingdonghe/home/">Mingdong He</a></strong><br>
-    <em>2023–</em> (joint supervision with Patrick Farrell)<br>
-    MASt: University of Cambridge
+    <em>2023–</em> (joint supervision with Patrick Farrell)
   </div>
 </div>
 
@@ -76,8 +70,7 @@ nav_order: 7
   <img src="../assets/img/MarkAlvaresPeres.jpg" alt="Mark Alvares Peres" style="width: 120px; margin-right: 15px;">
   <div>
     <strong><a href="https://markalvares.co.uk">Mark Alvares Peres</a></strong><br>
-    <em>2025–</em><br>
-    MSc: University of Edinburgh
+    <em>2025–</em>
   </div>
 </div>
 
@@ -85,8 +78,7 @@ nav_order: 7
   <img src="../assets/img/Olav.jpg" alt="Karl Olav Tyssvang" style="width: 120px; margin-right: 15px;">
   <div>
     <strong><a href="https://olavtyssvang.github.io/">Karl Olav Tyssvang</a></strong><br>
-    <em>2025–</em> (joint supervision with Snorre Christiansen)<br>
-    MSc: University of Oslo
+    <em>2025–</em> (joint supervision with Snorre Christiansen)
   </div>
 </div>
 
@@ -94,8 +86,31 @@ nav_order: 7
   <img src="../assets/img/YuechenZhu.jpg" alt="Yuechen Zhu" style="width: 120px; margin-right: 15px;">
   <div>
     <strong><a href="https://zzzyc001.github.io">Yuechen Zhu</a></strong><br>
-    <em>2025–</em><br>
-    Undergraduate: Peking University
+    <em>2025–</em>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-top: 1em;">
+  <div style="width: 120px; margin-right: 15px;"></div>
+  <div>
+    <strong><a href="https://benjamin-venegas.github.io/">Benjamín Venegas</a></strong><br>
+    <em>2026–</em>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-top: 1em;">
+  <div style="width: 120px; margin-right: 15px;"></div>
+  <div>
+    <strong>Yue Wu</strong><br>
+    <em>2026–</em> (joint supervision with Patrick Farrell)
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-top: 1em;">
+  <div style="width: 120px; margin-right: 15px;"></div>
+  <div>
+    <strong>José Ramón Contreras Barberá</strong><br>
+    <em>2026–</em>
   </div>
 </div>
 
@@ -112,7 +127,6 @@ nav_order: 7
   <div>
     <strong><a href="https://ganghui-zhang.github.io/">Ganghui Zhang</a></strong><br>
     <em>2025–2026</em><br>
-    PhD: Tsinghua University<br>
     Current Position: Postdoc, Hong Kong Polytechnic University
   </div>
 </div>
@@ -122,7 +136,6 @@ nav_order: 7
   <div>
     <strong><a href="https://marienhanot.fr">Marien Hanot</a></strong><br>
     <em>2024</em><br>
-    PhD: University of Montpellier<br>
     Current Position: Maître de Conférences, Université de Lille
   </div>
 </div>
