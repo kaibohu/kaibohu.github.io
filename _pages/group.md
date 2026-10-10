@@ -31,9 +31,9 @@ nav_order: 7
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
-  <div style="width: 120px; margin-right: 15px;"></div>
+  <img src="../assets/img/JiaJiaQian.jpg" alt="Jia Jia Qian" style="width: 120px; margin-right: 15px;">
   <div>
-    <strong><a href="https://scholar.google.it/citations?user=LwtzvicAAAAJ&hl=it">Jia Jia Qian</a></strong><br>
+    <strong><a href="https://www.maths.ox.ac.uk/people/jiajia.qian">Jia Jia Qian</a></strong><br>
     <em>2025–</em>
   </div>
 </div>
@@ -47,9 +47,9 @@ nav_order: 7
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
-  <div style="width: 120px; margin-right: 15px;"></div>
+  <img src="../assets/img/PuchunZhou.jpg" alt="Puchun Zhou" style="width: 120px; margin-right: 15px;">
   <div>
-    <strong><a href="https://scholar.google.com/citations?user=3KCL30EAAAAJ&hl=en">Puchun Zhou</a></strong><br>
+    <strong><a href="https://phzpc98.github.io">Puchun Zhou</a></strong><br>
     <em>2025–</em>
   </div>
 </div>
