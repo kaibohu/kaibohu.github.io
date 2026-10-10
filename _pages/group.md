@@ -91,7 +91,7 @@ nav_order: 7
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
-  <div style="width: 120px; margin-right: 15px;"></div>
+  <img src="../assets/img/BenjaminVenegas.jpg" alt="Benjamín Venegas" style="width: 120px; margin-right: 15px;">
   <div>
     <strong><a href="https://benjamin-venegas.github.io/">Benjamín Venegas</a></strong><br>
     <em>2026–</em>
