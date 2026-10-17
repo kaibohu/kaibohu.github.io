@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-INdAM Meeting "Approximation Theory and Numerical Analysis meet Algebra, Geometry, Topology", Palazzone di Cortona, Italy. 
+INdAM Meeting ["Approximation Theory and Numerical Analysis meet Algebra, Geometry, Topology"](https://sites.google.com/view/splinescortona2022/), Palazzone di Cortona, Italy, September 5-9, 2022.
  
  

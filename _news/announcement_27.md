@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-Christ Church Scientific Afternoon, Oxford, UK. 
+Scientific Afternoon at [Christ Church](https://www.chch.ox.ac.uk/), Oxford, UK, July 15, 2022. Co-organised with [Davide Spriano](https://www.davidespriano.com/).
  
  

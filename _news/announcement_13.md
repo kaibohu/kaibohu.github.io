@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-With [Davide Spriano](https://www.davidespriano.com/), I was co-organising a Maths Afternoon at Christ Church. 
+With [Davide Spriano](https://www.davidespriano.com/), I was co-organising a Maths Afternoon at [Christ Church](https://www.chch.ox.ac.uk/), Oxford, on April 27, 2023.
  
  

@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-Mathematics Seminar at the University of Dundee, UK.  
+Mathematics Seminar at the [University of Dundee](https://www.dundee.ac.uk/mathematics), UK.
 
  
  

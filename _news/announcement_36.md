@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-European finite element fair, Paris, France. (online talk)
+[European Finite Element Fair](https://efef2020.inria.fr/), Inria Paris, France, September 10-11, 2021. (online talk)
  
  

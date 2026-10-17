@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-visit and seminar talk at TU Delft, Netherlands, hosted by [Deepesh Toshniwal](https://dtoshniwal.github.io). 
+Visit and seminar talk at [TU Delft](https://www.tudelft.nl/en/), Netherlands, December 16, 2022, hosted by [Deepesh Toshniwal](https://dtoshniwal.github.io).
  
  

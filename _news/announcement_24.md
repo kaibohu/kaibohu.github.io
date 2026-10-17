@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-56th Meeting of the Society for Natural Philosophy: Mechanics and Analysis, Pisa, Italy. (round-table talk)
+[56th Meeting of the Society for Natural Philosophy: Mechanics and Analysis](https://sites.google.com/unipi.it/snp2022/), University of Pisa, Italy, September 21-23, 2022. (round-table talk)
  
  

@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-online seminar at Chinese Academy of Sciences, China.
+Online seminar at the [Institute of Computational Mathematics and Scientific/Engineering Computing](https://www.cc.ac.cn/en/), Chinese Academy of Sciences, China.
  
  
