@@ -12,6 +12,18 @@ nav_order: 7
 
 <br>
 
+<span style="font-size: 1em;"><strong>External funded fellows &amp; postdocs</strong></span>
+
+<div style="display: flex; align-items: flex-start; margin-top: 1em;">
+  <img src="../assets/img/JindongWang.jpg" alt="Jindong Wang" style="width: 120px; margin-right: 15px;">
+  <div>
+    <strong><a href="https://jindong24.github.io/">Jindong Wang</a> (Newton International Fellow)</strong><br>
+    <em>2026–</em>
+  </div>
+</div>
+
+<br>
+
 <span style="font-size: 1em;"><strong>Postdocs</strong></span>
 
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
@@ -35,14 +47,6 @@ nav_order: 7
   <div>
     <strong><a href="https://www.maths.ox.ac.uk/people/jiajia.qian">Jia Jia Qian</a></strong><br>
     <em>2025–</em>
-  </div>
-</div>
-
-<div style="display: flex; align-items: flex-start; margin-top: 1em;">
-  <img src="../assets/img/JindongWang.jpg" alt="Jindong Wang" style="width: 120px; margin-right: 15px;">
-  <div>
-    <strong><a href="https://jindong24.github.io/">Jindong Wang</a> (Newton International Fellow)</strong><br>
-    <em>2026–</em>
   </div>
 </div>
 
@@ -116,7 +120,7 @@ nav_order: 7
 
 <br>
 
-## Previous Members
+## Alumni
 
 <br>
 
