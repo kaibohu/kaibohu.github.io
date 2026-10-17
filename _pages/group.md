@@ -12,7 +12,7 @@ nav_order: 7
 
 <br>
 
-<span style="font-size: 1em;"><strong>External funded fellows &amp; postdocs</strong></span>
+<span style="font-size: 1em;"><strong>Externally funded fellows &amp; postdocs</strong></span>
 
 <div style="display: flex; align-items: flex-start; margin-top: 1em;">
   <img src="../assets/img/JindongWang.jpg" alt="Jindong Wang" style="width: 120px; margin-right: 15px;">
