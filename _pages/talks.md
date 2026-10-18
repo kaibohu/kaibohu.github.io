@@ -29,19 +29,26 @@ Some presentation materials:
 - [Towards Finite Element Tensor Calculus (FETC)](https://kaibohu.github.io/homepage/2026FoCM.pdf) (Vienna, FoCM, 2026)
 - [Towards Computational Topological (Magneto)Hydrodynamics](https://kaibohu.github.io/homepage/2026FoCM-PDE.pdf) (Vienna, FoCM, 2026)
 
- 
+### Invited lecture series
 
+1. [Nachdiplom lectures](https://math.ethz.ch/fim/activities/nachdiplom-lectures.html), ETH Zürich, Switzerland, 2026.
+1. [Spotlights in Computational Physics and Engineering (SCoPE)](https://driven.uni.lu/2023/12/01/new-dtu-driven-training-series-scope/), University of Luxembourg, March/2025.
+1. Differential complexes and Bernstein-Gelfand-Gelfand construction, Institut Montpelliérain Alexander Grothendieck (IMAG), Université de Montpellier, France, 2024.
 
 ### Colloquium/Seminar talks
-1. Plasma Seminar at the Oxford plasma theory group, Oxford, UK, Sep/2026. (upcoming)
+1. Plasma Seminar at the Oxford plasma theory group, Oxford, UK, Sep/2026.
+1. Seminar at the Department of Mechanical and Aerospace Engineering, University of Manchester, UK, June/2026.
 1. CAM Colloquium, University of Chicago, USA, March/2026.
 1. Modelling of Materials Seminar, Mathematical Institute,  Charles University, Prague, Czechia, March/2026.
 1. Seminar of Numerical Mathematics, Department of Numerical Mathematics, Charles University, Prague, Czechia, March/2026.
 1. Leeds Geometry and Analysis Seminar, University of Leeds, UK, Feb/2026. 
 1.  Computational Mathematics and Applications Seminar, Mathematical Institute, University of Oxford, UK, Jan/2026.
 1. Partial Differential Equations Seminar, Mathematical Institute, University of Oxford, UK, Jan/2026.
+1. Mathematics Colloquium, Yau Mathematical Sciences Center (YMSC), Tsinghua University, China, Dec/2025.
+1. Seminar at Jilin University, China, Dec/2025.
 1. Feng Kang Visiting Scholar colloquium talk at the Institute of Computational Mathematics and Scientific/Engineering Computing at the Chinese Academy of Sciences, China, Nov/2025.
 1. Applied Topology Seminar, Mathematical Institute, University of Oxford, Nov/2025.
+1. Optimisation and Numerical Analysis Seminar, School of Mathematics, University of Birmingham, UK, Oct/2025.
 1. Mathematics and Applications Colloquium, KAUST, Saudi Arabia, Sep/2025. 
 1. Applied Math Seminar at University of Arkansas, Sep/2025. (online)
 1. Seminar talk at the Institute of Computational Mathematics and Scientific/Engineering Computing at the Chinese Academy of Sciences, China, Jul/2025.
@@ -52,6 +59,7 @@ Some presentation materials:
 1. Applied Mathematics Seminar, Peking University, China, Dec/2024.
 1. Applied Geometry, Algebra, and Topology in Edinburgh (AGATE) seminar, Edinburgh, UK, Nov/2024.
 1. Analysis and PDE Seminar, Durham University, UK, Nov/2024.
+1. ACM Seminar, Maxwell Institute, Edinburgh, UK, Nov/2024.
 1. Seminar at Institut supérieur de l’aéronautique et de l’espace (ISAE-SUPAERO), Toulouse, France, Oct/2024.
 1. Séminaire ACSIOM, Institut Montpelliérain Alexander Grothendieck, Université de Montpellier, France, Oct/2024.
 1. Seminar talk at Shanghai University of Finance and Economics, China, Sep/2024.
@@ -65,9 +73,8 @@ China, Aug/2024.
 1. Mathematics Seminar at the University of Dundee, UK. Oct/2023.
 1. Seminar at the Chinese University of Hong Kong (Shenzhen), Sep/2023.  
 1. Seminar at Shanghai Jiao Tong University, Shanghai, China, Aug/2023. 
+1. Seminar at Shanghai University of Finance and Economics, China, Aug/2023.
 1. Seminar at University of Science and Technology of China, USTC, Aug/2023.  
-1. Computational Mathematics and Applications Seminar, Mathematical Institute, University of Oxford, UK, Feb/23/2022.
-1. Imperial–UCL Numerics Seminar, London, UK, Feb/22/2022.
 1. Seminar at TU Delft, the Netherlands, Dec/16/2022.
 1. Gravity Seminar Series of STAG (gravity/string theory/mathematical physics group) of Mathematical Sciences, University of Southampton, Dec/8/2022.
 1. Institute of Computational Mathematics and Scientific/Engineering Computing, Chinese Academy of Sciences, Beijing, China, Nov/2022.
@@ -75,6 +82,8 @@ China, Aug/2024.
 1. Scientific Afternoon, Christ Church, University of Oxford, UK, Jul/15/2022.
 1. Culham Centre for Fusion Energy, UK, Apr/26/2022.
 1. Scientific Computing Seminar, Heidelberg University, Germany, Mar/21/2022.
+1. Computational Mathematics and Applications Seminar, Mathematical Institute, University of Oxford, UK, Feb/23/2022.
+1. Imperial–UCL Numerics Seminar, London, UK, Feb/22/2022.
 1. PDE Lunch Seminar, University of Oxford, UK, Feb/17/2022.
 1. North Meets South seminar, Mathematical Institute, University of Oxford, UK, Jan/28/2022.
 1. Institute of Computational Mathematics and Scientific/Engineering Computing, Chinese Academy of Sciences, Beijing, China, Dec/14/2021. (online)
@@ -93,14 +102,19 @@ China, Aug/2024.
 
 
 ###  Conference/Workshop talks
-1.  Workshop “Discrete Geometric Structures 2026”, TU Wien, Austria, Aug/2026. (upcoming)
-1.  Workshop “Discrete Laplacians”, Center for Systems Biology, Max Planck Institute, Dresden, Germany, Jun/2026. (Keynote lecture, upcoming)
-1. Foundations of Computational Mathematics (FoCM 2026), Vienna, Austria, Jul/2026. (upcoming)
+1. International Forum of Applied Mathematics and Artificial Intelligence, Institute of Mathematical Sciences (IMS), The Chinese University of Hong Kong (CUHK), China, July/2030. (one-hour keynote lecture, upcoming)
+1. Minisymposia "Computational electromagnetism" and "Innovative numerical methods for multiphysics problems", [WONAPDE 2027](https://www.ci2ma.udec.cl/wonapde2027/), University of Concepción, Chile, Jan/18-22/2027. (upcoming)
+1. Workshop on [Discrete Conformal Geometry: Theory and Application](https://tsimf.tsinghua.edu.cn/info/1595/1885.htm), Tsinghua Sanya International Mathematics Forum (TSIMF), China, Jan/4-8/2027. (upcoming)
+1. Workshop ["Advances in Ordered Fluids and Alignment Phenomena: Modeling, Analysis, and Numerical Methods"](https://www.uzerbinati.eu/pages/borgodeigatti/), Oltrepò Pavese, Italy, Sep/2026.
+1. Workshop “Discrete Geometric Structures 2026”, TU Wien, Austria, Aug/2026.
+1. Foundations of Computational Mathematics (FoCM 2026), Vienna, Austria, Jul/2026.
+1. [International Conference on Scientific Computation and Differential Equations (SciCADE 2026)](https://scicade.org), Edinburgh, Scotland, June/29-July/3/2026.
+1. Workshop ["Discrete Laplacians"](https://plan.events.mpg.de/e/discretelaplacians26), Center for Systems Biology, Max Planck Institute, Dresden, Germany, Jun/2026. (keynote lecture)
+1. Conference of the research program ["Mathematical Challenges in Brain Mechanics"](https://cas-nor.no/project/mathematical-challenges-brain-mechanics), Center for Advanced Studies at the Norwegian Academy of Sciences and Letters, Norway, Jun/2026.
+1. Workshop "Theory of Differential Complexes and Related Models", thematic program ["Differential Complexes: Theory, Discretization, and Applications"](https://www.esi.ac.at/events/e585/), Erwin Schrödinger Institute (ESI), Vienna, Austria, May/2026.
 1. The 2025 International Congress of Chinese Mathematicians (ICCM), Shanghai, China. January 2026. (plenary talk)
-1. Mathematics Colloquium, Yau Mathematical Sciences Center (YMSC), Tsinghua University, China, Dec/2025.  
 1. Plenary talk at Peking University Computational and applied mathematics PhD forum, November 2025.
 1. Workshop on Scientific Computing and Machine Learning, Penn State University, USA. November 2-3, 2025.
-1. Optimisation and Numerical Analysis seminar, School of Mathematics, University of Birmingham, UK, Oct/2025.  
 1. MS ''New generation methods for numerical challenges in curl-div problems: Maxwell, MHD, and derived models'', Advanced Computational Methods in ENgineering and Applied Mathematics (ACOMEN 2025), Ghent, Belgium, September 2025. 
 1. IMSI Workshop ''Discrete Exterior Calculus: Differential Geometry and Applications’’, Chicago, USA. September 2025. 
 1. Section on ''Finite element complexes for structure-preservation in computational physics'', Modern Finite Element Technologies 2025 (MFET) ECCOMAS thematic conference, Aachen, Germany, August 2025. 
@@ -114,22 +128,25 @@ China, Aug/2024.
 1. Minisymposium “Numerical Methods for Geometric PDEs”, The 2024 SIAM Annual Meeting, Spokane, Washington, US. July 2024.
 1. Keynote lecture at the NEMESIS project kick-off workshop, Montpellier, France. June 2024.
 1. European Finite Element Fair, London, UK. June 2024.
-1. Banff International Research Station (BIRS) “Homological Perspective on Splines and Finite Elements” workshop, University of British Columbia Okanagan (UBCO), Canada. May 2024.
+1. Banff International Research Station (BIRS) “Homological Perspective on Splines and Finite Elements” workshop, University of British Columbia Okanagan (UBCO), Canada. May 2024. (survey talk)
 1. Opening Conference of the CNRS Occitan Research Federation in Mathematics (OcciMath), LAMPS (Laboratory of Multidisciplinary Modeling and Simulations), University of Perpignan Via Domitia, France. April 2024.
+1. [The 18th UK Applied Algebra and Geometry network meeting](https://sites.google.com/view/appliedalgebraandgeometry/home/18th-meeting-swansea), Swansea University, UK, Feb/2024.
 1. Workshop: Theory and Numerics on Some Nonlinear PDEs; University of Oslo / online. October 2023.
 1. ICIAM, Tokyo, Japan. August 2023.
 1. The 2023 International Workshop on Scientific Computing, Feng Kang Youth Forum on Scientific Computing (FKYF), The Institute of Computational Mathematics and Scientific/Engineering Computing of Chinese Academy of Sciences, Beijing, China. August 2023.  
 1. PKU Mathematics Forum, Peking University, Beijing, China. July 2023. 
+1. [Structure preserving numerical methods for partial differential equations](https://suprenumpde2023.epfl.ch/), Bernoulli Center, EPFL, Switzerland, July/2023.
 1. The 29th Biennial Numerical Analysis Conference, University of Strathclyde, Glasgow, UK. June 2023.
 1. SIAM Conference on Computational Science and Engineering (CSE23), Amsterdam, Netherlands. Feb/26-Mar/03/2023. (plenary talk)
 1. The 8th Workshop for Young Researchers in Scientific Computing, Chinese Academy of Sciences, China (online). Dec/7-8/2022.
 1.  56th Meeting of the Society for Natural Philosophy: Mechanics and Analysis, Pisa, Italy, Sep/21-23/2022.
 1.  INdAM Meeting “Approximation Theory and Numerical Analysis meet Algebra, Geometry, Topology”, Palazzone di Cortona, Italy, Sep/5-9/2022.
-1.  30 years of Acta Numerica conference at the Banach Centre in B ̧edlewo, Poland, Jun/25- Jul/2/2022.
-1. MFO workshop ”Hilbert Complexes: Analysis, Applications, and Discretizations”, Oberwolfach, Germany, Jun/19-25/2022.
+1. International Conference on Scientific Computation and Differential Equations (SciCADE 2022), Reykjavík, Iceland, Jul/25-29/2022.
+1. 30 years of Acta Numerica conference at the Banach Centre in Będlewo, Poland, Jun/25-Jul/2/2022.
+1. MFO workshop ”Hilbert Complexes: Analysis, Applications, and Discretizations”, Oberwolfach, Germany, Jun/19-25/2022. (survey talk)
 1.  Canadian Applied and Industrial Mathematics Society annual meeting, UBC Okanagan Canada (online), Jun/13-16/2022.
 1. European Finite Element Fair, Aalto University, Finland, Jun/3-4/2022.
-1. European Finite Element Fair, Inria, Paris, Sep/10-11/2022. (online)
+1. European Finite Element Fair, Inria, Paris, Sep/10-11/2021. (online)
 1.  Mathematical and Computational Approaches for Solving the Source-Free Einstein Field Equations (virtual talk), ICERM, Brown University, USA, Oct/5-9/2020.
 1. The Second Conference on Scientific and Engineering Computing for Young Chinese Scientists, on the occasion of Professor Feng Kang’s Centenary, Beijing, China, Aug/17-21/2019. 
 1. International Multigrid Conference (IMG2019), Kunming, China, Aug/11-16/2019.
