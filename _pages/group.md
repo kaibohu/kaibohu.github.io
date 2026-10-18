@@ -22,6 +22,14 @@ nav_order: 7
   </div>
 </div>
 
+<div style="display: flex; align-items: flex-start; margin-top: 1em;">
+  <img src="../assets/img/YuyangHuang.png" alt="Yuyang Huang" style="width: 120px; margin-right: 15px;">
+  <div>
+    <strong><a href="https://sites.google.com/view/yuyanghuang/home">Yuyang Huang</a> (1851 Research Fellow)</strong><br>
+    <em>2026–</em>
+  </div>
+</div>
+
 <br>
 
 <span style="font-size: 1em;"><strong>Postdocs</strong></span>
