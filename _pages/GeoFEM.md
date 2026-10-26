@@ -41,32 +41,23 @@ nav_order: 8
             border-top: 1px solid #ddd;
         }
         .geofem-brand {
-            position: relative;
             width: 100%;
             max-width: 480px;
-            aspect-ratio: 3 / 1;
-            overflow: hidden;
             margin-bottom: 24px;
         }
         .geofem-brand img {
-            position: absolute;
-            top: 50%;
-            left: -30%;
-            width: 160%;
-            max-width: none;
+            display: block;
+            width: 100%;
             height: auto;
-            transform: translateY(-50%);
-            mix-blend-mode: multiply;
         }
         html[data-theme="dark"] .geofem-brand img {
             filter: invert(1) hue-rotate(180deg);
-            mix-blend-mode: screen;
         }
     </style>
 </head>
 <body>
     <div class="geofem-brand">
-        <img src="{{ '/assets/img/geofem-logo-deep-teal.png' | relative_url }}" alt="GeoFEM - Geometric Finite Element Methods" width="1774" height="887">
+        <img src="{{ '/assets/img/geofem-logo-deep-teal.svg' | relative_url }}" alt="GeoFEM - Geometric Finite Element Methods" width="1120" height="310">
     </div>
     <p>
         The ERC Starting Project <i>GeoFEM (Geometric Finite Element Methods)</i> explores the discretization of geometric objects using finite element methods, connections between finite elements and discrete differential geometry, and their applications.
