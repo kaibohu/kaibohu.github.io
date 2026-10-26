@@ -11,6 +11,9 @@ nav_order: 8
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GeoFEM Homepage</title>
     <style>
+        .post > .post-header {
+            display: none;
+        }
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -43,7 +46,7 @@ nav_order: 8
         .geofem-brand {
             width: 100%;
             max-width: 480px;
-            margin-bottom: 24px;
+            margin: 0 0 24px;
         }
         .geofem-brand img {
             display: block;
@@ -56,9 +59,9 @@ nav_order: 8
     </style>
 </head>
 <body>
-    <div class="geofem-brand">
+    <h1 class="geofem-brand">
         <img src="{{ '/assets/img/geofem-logo-deep-teal.svg' | relative_url }}" alt="GeoFEM - Geometric Finite Element Methods" width="1120" height="310">
-    </div>
+    </h1>
     <p>
         The ERC Starting Project <i>GeoFEM (Geometric Finite Element Methods)</i> explores the discretization of geometric objects using finite element methods, connections between finite elements and discrete differential geometry, and their applications.
     </p>
