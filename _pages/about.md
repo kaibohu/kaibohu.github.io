@@ -24,7 +24,7 @@ I am the PI of an ERC Starting Grant '<a href='https://cordis.europa.eu/project/
 
 I am on the editorial boards for <a href='https://link.springer.com/journal/10208'>Foundations of Computational Mathematics</a> and <a href='https://epubs.siam.org/journal/sjnaam'>SIAM Journal on Numerical Analysis</a>. 
 
-I will give [Nachdiplom lectures](https://math.ethz.ch/fim/activities/nachdiplom-lectures.html) at [FIM](https://math.ethz.ch/fim) in Zurich. [poster](https://kaibohu.github.io/homepage/nachdiplom-poster.pdf)
+I will give [Nachdiplom lectures](https://math.ethz.ch/fim/activities/nachdiplom-lectures.html) at [FIM](https://math.ethz.ch/fim) at ETH Zurich. [poster](https://kaibohu.github.io/homepage/nachdiplom-poster.pdf)
 
 <details style="margin-bottom: 1rem;">
   <summary style="cursor: pointer;">Short bio</summary>
