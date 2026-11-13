@@ -60,7 +60,7 @@ nav_order: 8
 </head>
 <body>
     <h1 class="geofem-brand">
-        <img src="{{ '/assets/img/geofem-logo-deep-teal.svg' | relative_url }}" alt="GeoFEM - Geometric Finite Element Methods" width="1120" height="310">
+        <img src="{{ '/assets/img/geofem-logo-09b.svg' | relative_url }}" alt="GeoFEM - Geometric Finite Element Methods" width="1407" height="401">
     </h1>
     <p>
         The ERC Starting Project <i>GeoFEM (Geometric Finite Element Methods)</i> explores the discretization of geometric objects using finite element methods, connections between finite elements and discrete differential geometry, and their applications.
